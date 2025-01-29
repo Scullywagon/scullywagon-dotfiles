@@ -1,0 +1,44 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
+    "github.copilot.chat.temporalContext.enabled": true,
+    "window.menuBarVisibility": "toggle",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 12,
+    "editor.fontWeight": "1000",
+    "editor.fontLigatures": true,
+    "window.customTitleBarVisibility": "auto",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "single",
+    "editor.suggest.showStatusBar": true,
+    "github.copilot.chat.codeGeneration.instructions": [
+       {
+        "text": "put { on next line after methods, functions or classes"
+       } 
+    ],
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    // Set the build directory to be inside the cmake/ folder
+    "cmake.buildDirectory": "${workspaceFolder}/cmake/build",
+
+    // Force output directory for executables, libraries, and archives
+    "cmake.configureSettings": {
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${workspaceFolder}/output",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${workspaceFolder}/output",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${workspaceFolder}/output"
+    },
+
+    // Use Ninja as the generator (or change to another generator like "Unix Makefiles")
+    "cmake.generator": "Ninja",
+
+    // Automatically configure the project when opening it
+    "cmake.configureOnOpen": true,
+    "settingsSync.ignoredSettings": []
+
+}

@@ -1,0 +1,105 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/logan/.local/share/CMakeTools/cmake-tools-kits.json
+[variant] Loaded new set of variants
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.2.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Successfully loaded 1 kits from /home/logan/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.2.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Successfully loaded 1 kits from /home/logan/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/gcc -v
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.274] Building CXX object CMakeFiles/execute.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.324] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute
+[driver] Build completed: 00:00:00.358
+[build] Build finished with exit code 0
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Found GLEW: /usr/include (found version "2.2.0")
+[cmake] -- Found OpenGL: /usr/lib/libOpenGL.so
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.313] Building CXX object CMakeFiles/execute.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.357] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute
+[build] FAILED: /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute 
+[build] : && /usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/execute.dir/link.d CMakeFiles/execute.dir/src/main.cpp.o -o /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute   && :
+[build] /usr/bin/ld: CMakeFiles/execute.dir/src/main.cpp.o: in function `main':
+[build] /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:16:(.text+0x9): undefined reference to `glfwInit'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:22:(.text+0x6b): undefined reference to `glfwCreateWindow'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:25:(.text+0xa6): undefined reference to `glfwTerminate'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:30:(.text+0xbc): undefined reference to `glfwMakeContextCurrent'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:33:(.text+0xc1): undefined reference to `glewInit'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:40:(.text+0x106): undefined reference to `glClear'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:44:(.text+0x112): undefined reference to `glfwSwapBuffers'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:45:(.text+0x117): undefined reference to `glfwPollEvents'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:39:(.text+0x123): undefined reference to `glfwWindowShouldClose'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:48:(.text+0x138): undefined reference to `glfwDestroyWindow'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:49:(.text+0x13d): undefined reference to `glfwTerminate'
+[build] collect2: error: ld returned 1 exit status
+[build] ninja: build stopped: subcommand failed.
+[proc] The command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all -- exited with code: 1
+[driver] Build completed: 00:00:00.404
+[build] Build finished with exit code 1
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all --
+[build] [1/1 100% :: 0.046] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute
+[build] FAILED: /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute 
+[build] : && /usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/execute.dir/link.d CMakeFiles/execute.dir/src/main.cpp.o -o /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute   && :
+[build] /usr/bin/ld: CMakeFiles/execute.dir/src/main.cpp.o: in function `main':
+[build] /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:16:(.text+0x9): undefined reference to `glfwInit'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:22:(.text+0x6b): undefined reference to `glfwCreateWindow'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:25:(.text+0xa6): undefined reference to `glfwTerminate'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:30:(.text+0xbc): undefined reference to `glfwMakeContextCurrent'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:33:(.text+0xc1): undefined reference to `glewInit'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:40:(.text+0x106): undefined reference to `glClear'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:44:(.text+0x112): undefined reference to `glfwSwapBuffers'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:45:(.text+0x117): undefined reference to `glfwPollEvents'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:39:(.text+0x123): undefined reference to `glfwWindowShouldClose'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:48:(.text+0x138): undefined reference to `glfwDestroyWindow'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:49:(.text+0x13d): undefined reference to `glfwTerminate'
+[build] collect2: error: ld returned 1 exit status
+[build] ninja: build stopped: subcommand failed.
+[proc] The command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all -- exited with code: 1
+[driver] Build completed: 00:00:00.084
+[build] Build finished with exit code 1

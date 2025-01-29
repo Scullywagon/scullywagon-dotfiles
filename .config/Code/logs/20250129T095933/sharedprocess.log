@@ -1,0 +1,165 @@
+2025-01-29 09:59:34.421 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-01-29 09:59:34.613 [info] Deleted uninstalled extension from disk jdinhlife.gruvbox /home/logan/.vscode/extensions/jdinhlife.gruvbox-1.20.0
+2025-01-29 09:59:34.615 [info] Deleted uninstalled extension from disk github.copilot /home/logan/.vscode/extensions/github.copilot-1.259.0
+2025-01-29 09:59:38.106 [info] Getting Manifest... ms-vscode.cpptools
+2025-01-29 09:59:38.354 [info] Installing extension: ms-vscode.cpptools {"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-01-29 09:59:39.925 [info] Extension signature verification result for ms-vscode.cpptools: UnknownError. Executed: true. Duration: 17ms.
+2025-01-29 09:59:42.231 [info] Extracted extension to file:///home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64: ms-vscode.cpptools
+2025-01-29 09:59:42.248 [info] Renamed to /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64
+2025-01-29 09:59:42.267 [info] Marked extension as uninstalled ms-vscode.cpptools-1.22.11-linux-x64
+2025-01-29 09:59:42.284 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 09:59:42.339 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:32.846 [info] Getting Manifest... dionmunk.vscode-notes
+2025-01-29 13:18:32.846 [info] Getting Manifest... formulahendry.code-runner
+2025-01-29 13:18:32.846 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2025-01-29 13:18:32.846 [info] Getting Manifest... 13xforever.language-x86-64-assembly
+2025-01-29 13:18:32.846 [info] Getting Manifest... franneck94.c-cpp-runner
+2025-01-29 13:18:32.846 [info] Getting Manifest... visualstudiotoolsforunity.vstuc
+2025-01-29 13:18:32.847 [info] Getting Manifest... cyberbiont.vscode-sidenotes
+2025-01-29 13:18:32.847 [info] Getting Manifest... vadimcn.vscode-lldb
+2025-01-29 13:18:32.847 [info] Getting Manifest... madhavd1.javadoc-tools
+2025-01-29 13:18:32.847 [info] Getting Manifest... vscjava.vscode-spring-initializr
+2025-01-29 13:18:32.847 [info] Getting Manifest... ms-dotnettools.csdevkit
+2025-01-29 13:18:32.847 [info] Getting Manifest... hashicorp.terraform
+2025-01-29 13:18:32.847 [info] Getting Manifest... ms-dotnettools.csharp
+2025-01-29 13:18:33.346 [info] Installing extension: formulahendry.code-runner {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: ms-dotnettools.vscode-dotnet-runtime {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: ms-dotnettools.csdevkit {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: ms-dotnettools.csharp {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: franneck94.c-cpp-runner {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: 13xforever.language-x86-64-assembly {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: cyberbiont.vscode-sidenotes {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.346 [info] Installing extension: visualstudiotoolsforunity.vstuc {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.347 [info] Installing extension: vadimcn.vscode-lldb {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.347 [info] Installing extension: madhavd1.javadoc-tools {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.347 [info] Installing extension: vscjava.vscode-spring-initializr {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.347 [info] Installing extension: hashicorp.terraform {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.347 [info] Installing extension: dionmunk.vscode-notes {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/logan/.vscode/extensions/extensions.json","path":"/home/logan/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-29 13:18:33.347 [info] Installing the extension without checking dependencies and pack formulahendry.code-runner
+2025-01-29 13:18:33.347 [info] Installing the extension without checking dependencies and pack ms-dotnettools.vscode-dotnet-runtime
+2025-01-29 13:18:33.347 [info] Installing the extension without checking dependencies and pack ms-dotnettools.csdevkit
+2025-01-29 13:18:33.347 [info] Installing the extension without checking dependencies and pack ms-dotnettools.csharp
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack franneck94.c-cpp-runner
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack 13xforever.language-x86-64-assembly
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack cyberbiont.vscode-sidenotes
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack visualstudiotoolsforunity.vstuc
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack vadimcn.vscode-lldb
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack madhavd1.javadoc-tools
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack vscjava.vscode-spring-initializr
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack hashicorp.terraform
+2025-01-29 13:18:33.348 [info] Installing the extension without checking dependencies and pack dionmunk.vscode-notes
+2025-01-29 13:18:34.107 [info] Extension signature verification result for ms-dotnettools.vscode-dotnet-runtime: UnknownError. Executed: true. Duration: 12ms.
+2025-01-29 13:18:34.125 [info] Extension signature verification result for franneck94.c-cpp-runner: UnknownError. Executed: true. Duration: 14ms.
+2025-01-29 13:18:34.130 [info] Extension signature verification result for 13xforever.language-x86-64-assembly: UnknownError. Executed: true. Duration: 12ms.
+2025-01-29 13:18:34.145 [info] Extension signature verification result for vscjava.vscode-spring-initializr: UnknownError. Executed: true. Duration: 11ms.
+2025-01-29 13:18:34.170 [info] Extracted extension to file:///home/logan/.vscode/extensions/13xforever.language-x86-64-assembly-3.1.4: 13xforever.language-x86-64-assembly
+2025-01-29 13:18:34.183 [info] Extension signature verification result for vadimcn.vscode-lldb: UnknownError. Executed: true. Duration: 9ms.
+2025-01-29 13:18:34.184 [info] Renamed to /home/logan/.vscode/extensions/13xforever.language-x86-64-assembly-3.1.4
+2025-01-29 13:18:34.204 [info] Extension signature verification result for dionmunk.vscode-notes: UnknownError. Executed: true. Duration: 9ms.
+2025-01-29 13:18:34.246 [info] Extracted extension to file:///home/logan/.vscode/extensions/vadimcn.vscode-lldb-1.11.3: vadimcn.vscode-lldb
+2025-01-29 13:18:34.252 [info] Renamed to /home/logan/.vscode/extensions/vadimcn.vscode-lldb-1.11.3
+2025-01-29 13:18:34.264 [info] Extension signature verification result for formulahendry.code-runner: UnknownError. Executed: true. Duration: 8ms.
+2025-01-29 13:18:34.272 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:34.294 [info] Extracted extension to file:///home/logan/.vscode/extensions/vscjava.vscode-spring-initializr-0.11.2: vscjava.vscode-spring-initializr
+2025-01-29 13:18:34.299 [info] Renamed to /home/logan/.vscode/extensions/vscjava.vscode-spring-initializr-0.11.2
+2025-01-29 13:18:34.345 [info] Extracted extension to file:///home/logan/.vscode/extensions/dionmunk.vscode-notes-1.2.1: dionmunk.vscode-notes
+2025-01-29 13:18:34.353 [info] Renamed to /home/logan/.vscode/extensions/dionmunk.vscode-notes-1.2.1
+2025-01-29 13:18:34.381 [info] Extracted extension to file:///home/logan/.vscode/extensions/ms-dotnettools.vscode-dotnet-runtime-2.2.6: ms-dotnettools.vscode-dotnet-runtime
+2025-01-29 13:18:34.385 [info] Renamed to /home/logan/.vscode/extensions/ms-dotnettools.vscode-dotnet-runtime-2.2.6
+2025-01-29 13:18:34.416 [info] Extracted extension to file:///home/logan/.vscode/extensions/franneck94.c-cpp-runner-9.4.9: franneck94.c-cpp-runner
+2025-01-29 13:18:34.420 [info] Renamed to /home/logan/.vscode/extensions/franneck94.c-cpp-runner-9.4.9
+2025-01-29 13:18:34.455 [info] Extension signature verification result for visualstudiotoolsforunity.vstuc: UnknownError. Executed: true. Duration: 8ms.
+2025-01-29 13:18:34.534 [info] Extracted extension to file:///home/logan/.vscode/extensions/formulahendry.code-runner-0.12.2: formulahendry.code-runner
+2025-01-29 13:18:34.542 [info] Renamed to /home/logan/.vscode/extensions/formulahendry.code-runner-0.12.2
+2025-01-29 13:18:34.735 [info] Extracted extension to file:///home/logan/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5: visualstudiotoolsforunity.vstuc
+2025-01-29 13:18:34.741 [info] Renamed to /home/logan/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5
+2025-01-29 13:18:34.821 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:35.026 [info] Extension signature verification result for ms-dotnettools.csdevkit: UnknownError. Executed: true. Duration: 8ms.
+2025-01-29 13:18:35.075 [info] Extension signature verification result for cyberbiont.vscode-sidenotes: UnknownError. Executed: true. Duration: 7ms.
+2025-01-29 13:18:35.123 [info] Extension signature verification result for hashicorp.terraform: UnknownError. Executed: true. Duration: 8ms.
+2025-01-29 13:18:35.338 [info] Extension signature verification result for madhavd1.javadoc-tools: UnknownError. Executed: true. Duration: 8ms.
+2025-01-29 13:18:35.464 [info] Extracted extension to file:///home/logan/.vscode/extensions/madhavd1.javadoc-tools-1.6.0: madhavd1.javadoc-tools
+2025-01-29 13:18:35.468 [info] Renamed to /home/logan/.vscode/extensions/madhavd1.javadoc-tools-1.6.0
+2025-01-29 13:18:35.527 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:35.702 [info] Extracted extension to file:///home/logan/.vscode/extensions/hashicorp.terraform-2.34.3-linux-x64: hashicorp.terraform
+2025-01-29 13:18:35.706 [info] Renamed to /home/logan/.vscode/extensions/hashicorp.terraform-2.34.3-linux-x64
+2025-01-29 13:18:35.786 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:36.133 [info] Extracted extension to file:///home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0: cyberbiont.vscode-sidenotes
+2025-01-29 13:18:36.160 [info] Renamed to /home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0
+2025-01-29 13:18:36.240 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:36.375 [info] Extension signature verification result for ms-dotnettools.csharp: UnknownError. Executed: true. Duration: 8ms.
+2025-01-29 13:18:37.409 [info] Extracted extension to file:///home/logan/.vscode/extensions/ms-dotnettools.csdevkit-1.15.34-linux-x64: ms-dotnettools.csdevkit
+2025-01-29 13:18:37.436 [info] Renamed to /home/logan/.vscode/extensions/ms-dotnettools.csdevkit-1.15.34-linux-x64
+2025-01-29 13:18:37.518 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 13:18:41.201 [info] Extracted extension to file:///home/logan/.vscode/extensions/ms-dotnettools.csharp-2.61.28-linux-x64: ms-dotnettools.csharp
+2025-01-29 13:18:41.232 [info] Renamed to /home/logan/.vscode/extensions/ms-dotnettools.csharp-2.61.28-linux-x64
+2025-01-29 13:18:41.263 [info] Extension installed successfully: 13xforever.language-x86-64-assembly vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.263 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.263 [info] Extension installed successfully: vscjava.vscode-spring-initializr vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: dionmunk.vscode-notes vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: ms-dotnettools.vscode-dotnet-runtime vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: franneck94.c-cpp-runner vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: formulahendry.code-runner vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: visualstudiotoolsforunity.vstuc vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: madhavd1.javadoc-tools vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: hashicorp.terraform vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: cyberbiont.vscode-sidenotes vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.264 [info] Extension installed successfully: ms-dotnettools.csdevkit vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.265 [info] Extension installed successfully: ms-dotnettools.csharp vscode-userdata:/home/logan/.vscode/extensions/extensions.json
+2025-01-29 13:18:41.316 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 14:39:04.386 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-29 14:39:04.412 [info] Extensions added from another source undefined_publisher.cpp-project-generator vscode-userdata:/home/logan/.vscode/extensions/extensions.json

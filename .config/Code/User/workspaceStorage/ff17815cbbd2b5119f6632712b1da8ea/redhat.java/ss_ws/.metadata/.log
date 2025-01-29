@@ -1,0 +1,103 @@
+!SESSION 2025-01-21 14:21:09.543 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-a19627cbaedcc610cd1402f295352279.sock
+Command-line arguments:  -data /home/logan/.config/Code/User/workspaceStorage/ff17815cbbd2b5119f6632712b1da8ea/redhat.java/ss_ws --pipe=/run/user/1000/lsp-a19627cbaedcc610cd1402f295352279.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.216
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.343
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.399
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.400
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.474
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1737469271461)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.479
+!MESSAGE Setting /usr/lib/jvm/java-23-openjdk as 'JavaSE-23' environment (id:1737469271476)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.479
+!MESSAGE Setting java.home /usr/lib/jvm/java-21-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.485
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.498
+!MESSAGE Workspace initialized in 5ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.508
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.512
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.514
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.515
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:11.517
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:12.725
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:12.737
+!MESSAGE Creating the Java project Junk_Files_acb0efa3
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:12.819
+!MESSAGE Finished creating the Java project Junk_Files_acb0efa3
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:12.852
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:12.853
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:13.770
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:13.776
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:13.779
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:13.780
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:14.141
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:14.166
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:14.777
+!MESSAGE begin problem for /file.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:14.783
+!MESSAGE 0 problems reported for /file.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:14.790
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:15.008
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:15.027
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:15.057
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 14:21:15.071
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

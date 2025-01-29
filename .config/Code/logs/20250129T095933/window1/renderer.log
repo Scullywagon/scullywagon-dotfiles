@@ -1,0 +1,61 @@
+2025-01-29 09:59:33.922 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:33.922 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:33.923 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:34.191 [info] Started local extension host with pid 1007.
+2025-01-29 09:59:34.389 [error] Extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:34.407 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 09:59:34.407 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 09:59:34.407 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 09:59:34.419 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-29 09:59:35.139 [error] [network] #1: https://api.github.com/copilot_internal/user - error GET Failed to fetch
+2025-01-29 09:59:35.139 [error] [chat setup] request: error TypeError: Failed to fetch
+2025-01-29 09:59:35.320 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-29 09:59:35.830 [error] Pending response rejected since connection got disposed: Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:253353)
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307659)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:308065)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:464965)
+	at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307808
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at te (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241476)
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at u.fireClose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:263670)
+	at ChildProcess.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:275914)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-01-29 09:59:36.933 [info] [perf] Render performance baseline is 23ms
+2025-01-29 09:59:39.066 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:44.102 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:45.616 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:47.449 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 10:32:31.788 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)

@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.16)
+project(MyProject)
+
+# Set output directories
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
+
+# Specify C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Include directories
+include_directories(${CMAKE_SOURCE_DIR}/includes)
+
+# Find all source files
+file(GLOB_RECURSE SOURCES ${CMAKE_SOURCE_DIR}/src/*.cpp)
+
+# Add the executable
+add_executable(MyExecutable ${SOURCES})
+
+# CMake scripts location
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)

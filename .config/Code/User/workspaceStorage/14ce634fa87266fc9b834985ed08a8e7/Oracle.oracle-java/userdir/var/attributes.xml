@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="|home|logan|.config|Code|User|workspaceStorage|14ce634fa87266fc9b834985ed08a8e7|Oracle.oracle-java|userdir|var|cache|index|s6|java|15|gensrc">
+        <attr name="register_root" boolvalue="false"/>
+        <attr name="single_file_vm_options" stringvalue=""/>
+    </fileobject>
+    <fileobject name="|home|logan|.config|Code|User|workspaceStorage|14ce634fa87266fc9b834985ed08a8e7|Oracle.oracle-java|userdir|var|cache|index|s6|java|15|gensrc|java|util|HashMap.java">
+        <attr name="classfile-binaryName" stringvalue="java/util/HashMap"/>
+        <attr name="classfile-root" urlvalue="nbjrt:file:/usr/lib/jvm/default/!/modules/java.base/"/>
+        <attr name="classfile-sourcefile" stringvalue="HashMap.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="68E957F7025DF528C72891397D952624"/>
+    </fileobject>
+    <fileobject name="|home|logan|University|Programming-2|Week-10">
+        <attr name="register_root" boolvalue="false"/>
+        <attr name="single_file_vm_options" stringvalue=""/>
+    </fileobject>
+</attributes>

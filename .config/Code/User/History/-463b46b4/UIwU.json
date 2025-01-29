@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build MyExecutable",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/out/build --config Debug",  // Adjust the build path if needed
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build the executable"
+        },
+        {
+            "label": "Run MyExecutable",
+            "type": "shell",
+            "command": "${workspaceFolder}/output/MyExecutable",  // Path to your executable
+            "group": "none",
+            "presentation": {
+                "reveal": "silent",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": false
+            },
+            "dependsOn": "Build MyExecutable",  // Ensure the build task runs before the run task
+            "problemMatcher": []
+        }
+    ]
+}

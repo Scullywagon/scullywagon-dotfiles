@@ -1,0 +1,31 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
+    "github.copilot.chat.temporalContext.enabled": true,
+    "window.menuBarVisibility": "toggle",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 12,
+    "editor.fontWeight": "1000",
+    "editor.fontLigatures": true,
+    "window.customTitleBarVisibility": "auto",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "single",
+    "editor.suggest.showStatusBar": true,
+    "github.copilot.chat.codeGeneration.instructions": [
+       {
+        "text": "put { on next line after methods, functions or classes"
+       } 
+    ],
+    "C_Cpp.default.includePath": [
+        "/usr/bin/gcc"
+    ],
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "C_Cpp.default.compilerPath": "",
+}

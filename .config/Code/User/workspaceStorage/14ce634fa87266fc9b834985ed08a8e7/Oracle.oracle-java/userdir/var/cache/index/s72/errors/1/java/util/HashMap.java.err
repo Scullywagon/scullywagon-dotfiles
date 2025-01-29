@@ -1,0 +1,140 @@
+ERROR:1:package exists in another module\d java.base
+ERROR:11:package jdk.internal.misc is not visible\n  (package jdk.internal.misc is declared in module java.base, which does not export it to the unnamed module)
+ERROR:13:cannot find symbol\n  symbol\d class AbstractMap
+ERROR:13:cannot find symbol\n  symbol\d class Map
+ERROR:15:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>
+ERROR:3313:cannot find symbol\n  symbol\d   class Set\n  location\d class java.util.HashMap<K,V>
+ERROR:3313:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>
+ERROR:3526:cannot find symbol\n  symbol\d   class Map\n  location\d class java.util.HashMap<K,V>
+ERROR:3542:cannot find symbol\n  symbol\d   class Map\n  location\d class java.util.HashMap<K,V>
+ERROR:4195:cannot find symbol\n  symbol\d   class Map\n  location\d class java.util.HashMap<K,V>
+ERROR:4464:cannot find symbol\n  symbol\d   class Set\n  location\d class java.util.HashMap<K,V>
+ERROR:4611:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.HashMap<K,V>
+ERROR:4632:cannot find symbol\n  symbol\d   class Set\n  location\d class java.util.HashMap<K,V>
+ERROR:4632:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>
+ERROR:142:package LinkedHashMap does not exist
+ERROR:1727:cannot find symbol\n  symbol\d   class AbstractSet\n  location\d class java.util.HashMap<K,V>
+ERROR:1753:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.HashMap<K,V>.KeySet
+ERROR:1796:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.HashMap<K,V>.KeySet
+ERROR:1903:cannot find symbol\n  symbol\d   class AbstractCollection\n  location\d class java.util.HashMap<K,V>
+ERROR:1929:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.HashMap<K,V>.Values
+ERROR:1952:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.HashMap<K,V>.Values
+ERROR:2059:cannot find symbol\n  symbol\d   class AbstractSet\n  location\d class java.util.HashMap<K,V>
+ERROR:2059:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>
+ERROR:2085:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.HashMap<K,V>.EntrySet
+ERROR:2085:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>.EntrySet
+ERROR:2164:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.HashMap<K,V>.EntrySet
+ERROR:2164:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>.EntrySet
+ERROR:2180:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>.EntrySet
+ERROR:2272:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.HashMap<K,V>
+ERROR:2272:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>
+ERROR:2334:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap.EntrySpliterator<K,V>
+ERROR:2431:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap.EntrySpliterator<K,V>
+ERROR:2528:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.HashMap<K,V>
+ERROR:2784:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.HashMap<K,V>
+ERROR:3126:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.HashMap<K,V>
+ERROR:3126:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>
+ERROR:3132:cannot find symbol\n  symbol\d   class Entry\n  location\d class java.util.HashMap<K,V>.EntryIterator
+ERROR:3142:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.HashMap<K,V>
+ERROR:3159:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.HashMap<K,V>
+ERROR:2274:constructor HashMapSpliterator in class java.util.HashMap.HashMapSpliterator<K,V> cannot be applied to given types;\n  required\d java.util.HashMap<K,V>,int,int,int,int\n  found\d    no arguments\n  reason\d actual and formal argument lists differ in length
+ERROR:2530:constructor HashMapSpliterator in class java.util.HashMap.HashMapSpliterator<K,V> cannot be applied to given types;\n  required\d java.util.HashMap<K,V>,int,int,int,int\n  found\d    no arguments\n  reason\d actual and formal argument lists differ in length
+ERROR:2786:constructor HashMapSpliterator in class java.util.HashMap.HashMapSpliterator<K,V> cannot be applied to given types;\n  required\d java.util.HashMap<K,V>,int,int,int,int\n  found\d    no arguments\n  reason\d actual and formal argument lists differ in length
+ERROR:50:missing return statement
+ERROR:59:missing return statement
+ERROR:78:missing return statement
+ERROR:92:missing return statement
+ERROR:106:missing return statement
+ERROR:139:missing return statement
+ERROR:179:missing return statement
+ERROR:341:missing return statement
+ERROR:359:missing return statement
+ERROR:390:missing return statement
+ERROR:541:missing return statement
+ERROR:694:missing return statement
+ERROR:1160:missing return statement
+ERROR:1217:missing return statement
+ERROR:1359:missing return statement
+ERROR:1617:missing return statement
+ERROR:1724:missing return statement
+ERROR:1741:missing return statement
+ERROR:1763:missing return statement
+ERROR:1774:missing return statement
+ERROR:1794:missing return statement
+ERROR:1810:missing return statement
+ERROR:1824:missing return statement
+ERROR:1838:missing return statement
+ERROR:1917:missing return statement
+ERROR:1939:missing return statement
+ERROR:1950:missing return statement
+ERROR:1966:missing return statement
+ERROR:1980:missing return statement
+ERROR:1994:missing return statement
+ERROR:2073:missing return statement
+ERROR:2095:missing return statement
+ERROR:2128:missing return statement
+ERROR:2162:missing return statement
+ERROR:2178:missing return statement
+ERROR:2332:missing return statement
+ERROR:2504:missing return statement
+ERROR:2525:missing return statement
+ERROR:2588:missing return statement
+ERROR:2762:missing return statement
+ERROR:2781:missing return statement
+ERROR:2844:missing return statement
+ERROR:3018:missing return statement
+ERROR:3039:missing return statement
+ERROR:3110:missing return statement
+ERROR:3123:missing return statement
+ERROR:3139:missing return statement
+ERROR:3156:missing return statement
+ERROR:3173:missing return statement
+ERROR:3198:missing return statement
+ERROR:3258:missing return statement
+ERROR:3336:missing return statement
+ERROR:3402:missing return statement
+ERROR:3421:missing return statement
+ERROR:3447:missing return statement
+ERROR:3630:missing return statement
+ERROR:3643:missing return statement
+ERROR:3660:missing return statement
+ERROR:3746:missing return statement
+ERROR:3760:missing return statement
+ERROR:3775:missing return statement
+ERROR:3936:missing return statement
+ERROR:4126:missing return statement
+ERROR:4226:missing return statement
+ERROR:4374:missing return statement
+ERROR:4462:missing return statement
+ERROR:4483:missing return statement
+ERROR:4513:missing return statement
+ERROR:4561:missing return statement
+ERROR:4609:missing return statement
+ERROR:4630:missing return statement
+ERROR:4651:missing return statement
+ERROR:4668:missing return statement
+ERROR:4683:missing return statement
+ERROR:4702:missing return statement
+ERROR:4736:missing return statement
+ERROR:4761:missing return statement
+ERROR:4938:missing return statement
+ERROR:5000:missing return statement
+ERROR:5181:missing return statement
+ERROR:5364:missing return statement
+ERROR:5514:missing return statement
+ERROR:5523:missing return statement
+ERROR:5544:missing return statement
+ERROR:5723:missing return statement
+ERROR:5740:missing return statement
+ERROR:5754:missing return statement
+ERROR:5771:missing return statement
+ERROR:5878:missing return statement
+ERROR:5904:missing return statement
+ERROR:3501:variable loadFactor might not have been initialized
+ERROR:3512:variable loadFactor might not have been initialized
+ERROR:3524:variable loadFactor might not have been initialized
+ERROR:3540:variable loadFactor might not have been initialized
+ERROR:41:variable hash might not have been initialized
+ERROR:2244:variable unsafe might not have been initialized
+ERROR:2245:variable LF_OFFSET might not have been initialized
+ERROR:3073:variable map might not have been initialized

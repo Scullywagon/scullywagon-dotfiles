@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MyExecutable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/output/MyExecutable",  // Path to your executable
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,  // Use internal console
+            "MIMode": "gdb",  // Use gdb for debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Path to gdb
+            "logging": {
+                "moduleLoad": false,
+                "trace": true
+            }
+        },
+        {
+            "name": "Run MyExecutable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/output/MyExecutable",  // Path to your executable
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true  // Use external console for running
+        }
+    ]
+}

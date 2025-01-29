@@ -1,0 +1,625 @@
+2025-01-29 09:59:48.812 [info] Extension host with pid 1535 started
+2025-01-29 09:59:48.853 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 09:59:49.009 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-29 09:59:49.053 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-29 09:59:49.131 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-29 09:59:49.213 [info] Eager extensions activated
+2025-01-29 09:59:49.244 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:49.246 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:49.261 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:49.593 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:50.019 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 09:59:50.026 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:50.450 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:09.047 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 10:32:09.076 [info] Extension host with pid 1535 exiting with code 0
+2025-01-29 10:32:09.806 [info] Extension host with pid 1674 started
+2025-01-29 10:32:09.806 [info] Skipping acquiring lock for /home/logan/.config/Code/User/workspaceStorage/a7a89667e084ceb2b6409a681c149596.
+2025-01-29 10:32:09.844 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 10:32:09.900 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-29 10:32:09.902 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:CMakeLists.txt'
+2025-01-29 10:32:10.081 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-29 10:32:10.135 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-29 10:32:10.540 [info] Eager extensions activated
+2025-01-29 10:32:10.544 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:10.546 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:10.562 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:10.906 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:11.354 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 10:32:11.358 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:11.812 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 10:32:13.000 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 10:32:13.018 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'api', root cause: ms-vscode.cmake-tools
+2025-01-29 10:32:26.862 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 10:32:26.875 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 10:32:26.888 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 10:32:26.938 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 10:35:35.109 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2025-01-29 10:36:25.005 [info] ExtensionService#_doActivateExtension Oracle.oracle-java, startup: false, activationEvent: 'onCommand:workbench.action.debug.start'
+2025-01-29 10:36:25.195 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-01-29 10:39:31.193 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-29 11:02:46.766 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2025-01-29 11:02:46.859 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2025-01-29 11:17:09.995 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:17:28.937 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:18:46.732 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2025-01-29 11:18:46.735 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2025-01-29 11:18:46.737 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2025-01-29 11:18:46.739 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: false, activationEvent: 'onTaskType:gradle'
+2025-01-29 11:18:46.832 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onTaskType:java (buildArtifact)'
+2025-01-29 11:18:46.968 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'api', root cause: vscjava.vscode-gradle
+2025-01-29 11:18:47.999 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-29 11:18:48.054 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'api', root cause: vscjava.vscode-gradle
+2025-01-29 11:18:48.169 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-01-29 11:19:05.671 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:23:51.400 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:24:07.077 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:24:07.819 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:24:17.705 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:29:46.194 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:30:03.196 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:31:01.420 [error] Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:33:13.399 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:33:16.773 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:34:28.102 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:34:29.177 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-29 11:34:41.777 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-29 11:34:54.138 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:34:57.678 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:34:58.658 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:34:59.780 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73019:132
+2025-01-29 11:35:01.917 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 11:35:12.586 [error] Error: Failed to parse json file, possibly due to comments or trailing commas.
+    at Object.getRawJson (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:88860:15)
+    at CppBuildTaskProvider.getJsonTasks (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:81377:25)
+    at DebugConfigurationProvider.provideDebugConfigurationsForType (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:71917:38)
+    at DebugConfigurationProvider.selectConfiguration (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72387:23)
+    at DebugConfigurationProvider.buildAndDebug (/home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:72367:32)
+    at /home/logan/.vscode/extensions/ms-vscode.cpptools-1.23.5-linux-x64/dist/src/main.js:73020:130
+2025-01-29 12:21:19.939 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 12:21:20.050 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/logan/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:663045)
+    at Object.t.deactivate (/home/logan/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:177330)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-01-29 12:21:20.074 [error] Error: Channel has been closed
+    at s (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2431)
+    at Object.appendLine (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2570)
+    at D.logOutputMessage (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+    at D.info (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-29 12:21:20.335 [error] Error: Pending response rejected since connection got disposed
+    at Object.dispose (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/connection.js:1167:27)
+    at Object.dispose (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-languageclient/lib/common/client.js:1514:35)
+    at NbLanguageClient.handleConnectionClosed (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-languageclient/lib/common/client.js:1105:34)
+    at NbLanguageClient.handleConnectionClosed (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-languageclient/lib/node/main.js:180:22)
+    at closeHandler (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-languageclient/lib/common/client.js:1092:18)
+    at CallbackList.invoke (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at Emitter.fire (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at closeHandler (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/connection.js:314:26)
+    at CallbackList.invoke (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at Emitter.fire (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at StreamMessageWriter.fireClose (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+    at Socket.<anonymous> (/home/logan/.vscode/extensions/oracle.oracle-java-23.0.1/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+    at Socket.emit (node:events:530:35)
+    at TCP.<anonymous> (node:net:343:12)
+2025-01-29 12:21:20.822 [info] Extension host with pid 8664 started
+2025-01-29 12:21:20.822 [info] Skipping acquiring lock for /home/logan/.config/Code/User/workspaceStorage/e11a0b80d363ae7acc93dd4bb93270f0.
+2025-01-29 12:21:20.850 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 12:21:20.914 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-01-29 12:21:20.934 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-29 12:21:20.995 [info] Eager extensions activated
+2025-01-29 12:21:21.018 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:21:21.020 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:21:21.034 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:21:21.063 [error] Error: SDK is not initialized
+    at throwError (/home/logan/.vscode/extensions/github.copilot-1.260.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/https:/raw.githubusercontent.com/nevware21/ts-utils/refs/tags/0.11.5/lib/src/helpers/throw.ts:15:11)
+    at f.Zt.<computed> [as unload] (/home/logan/.vscode/extensions/github.copilot-1.260.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.4/shared/AppInsightsCore/dist-es5/JavaScriptSDK/AppInsightsCore.js:567:1)
+    at f.unload (/home/logan/.vscode/extensions/github.copilot-1.260.0/node_modules/@microsoft/applicationinsights-web-basic/dist/es5/applicationinsights-web-basic@3.3.4/shared/AppInsightsCore/dist-es5/JavaScriptSDK/HelperFuncs.js:127:1)
+    at YZ.dispose (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/telemetry/appInsightsReporter.ts:79:27)
+    at ai (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-01-29 12:21:21.064 [error] Error: write after end
+    at _write (node:internal/streams/writable:489:11)
+    at Socket.Writable.write (node:internal/streams/writable:510:10)
+    at /home/logan/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:839886
+    at new Promise (<anonymous>)
+    at c.write (/home/logan/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:839804)
+    at m.doWrite (/home/logan/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:829407)
+    at /home/logan/.vscode/extensions/vscjava.vscode-gradle-3.16.4/dist/index.js:2:829302
+2025-01-29 12:21:22.032 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-01-29 12:21:22.160 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:21:22.502 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:21:22.911 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 12:21:22.917 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:CMakeLists.txt'
+2025-01-29 12:21:23.412 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:21:23.578 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 12:21:25.043 [info] Extension host with pid 1674 exiting with code 0
+2025-01-29 12:23:06.543 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 12:23:06.585 [error] Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kh.L [as value] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:975601)
+    at P.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-29 12:23:06.588 [error] Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:328633)
+    at /opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:329592
+    at kh.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1088462)
+    at P.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-29 12:23:06.588 [error] Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kF.updateReviewDiffReposContext (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:3279)
+    at kF.updateRepositoryListeners (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:3049)
+    at /home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2185:2887
+    at kh.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1088462)
+    at P.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-29 12:23:06.589 [info] Extension host with pid 8664 exiting with code 0
+2025-01-29 12:23:07.285 [info] Extension host with pid 9065 started
+2025-01-29 12:23:07.285 [info] Skipping acquiring lock for /home/logan/.config/Code/User/workspaceStorage/b2d088f0bb1614fb33af40eb75d007dd.
+2025-01-29 12:23:07.301 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 12:23:07.360 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-29 12:23:07.362 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:CMakeLists.txt'
+2025-01-29 12:23:07.544 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-29 12:23:07.601 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-29 12:23:07.899 [info] Eager extensions activated
+2025-01-29 12:23:07.904 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:23:07.905 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:23:07.919 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:23:08.263 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:23:08.693 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 12:23:08.698 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:23:09.135 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:23:16.762 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-01-29 12:23:16.877 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 12:27:41.701 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2025-01-29 12:28:50.357 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build/.ninja_lock'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-29 12:29:16.112 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 12:29:16.168 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/logan/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:663045)
+    at Object.t.deactivate (/home/logan/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:177330)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-01-29 12:29:16.236 [info] Extension host with pid 9065 exiting with code 0
+2025-01-29 12:29:16.999 [info] Extension host with pid 10091 started
+2025-01-29 12:29:16.999 [info] Skipping acquiring lock for /home/logan/.config/Code/User/workspaceStorage/b2d088f0bb1614fb33af40eb75d007dd.
+2025-01-29 12:29:17.084 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 12:29:17.118 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 12:29:17.135 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-01-29 12:29:17.497 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'api', root cause: ms-vscode.cpptools
+2025-01-29 12:29:18.929 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-29 12:29:18.953 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:CMakeLists.txt'
+2025-01-29 12:29:19.214 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-29 12:29:19.275 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-29 12:29:19.818 [info] Eager extensions activated
+2025-01-29 12:29:19.825 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:29:19.827 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:29:19.846 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:29:20.308 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 12:29:20.312 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:29:20.761 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 12:29:24.279 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build/.ninja_lock'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-29 12:30:05.751 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2025-01-29 12:40:09.366 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build/.ninja_lock'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-29 12:41:55.481 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build/.ninja_lock'
+    at Function.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-01-29 12:42:34.458 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-01-29 12:46:55.763 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-29 12:46:55.781 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-29 12:46:55.834 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-29 12:46:56.148 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 12:55:24.722 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-01-29 13:18:41.726 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 13:18:41.741 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 13:18:41.829 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 13:18:41.839 [info] ExtensionService#_doActivateExtension cyberbiont.vscode-sidenotes, startup: false, activationEvent: '*'
+2025-01-29 13:18:41.907 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2025-01-29 14:39:40.172 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 14:39:40.246 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/logan/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:663045)
+    at Object.t.deactivate (/home/logan/.vscode/extensions/vscodevim.vim-1.29.0/out/extension.js:2:177330)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-01-29 14:39:40.252 [error] Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kh.L [as value] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:975601)
+    at P.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-29 14:39:40.254 [error] Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:328633)
+    at /opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:329592
+    at kh.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1088462)
+    at P.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-29 14:39:40.273 [error] Canceled: Canceled
+    at new IT (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at setContextValue (/home/logan/.vscode/extensions/franneck94.c-cpp-runner-9.4.9/dist/webpack:/c-cpp-runner/src/utils/vscodeUtils.ts:26:26)
+    at Object.deactivate (/home/logan/.vscode/extensions/franneck94.c-cpp-runner-9.4.9/dist/webpack:/c-cpp-runner/src/extension.ts:142:18)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-01-29 14:39:40.286 [error] Error: Channel has been closed
+    at s (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2431)
+    at Object.appendLine (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2570)
+    at D.logOutputMessage (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+    at D.info (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-29 14:39:40.307 [info] Extension host with pid 10091 exiting with code 0

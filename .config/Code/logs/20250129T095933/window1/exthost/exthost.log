@@ -1,0 +1,202 @@
+2025-01-29 09:59:34.562 [info] Extension host with pid 1007 started
+2025-01-29 09:59:34.562 [info] Skipping acquiring lock for /home/logan/.config/Code/User/workspaceStorage/1a3c11c3e3dc2363479bc99e870eecbf.
+2025-01-29 09:59:34.649 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 09:59:34.684 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 09:59:34.701 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-01-29 09:59:34.745 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:typescript'
+2025-01-29 09:59:34.847 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:typescript'
+2025-01-29 09:59:35.314 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-29 09:59:35.319 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-01-29 09:59:35.486 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-29 09:59:35.556 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-29 09:59:35.641 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:*/CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt'
+2025-01-29 09:59:35.825 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:35.826 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:253353)
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307659)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:308065)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:464965)
+	at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307808
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at te (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241476)
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at u.fireClose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:263670)
+	at ChildProcess.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:275914)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-01-29 09:59:35.827 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:35.827 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:253353)
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307659)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:308065)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:464965)
+	at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307808
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at te (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241476)
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at u.fireClose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:263670)
+	at ChildProcess.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:275914)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-01-29 09:59:35.827 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:35.827 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:253353)
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307659)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:308065)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:464965)
+	at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307808
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at te (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241476)
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at u.fireClose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:263670)
+	at ChildProcess.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:275914)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-01-29 09:59:35.827 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:35.827 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:253353)
+	at Object.dispose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307659)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:308065)
+	at v.handleConnectionClosed (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:464965)
+	at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:307808
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at te (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241476)
+	at i.invoke (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255062)
+	at a.fire (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:255827)
+	at u.fireClose (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:263670)
+	at ChildProcess.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:275914)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-01-29 09:59:36.043 [info] Eager extensions activated
+2025-01-29 09:59:36.049 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:36.050 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:36.065 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:36.393 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:36.857 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 09:59:36.862 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:37.326 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 09:59:37.334 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:37.339 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:38.543 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:38.543 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:38.704 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'api', root cause: ms-vscode.cmake-tools
+2025-01-29 09:59:39.063 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:39.063 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:39.105 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:39.105 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:39.174 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:39.174 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:39.177 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:39.177 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:39.184 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:39.184 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:43.998 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 09:59:44.007 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 09:59:44.017 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-01-29 09:59:44.100 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:44.101 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:44.226 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:44.227 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:45.615 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:45.615 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:46.603 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:46.604 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 09:59:47.448 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 09:59:47.449 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 10:32:31.784 [error] [VisualStudioExptTeam.intellicode-api-usage-examples] provider FAILED
+2025-01-29 10:32:31.784 [error] Error: Unhandled method getIdAtPosition
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246605
+    at re (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:246899)
+    at /home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241683
+    at Immediate.<anonymous> (/home/logan/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.9/dist/extension.js:2:241703)
+    at processImmediate (node:internal/timers:483:21)
+2025-01-29 10:32:50.008 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2025-01-29 12:17:48.853 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 12:17:48.956 [error] Error: Channel has been closed
+    at s (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2431)
+    at Object.appendLine (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:2570)
+    at D.logOutputMessage (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:285192)
+    at D.info (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:284925)
+    at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:503028)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-01-29 12:17:48.958 [info] Extension host with pid 1007 exiting with code 0

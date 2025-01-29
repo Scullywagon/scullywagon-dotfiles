@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: build",
+            "type": "shell",
+            "command": "/usr/bin/cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/cmake/build",
+                "--config",
+                "Debug"  // Change this to "Release" for release builds
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by CMake"
+        }
+    ]
+}

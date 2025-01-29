@@ -1,0 +1,47 @@
+2025-01-29 09:59:38.422 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at Xie.removeExpiredCertificates (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificateReaders.ts:77:32)
+    at Xie.getAllRootCAs (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificateReaders.ts:68:38)
+    at Spe.createSecureContext (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-01-29 09:59:38.422 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at Xie.removeExpiredCertificates (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificateReaders.ts:77:32)
+    at Xie.getAllRootCAs (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificateReaders.ts:68:38)
+    at Spe.createSecureContext (/home/logan/.vscode/extensions/github.copilot-1.260.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-01-29 09:59:38.422 [info] [certificates] Removed 2 expired certificates
+2025-01-29 09:59:38.884 [info] [fetcher] Using Helix fetcher.
+2025-01-29 09:59:38.913 [info] [fetcher] Using Helix fetcher.
+2025-01-29 09:59:39.839 [info] [fetcher] Using Helix fetcher.
+2025-01-29 09:59:39.839 [info] [code-referencing] Public code references are enabled.
+2025-01-29 10:24:39.127 [info] [fetcher] Using Helix fetcher.
+2025-01-29 10:24:39.127 [info] [code-referencing] Public code references are enabled.
+2025-01-29 10:49:39.380 [info] [fetcher] Using Helix fetcher.
+2025-01-29 10:49:39.380 [info] [code-referencing] Public code references are enabled.
+2025-01-29 11:14:39.743 [info] [fetcher] Using Helix fetcher.
+2025-01-29 11:14:39.743 [info] [code-referencing] Public code references are enabled.
+2025-01-29 11:39:40.028 [info] [fetcher] Using Helix fetcher.
+2025-01-29 11:39:40.028 [info] [code-referencing] Public code references are enabled.
+2025-01-29 12:04:40.271 [info] [fetcher] Using Helix fetcher.
+2025-01-29 12:04:40.271 [info] [code-referencing] Public code references are enabled.

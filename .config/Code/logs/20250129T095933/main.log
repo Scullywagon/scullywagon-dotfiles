@@ -1,0 +1,51 @@
+2025-01-29 09:59:33.248 [info] update#setState idle
+2025-01-29 09:59:35.253 [error] [network] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-01-29 09:59:35.254 [error] update#isLatestVersion(): failed to check for updates
+2025-01-29 09:59:35.254 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-01-29 10:00:03.250 [info] update#setState checking for updates
+2025-01-29 10:00:03.281 [info] update#setState idle
+2025-01-29 10:32:09.071 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 1524]: crashed with code 15 and reason 'killed'
+2025-01-29 10:32:09.078 [info] Extension host with pid 1535 exited with code: 0, signal: unknown.
+2025-01-29 11:00:03.252 [info] update#setState checking for updates
+2025-01-29 11:00:03.573 [info] update#setState idle
+2025-01-29 12:00:03.254 [info] update#setState checking for updates
+2025-01-29 12:00:03.358 [info] update#setState idle
+2025-01-29 12:17:48.959 [info] Extension host with pid 1007 exited with code: 0, signal: unknown.
+2025-01-29 12:17:48.965 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1018]: crashed with code 15 and reason 'killed'
+2025-01-29 12:21:25.048 [info] Extension host with pid 1674 exited with code: 0, signal: unknown.
+2025-01-29 12:23:06.589 [info] Extension host with pid 8664 exited with code: 0, signal: unknown.
+2025-01-29 12:29:16.194 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 9055]: crashed with code 15 and reason 'killed'
+2025-01-29 12:29:16.236 [info] Extension host with pid 9065 exited with code: 0, signal: unknown.
+2025-01-29 13:00:03.257 [info] update#setState checking for updates
+2025-01-29 13:00:03.607 [info] update#setState idle
+2025-01-29 14:00:03.261 [info] update#setState checking for updates
+2025-01-29 14:00:03.402 [info] update#setState idle
+2025-01-29 14:21:28.431 [info] Extension host with pid 15422 exited with code: 0, signal: unknown.
+2025-01-29 14:21:28.433 [error] [UtilityProcess id: 8, type: extensionHost, pid: 15422]: crashed with code 15 and reason 'killed'
+2025-01-29 14:21:28.439 [error] [UtilityProcess id: 4, type: fileWatcher, pid: 15404]: crashed with code 15 and reason 'killed'
+2025-01-29 14:23:34.079 [info] Extension host with pid 15578 exited with code: 0, signal: unknown.
+2025-01-29 14:23:34.079 [error] [UtilityProcess id: 9, type: extensionHost, pid: 15578]: crashed with code 15 and reason 'killed'
+2025-01-29 14:24:18.802 [error] [UtilityProcess id: 6, type: fileWatcher, pid: 15733]: crashed with code 15 and reason 'killed'
+2025-01-29 14:24:18.837 [info] Extension host with pid 15745 exited with code: 0, signal: unknown.
+2025-01-29 14:25:12.006 [info] Extension host with pid 15845 exited with code: 15, signal: unknown.
+2025-01-29 14:25:12.006 [error] [UtilityProcess id: 11, type: extensionHost, pid: 15845]: crashed with code 15 and reason 'killed'
+2025-01-29 14:25:12.077 [error] [UtilityProcess id: 7, type: fileWatcher, pid: 15833]: crashed with code 15 and reason 'killed'
+2025-01-29 14:27:18.833 [info] Extension host with pid 16049 exited with code: 15, signal: unknown.
+2025-01-29 14:27:18.833 [error] [UtilityProcess id: 12, type: extensionHost, pid: 16049]: crashed with code 15 and reason 'killed'
+2025-01-29 14:27:18.887 [error] [UtilityProcess id: 8, type: fileWatcher, pid: 16037]: crashed with code 15 and reason 'killed'
+2025-01-29 14:28:24.193 [error] [UtilityProcess id: 10, type: fileWatcher, pid: 16307]: crashed with code 15 and reason 'killed'
+2025-01-29 14:28:24.220 [info] Extension host with pid 16317 exited with code: 0, signal: unknown.
+2025-01-29 14:28:31.921 [info] Extension host with pid 16229 exited with code: 0, signal: unknown.
+2025-01-29 14:28:31.922 [error] [UtilityProcess id: 13, type: extensionHost, pid: 16229]: crashed with code 15 and reason 'killed'
+2025-01-29 14:28:56.109 [info] Extension host with pid 16889 exited with code: 0, signal: unknown.
+2025-01-29 14:29:10.179 [info] Extension host with pid 16951 exited with code: 0, signal: unknown.
+2025-01-29 14:39:40.913 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/editor/common/services/editorSimpleWorkerMain.js#TextEditorWorker
+2025-01-29 14:39:40.913 [info] Extension host with pid 10091 exited with code: 0, signal: unknown.
+2025-01-29 14:39:40.933 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 10090]: crashed with code 15 and reason 'killed'
+2025-01-29 14:40:31.686 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 14404]: crashed with code 15 and reason 'killed'
+2025-01-29 14:40:32.025 [info] Extension host with pid 14417 exited with code: 0, signal: unknown.
+2025-01-29 14:41:50.607 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 18868]: crashed with code 15 and reason 'killed'
+2025-01-29 14:41:50.645 [info] Extension host with pid 18879 exited with code: 0, signal: unknown.
+2025-01-29 14:46:12.704 [info] Extension host with pid 19452 exited with code: 0, signal: unknown.

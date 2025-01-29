@@ -1,0 +1,273 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/logan/.local/share/CMakeTools/cmake-tools-kits.json
+[variant] Loaded new set of variants
+[proc] Executing command: /usr/bin/gcc -v
+[main] Configuring project: template 
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[main] Configuring project: template 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all --
+[build] [1/1 100% :: 0.044] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute
+[build] FAILED: /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute 
+[build] : && /usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/execute.dir/link.d CMakeFiles/execute.dir/src/main.cpp.o -o /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute   && :
+[build] /usr/bin/ld: CMakeFiles/execute.dir/src/main.cpp.o: in function `main':
+[build] /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:16:(.text+0x9): undefined reference to `glfwInit'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:22:(.text+0x6b): undefined reference to `glfwCreateWindow'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:25:(.text+0xa6): undefined reference to `glfwTerminate'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:30:(.text+0xbc): undefined reference to `glfwMakeContextCurrent'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:33:(.text+0xc1): undefined reference to `glewInit'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:40:(.text+0x106): undefined reference to `glClear'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:44:(.text+0x112): undefined reference to `glfwSwapBuffers'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:45:(.text+0x117): undefined reference to `glfwPollEvents'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:39:(.text+0x123): undefined reference to `glfwWindowShouldClose'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:48:(.text+0x138): undefined reference to `glfwDestroyWindow'
+[build] /usr/bin/ld: /home/logan/Code/ProjectTemplates/cpp-template/template/src/main.cpp:49:(.text+0x13d): undefined reference to `glfwTerminate'
+[build] collect2: error: ld returned 1 exit status
+[build] ninja: build stopped: subcommand failed.
+[proc] The command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all -- exited with code: 1
+[driver] Build completed: 00:00:00.082
+[build] Build finished with exit code 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:12 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:12 (find_package):
+[cmake]   By not providing "FindGLFW.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFWConfig.cmake
+[cmake]     glfw-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW_DIR" to a directory containing one of the above files.  If "GLFW"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:12 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:13 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:13 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:13 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:14 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:14 (find_package):
+[cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+[cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+[cmake]   CMake did not find one.
+[cmake] 
+[cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+[cmake]   the following names:
+[cmake] 
+[cmake]     GLFW3Config.cmake
+[cmake]     glfw3-config.cmake
+[cmake] 
+[cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+[cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+[cmake]   provides a separate development package or SDK, be sure it has been
+[cmake]   installed.
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[cmake] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[cmake] -- Found Threads: TRUE
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all --
+[build] [1/1 100% :: 0.028] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute
+[build] FAILED: /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute 
+[build] : && /usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/execute.dir/link.d CMakeFiles/execute.dir/src/main.cpp.o -o /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute  -lGLEW  -lGLFW3  /usr/lib/libGLX.so  /usr/lib/libOpenGL.so && :
+[build] /usr/bin/ld: cannot find -lGLFW3: No such file or directory
+[build] collect2: error: ld returned 1 exit status
+[build] ninja: build stopped: subcommand failed.
+[proc] The command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all -- exited with code: 1
+[driver] Build completed: 00:00:00.071
+[build] Build finished with exit code 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build --config Debug --target all --
+[build] [1/1 100% :: 0.050] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp-template/template/output/execute
+[driver] Build completed: 00:00:00.092
+[build] Build finished with exit code 0
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] CMake Error at CMakeLists.txt:31:
+[cmake]   Parse error.  Expected a command name, got unquoted argument with text
+[cmake]   "//target_link_libraries".
+[cmake] 
+[cmake] 
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja exited with code: 1
+[main] Configuring project: template 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp-template/template/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp-template/template -B/home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp-template/template/cmake/build

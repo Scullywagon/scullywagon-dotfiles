@@ -1,0 +1,66 @@
+2025-01-21T15:41:28.734Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-01-21T15:41:28.757Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:28.781Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-21T15:41:28.782Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-21T15:41:28.782Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:28.800Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:28.981Z - info: [ui] Opt in reported.
+2025-01-21T15:41:29.257Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:29.268Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:29.284Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:30.181Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-01-21T15:41:30.182Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-01-21T15:41:30.188Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=c07be3bc-e48d-460d-9e1e-96078070a59d
+2025-01-21T15:41:30.188Z - info: [ui] [SignInStore] account resolved
+2025-01-21T15:41:30.188Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2025-01-21T15:41:30.878Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-01-21T15:41:32.412Z - info: [main] Received possible protocol arguments: 3
+2025-01-21T15:41:32.412Z - info: [main] Processing protocol url
+2025-01-21T15:41:32.418Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-01-21T15:41:32.475Z - info: [main] Received possible protocol arguments: 2
+2025-01-21T15:41:32.480Z - info: [main] Processing protocol url
+2025-01-21T15:41:33.103Z - info: [ui] [AppStore] adding account Scullywagon (Logan Scully) to store
+2025-01-21T15:41:33.108Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2025-01-21T15:41:33.144Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:42.667Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:42.823Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:41:42.940Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-21T15:41:43.157Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-01-21T15:43:08.310Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming-2/Week-9/Programming2Week9 to store
+2025-01-21T15:44:25.194Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.1s of which 0.6s paused, total 0.6s
+2025-01-21T15:45:22.636Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming-2/Week9 to store
+2025-01-21T15:45:28.716Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T15:45:30.017Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 1.461s)
+2025-01-21T15:45:30.170Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T15:45:30.716Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T15:45:31.598Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-21T15:46:19.166Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming-2/Week-9 to store
+2025-01-21T15:46:31.347Z - info: [ui] [Timing] Action 'create commit' for 'Week-9' took 0.068s
+2025-01-21T15:46:34.905Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T15:46:35.674Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T15:46:36.146Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T15:46:37.061Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-21T16:27:54.347Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-01-21T16:27:54.351Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-21T16:27:54.386Z - info: [ui] [BranchPruner] Last prune took place 41 minutes ago - skipping
+2025-01-21T16:27:54.549Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-21T16:27:54.552Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-21T16:27:54.744Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-21T16:27:54.970Z - info: [ui] Stats reported.
+2025-01-21T16:34:38.559Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-01-21T16:34:38.561Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-21T16:34:38.597Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2025-01-21T16:34:38.761Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-21T16:34:38.762Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-21T16:34:38.946Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-21T16:34:51.423Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming-2/Week-10 to store
+2025-01-21T17:58:23.433Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-01-21T17:58:23.436Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-21T17:58:23.701Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-21T17:58:23.701Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-21T17:58:23.865Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-21T17:58:33.127Z - info: [ui] [Timing] Action 'create commit' for 'Week-10' took 0.103s
+2025-01-21T17:58:37.097Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T17:58:37.734Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T17:58:38.170Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-21T17:58:39.083Z - info: [ui] [BranchPruner] No branches to prune.

@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
+    "github.copilot.chat.temporalContext.enabled": true,
+    "window.menuBarVisibility": "toggle",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "glassit-linux.opacity": 10
+}

@@ -1,0 +1,106 @@
+2025-01-29 14:17:26.927 [info] Configuration changed
+2025-01-29 14:17:26.973 [info] Configuration changed
+2025-01-29 14:17:40.340 [info] Configuration changed
+2025-01-29 14:17:40.618 [info] Configuration changed
+2025-01-29 14:18:24.357 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:18:32.256 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/node_modules/@types/vscode/index.d.ts closed
+2025-01-29 14:18:34.310 [info] Executing :w
+2025-01-29 14:18:42.658 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:18:42.664 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:18:55.509 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:18:55.531 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:18:58.583 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:18:58.594 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:18:59.056 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:18:59.067 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:18:59.308 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:18:59.330 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:18:59.851 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:18:59.864 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:19:12.695 [info] Executing :w
+2025-01-29 14:19:14.260 [info] Searching for err
+2025-01-29 14:19:23.264 [info] Searching for template
+2025-01-29 14:19:25.555 [info] Executing :w
+2025-01-29 14:19:43.192 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:19:43.209 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:19:44.297 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:19:44.310 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:19:44.829 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:19:44.837 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:19:45.704 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:19:45.717 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:19:46.082 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:19:46.090 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:19:46.722 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:19:46.734 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:19:47.160 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:19:47.168 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:19:47.766 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:19:47.776 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:19:48.298 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:19:48.307 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:19:48.854 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:19:48.867 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:19:49.243 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:19:49.251 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:20:02.172 [info] Executing :w
+2025-01-29 14:20:22.435 [info] Executing :w
+2025-01-29 14:20:30.150 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json closed
+2025-01-29 14:20:39.185 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/package.json
+2025-01-29 14:20:39.205 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:21:10.689 [info] Executing :w
+2025-01-29 14:21:36.314 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:21:36.334 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json.git closed
+2025-01-29 14:21:53.513 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/package.json
+2025-01-29 14:21:53.528 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:22:05.099 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:22:05.113 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json.git closed
+2025-01-29 14:22:16.541 [info] Searching for extension
+2025-01-29 14:22:18.556 [info] Executing :w
+2025-01-29 14:23:50.096 [info] Executing :w
+2025-01-29 14:24:00.826 [info] Executing :w
+2025-01-29 14:24:24.276 [info] Executing :w
+2025-01-29 14:25:01.556 [info] Searching for template
+2025-01-29 14:25:36.384 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/node_modules/@types/vscode/index.d.ts closed
+2025-01-29 14:25:37.412 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/node_modules/@types/vscode/index.d.ts closed
+2025-01-29 14:26:26.597 [info] Executing :w
+2025-01-29 14:27:24.167 [warning] invalid cursor position. [[77, 30] | [0, 0]].
+2025-01-29 14:27:25.040 [info] Executing :w
+2025-01-29 14:27:41.212 [info] Configuration changed
+2025-01-29 14:28:42.877 [info] Executing :w
+2025-01-29 14:29:28.843 [info] Executing :w
+2025-01-29 14:29:38.271 [info] Executing :w
+2025-01-29 14:30:02.632 [info] Executing :w
+2025-01-29 14:30:07.546 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/package.json
+2025-01-29 14:30:07.565 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:35:44.306 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/README.md
+2025-01-29 14:35:44.319 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json.git closed
+2025-01-29 14:35:54.173 [info] Executing :w
+2025-01-29 14:35:56.361 [info] Executing :w
+2025-01-29 14:35:57.412 [info] Executing :q
+2025-01-29 14:35:57.428 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/README.md closed
+2025-01-29 14:35:57.429 [warning] getLineLength() called with out-of-bounds line 0
+2025-01-29 14:35:57.429 [warning] invalid cursor position. [[0, 13] | [0, 13]].
+2025-01-29 14:35:57.432 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/package.json
+2025-01-29 14:35:57.445 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/README.md.git closed
+2025-01-29 14:40:07.216 [info] Executing :q
+2025-01-29 14:40:07.237 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json closed
+2025-01-29 14:40:07.237 [warning] getLineLength() called with out-of-bounds line 13
+2025-01-29 14:40:07.237 [warning] invalid cursor position. [[13, 16] | [13, 16]].
+2025-01-29 14:40:07.242 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:40:07.256 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json.git closed
+2025-01-29 14:40:08.051 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts closed
+2025-01-29 14:40:08.054 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt
+2025-01-29 14:40:08.064 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:40:08.297 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt closed
+2025-01-29 14:40:08.328 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt.git closed
+2025-01-29 14:40:42.163 [info] Active editor: file:///home/logan/Code/test/test1/src/main.cpp
+2025-01-29 14:40:59.904 [info] Active editor: file:///home/logan/Code/test/test1/src/main.cpp
+2025-01-29 14:41:02.447 [info] extension-output-ms-vscode.cmake-tools-#1-CMake/Build closed
+2025-01-29 14:41:13.353 [info] Executing :w
+2025-01-29 14:42:20.194 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts
+2025-01-29 14:43:30.264 [info] Executing :w
+2025-01-29 14:44:06.731 [info] Active editor: file:///home/logan/Code/vscode-extensions/cpp-project-generator/README.md
+2025-01-29 14:44:06.741 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts.git closed
+2025-01-29 14:44:56.920 [info] /home/logan/Code/vscode-extensions/cpp-project-generator/package.json closed
+2025-01-29 14:45:42.257 [info] Executing :w

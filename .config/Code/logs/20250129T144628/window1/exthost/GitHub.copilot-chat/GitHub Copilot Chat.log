@@ -1,0 +1,52 @@
+2025-01-29 14:46:33.294 [info] Using the Electron fetcher.
+2025-01-29 14:46:33.294 [info] Initializing Git extension service.
+2025-01-29 14:46:33.294 [info] Successfully activated the vscode.git extension.
+2025-01-29 14:46:33.294 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 14:46:33.294 [info] Successfully registered Git commit message provider.
+2025-01-29 14:46:34.433 [info] Logged in as Scullywagon
+2025-01-29 14:46:34.863 [info] Got Copilot token for Scullywagon
+2025-01-29 14:46:34.911 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 14:46:34.911 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 14:46:34.924 [info] Registering default platform agent...
+2025-01-29 14:46:35.169 [info] Fetched model metadata in 295ms f6ffe124-2a99-496d-9293-0d4b8d7f9b1c
+2025-01-29 14:46:35.236 [info] activationBlocker from 'languageModelAccess' took for 929ms
+2025-01-29 14:57:33.700 [info] Fetched model metadata in 640ms d1949191-164d-4117-9f2a-159c7e460e7b
+2025-01-29 14:58:15.723 [info] Using the Electron fetcher.
+2025-01-29 14:58:15.723 [info] Initializing Git extension service.
+2025-01-29 14:58:15.723 [info] Successfully activated the vscode.git extension.
+2025-01-29 14:58:15.723 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 14:58:15.723 [info] Successfully registered Git commit message provider.
+2025-01-29 14:58:16.794 [info] Logged in as Scullywagon
+2025-01-29 14:58:17.343 [info] Got Copilot token for Scullywagon
+2025-01-29 14:58:17.432 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 14:58:17.432 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 14:58:17.445 [info] Registering default platform agent...
+2025-01-29 14:58:17.501 [info] Fetched model metadata in 153ms 75fc4c27-7757-4202-bfdd-d9ae33e4c074
+2025-01-29 14:58:17.582 [info] activationBlocker from 'languageModelAccess' took for 832ms
+2025-01-29 15:13:18.238 [info] Fetched model metadata in 369ms 85262e05-b62c-470b-aa71-0772f35a2afa
+2025-01-29 15:20:07.695 [info] Using the Electron fetcher.
+2025-01-29 15:20:07.696 [info] Initializing Git extension service.
+2025-01-29 15:20:07.696 [info] Successfully activated the vscode.git extension.
+2025-01-29 15:20:07.696 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 15:20:07.696 [info] Successfully registered Git commit message provider.
+2025-01-29 15:20:09.109 [info] Logged in as Scullywagon
+2025-01-29 15:20:09.729 [info] Got Copilot token for Scullywagon
+2025-01-29 15:20:10.048 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 15:20:10.048 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 15:20:10.061 [info] Registering default platform agent...
+2025-01-29 15:20:10.072 [info] Fetched model metadata in 338ms fd78a0bf-c72e-4f14-8e38-2b6211621376
+2025-01-29 15:20:10.077 [info] activationBlocker from 'languageModelAccess' took for 2290ms
+2025-01-29 15:21:20.072 [info] request done: requestId: [64d5d60a-6dcd-49b0-8c5a-9c3bd11537be] model deployment ID: []
+2025-01-29 15:21:20.076 [info] [inline fix] Problems generating edits: Patch is a no-op [patch no op], invalid patches: 1
+2025-01-29 15:21:20.080 [error] Error: Response stream has been closed
+    at t._push (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:458:701)
+    at t.push (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:458:1067)
+    at t._push (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:458:647)
+    at t.push (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:458:1067)
+    at t._push (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:458:647)
+    at t.push (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:458:1067)
+    at /home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:1072:13463
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-29 15:25:23.472 [info] message 0 returned. finish reason: [stop]
+2025-01-29 15:25:23.472 [info] request done: requestId: [b517a959-be2a-414e-8f3a-9a72ae1289b7] model deployment ID: []
+2025-01-29 15:30:28.595 [info] Fetched model metadata in 404ms 317e1296-0187-4db6-a8ce-63ca1cda6c43

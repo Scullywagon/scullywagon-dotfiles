@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MyExecutable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/output/MyExecutable",  // Path to your executable
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",  // Use gdb for debugging
+            "miDebuggerPath": "/usr/bin/gdb",  // Path to gdb
+            //"preLaunchTask": "CMake: build",  // Optional, will build the project before debugging
+            "logging": {
+                "moduleLoad": false,
+                "trace": true
+            }
+        },
+        {
+            "name": "Run MyExecutable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/output/MyExecutable",  // Path to your executable
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,  // Use external console for running (optional)
+            "MIMode": "gdb",  // Still using gdb here for consistent setup
+            "miDebuggerPath": "/usr/bin/gdb",  // Path to gdb, even if it's not used in non-debug
+            //"preLaunchTask": "CMake: build"  // Optional, will build the project before running
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+# Set the minimum required CMake version
+cmake_minimum_required(VERSION 3.16)
+
+# Set the project name
+project(MyProject)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(GLEW REQUIRED)
+find_package(GLFW REQUIRED)
+find_package(OpenGL REQUIRED)
+
+# Set output directories for executables and libraries
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
+
+# Include directories (e.g., your header files)
+include_directories(${CMAKE_SOURCE_DIR}/includes)
+
+# Find all source files in the src/ directory
+file(GLOB_RECURSE SOURCES ${CMAKE_SOURCE_DIR}/src/*.cpp)
+
+# Add the executable target (replace "MyExecutable" with your actual executable name)
+add_executable(execute ${SOURCES})
+
+# Optionally, you can add tests, libraries, or other CMake commands here

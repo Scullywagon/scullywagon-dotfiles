@@ -1,0 +1,51 @@
+import java.util.ArrayList;
+
+public class Main 
+{
+    /*
+    Topics:
+    - Functors
+    - Lambdas
+    - Nested Classes
+    - Enum Types 
+    */    
+
+    public static void main(String[] args)
+    {
+        SelectStudentAgeInterface();
+    }
+
+    // Exercise 1 -- links to SelectStudent and and Select
+    // Example of functors in java
+    public static void SelectStudentAgeInterface()
+    {
+        ArrayList<Student> students = new ArrayList<>();
+
+        students.add(new Student("Mark", 20));
+        students.add(new Student("Anna", 22));
+        students.add(new Student("John", 19));
+        students.add(new Student("Emma", 21));
+        students.add(new Student("Lucas", 23));
+
+        SelectStudentAge selector = new SelectStudentAge(21);
+        for (Student s : students)
+        {
+            System.out.println(selector.Select(s));
+        }
+    }
+
+
+    // Exercise 2 -- Lambda function for the same method as ex1
+    public static void SelectStudentAgeLambda()
+    {
+        ArrayList<Student> students = new ArrayList<>();
+
+        students.add(new Student("Mark", 20));
+        students.add(new Student("Anna", 22));
+        students.add(new Student("John", 19));
+        students.add(new Student("Emma", 21));
+        students.add(new Student("Lucas", 23));
+
+
+    }
+}

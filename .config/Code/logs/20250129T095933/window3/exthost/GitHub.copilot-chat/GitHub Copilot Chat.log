@@ -1,0 +1,41 @@
+2025-01-29 14:17:41.925 [info] Using the Electron fetcher.
+2025-01-29 14:17:41.925 [info] Initializing Git extension service.
+2025-01-29 14:17:41.925 [info] Successfully activated the vscode.git extension.
+2025-01-29 14:17:41.925 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 14:17:41.925 [info] Successfully registered Git commit message provider.
+2025-01-29 14:17:43.094 [info] Logged in as Scullywagon
+2025-01-29 14:17:43.515 [info] Got Copilot token for Scullywagon
+2025-01-29 14:17:43.584 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 14:17:43.584 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 14:17:43.606 [info] Registering default platform agent...
+2025-01-29 14:17:43.850 [info] Fetched model metadata in 327ms fd824da0-a57c-435e-9fea-531875e48eb9
+2025-01-29 14:17:43.920 [info] activationBlocker from 'languageModelAccess' took for 1010ms
+2025-01-29 14:32:44.589 [info] Fetched model metadata in 384ms 387724f1-2e48-446a-b9f1-c411e7fcbf5e
+2025-01-29 14:40:34.646 [info] Using the Electron fetcher.
+2025-01-29 14:40:34.646 [info] Initializing Git extension service.
+2025-01-29 14:40:34.646 [info] Successfully activated the vscode.git extension.
+2025-01-29 14:40:34.646 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 14:40:34.646 [info] Successfully registered Git commit message provider.
+2025-01-29 14:40:35.790 [info] Logged in as Scullywagon
+2025-01-29 14:40:36.331 [info] Got Copilot token for Scullywagon
+2025-01-29 14:40:36.458 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 14:40:36.458 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 14:40:36.472 [info] Registering default platform agent...
+2025-01-29 14:40:36.630 [info] Fetched model metadata in 293ms e2a3f199-7bd8-4dd6-aa7e-fde9f3863b9f
+2025-01-29 14:40:36.698 [info] activationBlocker from 'languageModelAccess' took for 1037ms
+2025-01-29 14:41:53.704 [info] Using the Electron fetcher.
+2025-01-29 14:41:53.704 [info] Initializing Git extension service.
+2025-01-29 14:41:53.704 [info] Successfully activated the vscode.git extension.
+2025-01-29 14:41:53.704 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 14:41:53.704 [info] Successfully registered Git commit message provider.
+2025-01-29 14:41:54.811 [info] Logged in as Scullywagon
+2025-01-29 14:41:55.439 [info] Got Copilot token for Scullywagon
+2025-01-29 14:41:55.498 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 14:41:55.498 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 14:41:55.515 [info] Registering default platform agent...
+2025-01-29 14:41:55.581 [info] Fetched model metadata in 132ms cf1e5cc9-b2de-4d92-a9b2-c7b16cc65041
+2025-01-29 14:41:55.583 [info] activationBlocker from 'languageModelAccess' took for 1827ms
+2025-01-29 14:45:20.061 [info] message 0 returned. finish reason: [stop]
+2025-01-29 14:45:20.062 [info] request done: requestId: [e16ee475-9544-4263-8457-51766c22df01] model deployment ID: []
+2025-01-29 14:45:23.880 [info] message 0 returned. finish reason: [stop]
+2025-01-29 14:45:23.881 [info] request done: requestId: [1be7b819-2d7e-4eae-b2fd-b0c44d560b81] model deployment ID: []

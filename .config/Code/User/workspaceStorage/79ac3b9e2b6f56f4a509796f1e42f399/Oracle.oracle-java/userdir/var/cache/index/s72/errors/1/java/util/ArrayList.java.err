@@ -1,0 +1,112 @@
+ERROR:1:package exists in another module\d java.base
+ERROR:11:cannot find symbol\n  symbol\d class AbstractList
+ERROR:11:cannot find symbol\n  symbol\d class List
+ERROR:11:cannot find symbol\n  symbol\d class RandomAccess
+ERROR:1310:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList<E>
+ERROR:2024:cannot find symbol\n  symbol\d   class List\n  location\d class java.util.ArrayList<E>
+ERROR:2326:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList<E>
+ERROR:2379:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList<E>
+ERROR:2575:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList<E>
+ERROR:2589:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList<E>
+ERROR:2603:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList<E>
+ERROR:2808:cannot find symbol\n  symbol\d   class ListIterator\n  location\d class java.util.ArrayList<E>
+ERROR:2823:cannot find symbol\n  symbol\d   class ListIterator\n  location\d class java.util.ArrayList<E>
+ERROR:2835:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.ArrayList<E>
+ERROR:2846:cannot find symbol\n  symbol\d   class List\n  location\d class java.util.ArrayList<E>
+ERROR:2907:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.ArrayList<E>
+ERROR:3162:cannot find symbol\n  symbol\d   class Comparator\n  location\d class java.util.ArrayList<E>
+ERROR:165:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.ArrayList<E>
+ERROR:13:cannot find symbol\n  symbol\d   class ListIterator\n  location\d class java.util.ArrayList<E>
+ERROR:354:cannot find symbol\n  symbol\d   class AbstractList\n  location\d class java.util.ArrayList<E>
+ERROR:354:cannot find symbol\n  symbol\d   class RandomAccess\n  location\d class java.util.ArrayList<E>
+ERROR:557:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:569:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:619:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:630:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:641:cannot find symbol\n  symbol\d   class Collection\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:907:cannot find symbol\n  symbol\d   class Iterator\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:916:cannot find symbol\n  symbol\d   class ListIterator\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:933:cannot find symbol\n  symbol\d   class List\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:1033:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.ArrayList.SubList<E>
+ERROR:1047:cannot find symbol\n  symbol\d   class Spliterator\n  location\d class java.util.ArrayList<E>
+ERROR:30:missing return statement
+ERROR:39:missing return statement
+ERROR:50:missing return statement
+ERROR:91:missing return statement
+ERROR:189:missing return statement
+ERROR:233:missing return statement
+ERROR:449:missing return statement
+ERROR:470:missing return statement
+ERROR:481:missing return statement
+ERROR:530:missing return statement
+ERROR:567:missing return statement
+ERROR:599:missing return statement
+ERROR:628:missing return statement
+ERROR:639:missing return statement
+ERROR:675:missing return statement
+ERROR:710:missing return statement
+ERROR:730:missing return statement
+ERROR:779:missing return statement
+ERROR:812:missing return statement
+ERROR:833:missing return statement
+ERROR:862:missing return statement
+ERROR:891:missing return statement
+ERROR:905:missing return statement
+ERROR:914:missing return statement
+ERROR:931:missing return statement
+ERROR:949:missing return statement
+ERROR:989:missing return statement
+ERROR:1044:missing return statement
+ERROR:1080:missing return statement
+ERROR:1116:missing return statement
+ERROR:1165:missing return statement
+ERROR:1247:missing return statement
+ERROR:1255:missing return statement
+ERROR:1446:missing return statement
+ERROR:1459:missing return statement
+ERROR:1468:missing return statement
+ERROR:1481:missing return statement
+ERROR:1495:missing return statement
+ERROR:1508:missing return statement
+ERROR:1550:missing return statement
+ERROR:1563:missing return statement
+ERROR:1609:missing return statement
+ERROR:1640:missing return statement
+ERROR:1652:missing return statement
+ERROR:1691:missing return statement
+ERROR:1702:missing return statement
+ERROR:1712:missing return statement
+ERROR:1727:missing return statement
+ERROR:1744:missing return statement
+ERROR:1765:missing return statement
+ERROR:1787:missing return statement
+ERROR:1831:missing return statement
+ERROR:1925:missing return statement
+ERROR:1951:missing return statement
+ERROR:1981:missing return statement
+ERROR:2022:missing return statement
+ERROR:2066:missing return statement
+ERROR:2129:missing return statement
+ERROR:2164:missing return statement
+ERROR:2207:missing return statement
+ERROR:2253:missing return statement
+ERROR:2377:missing return statement
+ERROR:2447:missing return statement
+ERROR:2554:missing return statement
+ERROR:2573:missing return statement
+ERROR:2587:missing return statement
+ERROR:2601:missing return statement
+ERROR:2706:missing return statement
+ERROR:2821:missing return statement
+ERROR:2833:missing return statement
+ERROR:2844:missing return statement
+ERROR:2862:missing return statement
+ERROR:2919:missing return statement
+ERROR:2934:missing return statement
+ERROR:2974:missing return statement
+ERROR:2987:missing return statement
+ERROR:3100:missing return statement
+ERROR:1259:variable EMPTY_ELEMENTDATA might not have been initialized
+ERROR:1260:variable DEFAULTCAPACITY_EMPTY_ELEMENTDATA might not have been initialized
+ERROR:386:variable root might not have been initialized
+ERROR:417:variable root might not have been initialized

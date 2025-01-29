@@ -1,0 +1,349 @@
+2025-01-29 14:17:41.891 [info] [main] Log level: Info
+2025-01-29 14:17:41.891 [info] [main] Validating found git in: "git"
+2025-01-29 14:17:41.891 [info] [main] Using git "2.48.1" from "git"
+2025-01-29 14:17:41.891 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-29 14:17:41.891 [info] > git rev-parse --show-toplevel [309ms]
+2025-01-29 14:17:41.891 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-01-29 14:17:41.891 [info] [Model][openRepository] Opened repository: /home/logan/Code/vscode-extensions/cpp-project-generator
+2025-01-29 14:17:41.894 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-29 14:17:41.894 [info] > git config --get commit.template [22ms]
+2025-01-29 14:17:41.925 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:17:41.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:17:41.926 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:17:41.958 [info] > git rev-parse --show-toplevel [47ms]
+2025-01-29 14:17:41.960 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-29 14:17:41.964 [info] > git status -z -uall [23ms]
+2025-01-29 14:17:41.964 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-29 14:17:42.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [930ms]
+2025-01-29 14:17:42.914 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:17:42.914 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-29 14:17:42.942 [info] > git config --get commit.template [38ms]
+2025-01-29 14:17:42.959 [info] > git check-ignore -v -z --stdin [26ms]
+2025-01-29 14:17:42.977 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:17:42.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-01-29 14:17:42.982 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:17:43.016 [info] > git status -z -uall [18ms]
+2025-01-29 14:17:43.020 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-29 14:17:43.042 [info] > git config --get commit.template [1ms]
+2025-01-29 14:17:43.058 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:17:43.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:17:43.059 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:17:43.091 [info] > git status -z -uall [18ms]
+2025-01-29 14:17:43.094 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-29 14:17:50.391 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-29 14:18:06.257 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-29 14:18:17.669 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:18:17.670 [info] > git config --get commit.template [19ms]
+2025-01-29 14:18:17.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:18:17.670 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:18:17.704 [info] > git status -z -uall [17ms]
+2025-01-29 14:18:17.705 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:18:22.753 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:18:22.754 [info] > git config --get commit.template [18ms]
+2025-01-29 14:18:22.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:18:22.754 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:18:22.793 [info] > git status -z -uall [20ms]
+2025-01-29 14:18:22.794 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:18:24.829 [info] > git show --textconv :src/extension.ts [45ms]
+2025-01-29 14:18:24.830 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [25ms]
+2025-01-29 14:18:35.448 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:18:35.449 [info] > git config --get commit.template [23ms]
+2025-01-29 14:18:35.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-01-29 14:18:35.450 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:18:35.488 [info] > git status -z -uall [19ms]
+2025-01-29 14:18:35.489 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:18:40.591 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-29 14:18:41.844 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-29 14:18:42.902 [info] > git show --textconv :template/CMakeLists.txt [21ms]
+2025-01-29 14:18:42.903 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [2ms]
+2025-01-29 14:18:55.751 [info] > git show --textconv :src/extension.ts [18ms]
+2025-01-29 14:18:55.752 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [2ms]
+2025-01-29 14:18:58.826 [info] > git show --textconv :template/CMakeLists.txt [21ms]
+2025-01-29 14:18:58.826 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [1ms]
+2025-01-29 14:18:59.305 [info] > git show --textconv :src/extension.ts [28ms]
+2025-01-29 14:18:59.310 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [6ms]
+2025-01-29 14:18:59.541 [info] > git show --textconv :template/CMakeLists.txt [21ms]
+2025-01-29 14:18:59.541 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [1ms]
+2025-01-29 14:19:00.097 [info] > git show --textconv :src/extension.ts [19ms]
+2025-01-29 14:19:00.098 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [2ms]
+2025-01-29 14:19:13.811 [info] > git config --get commit.template [2ms]
+2025-01-29 14:19:13.833 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:19:13.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:19:13.834 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:19:13.883 [info] > git status -z -uall [23ms]
+2025-01-29 14:19:13.886 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-29 14:19:43.437 [info] > git show --textconv :template/CMakeLists.txt [20ms]
+2025-01-29 14:19:43.438 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [2ms]
+2025-01-29 14:19:44.546 [info] > git show --textconv :src/extension.ts [27ms]
+2025-01-29 14:19:44.547 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [2ms]
+2025-01-29 14:19:45.077 [info] > git show --textconv :template/CMakeLists.txt [24ms]
+2025-01-29 14:19:45.078 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [2ms]
+2025-01-29 14:19:45.953 [info] > git show --textconv :src/extension.ts [25ms]
+2025-01-29 14:19:45.953 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [1ms]
+2025-01-29 14:19:46.332 [info] > git show --textconv :template/CMakeLists.txt [26ms]
+2025-01-29 14:19:46.333 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [1ms]
+2025-01-29 14:19:46.971 [info] > git show --textconv :src/extension.ts [25ms]
+2025-01-29 14:19:46.971 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [1ms]
+2025-01-29 14:19:47.409 [info] > git show --textconv :template/CMakeLists.txt [23ms]
+2025-01-29 14:19:47.409 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [1ms]
+2025-01-29 14:19:48.003 [info] > git show --textconv :src/extension.ts [18ms]
+2025-01-29 14:19:48.003 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [1ms]
+2025-01-29 14:19:48.552 [info] > git show --textconv :template/CMakeLists.txt [27ms]
+2025-01-29 14:19:48.553 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [2ms]
+2025-01-29 14:19:49.096 [info] > git show --textconv :src/extension.ts [22ms]
+2025-01-29 14:19:49.096 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [1ms]
+2025-01-29 14:19:49.495 [info] > git show --textconv :template/CMakeLists.txt [29ms]
+2025-01-29 14:19:49.496 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [2ms]
+2025-01-29 14:20:03.302 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:20:03.302 [info] > git config --get commit.template [21ms]
+2025-01-29 14:20:03.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-01-29 14:20:03.303 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:20:03.338 [info] > git status -z -uall [19ms]
+2025-01-29 14:20:03.339 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:20:23.571 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:20:23.571 [info] > git config --get commit.template [23ms]
+2025-01-29 14:20:23.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:20:23.572 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:20:23.615 [info] > git status -z -uall [27ms]
+2025-01-29 14:20:23.616 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:20:39.427 [info] > git show --textconv :package.json [21ms]
+2025-01-29 14:20:39.432 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [6ms]
+2025-01-29 14:21:11.802 [info] > git config --get commit.template [2ms]
+2025-01-29 14:21:11.824 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:21:11.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:21:11.825 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:21:11.872 [info] > git status -z -uall [24ms]
+2025-01-29 14:21:11.873 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:21:26.013 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:21:26.030 [info] > git config --get commit.template [17ms]
+2025-01-29 14:21:26.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:21:26.030 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:21:26.068 [info] > git status -z -uall [19ms]
+2025-01-29 14:21:26.069 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:21:31.027 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-29 14:21:36.569 [info] > git show --textconv :src/extension.ts [26ms]
+2025-01-29 14:21:36.572 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [3ms]
+2025-01-29 14:21:53.767 [info] > git show --textconv :package.json [27ms]
+2025-01-29 14:21:53.767 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [1ms]
+2025-01-29 14:22:05.345 [info] > git show --textconv :src/extension.ts [25ms]
+2025-01-29 14:22:05.345 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [2ms]
+2025-01-29 14:22:20.048 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:22:20.048 [info] > git config --get commit.template [24ms]
+2025-01-29 14:22:20.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:22:20.049 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:22:20.096 [info] > git status -z -uall [23ms]
+2025-01-29 14:22:20.097 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:23:51.559 [info] > git config --get commit.template [1ms]
+2025-01-29 14:23:51.580 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:23:51.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:23:51.580 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:23:51.618 [info] > git status -z -uall [18ms]
+2025-01-29 14:23:51.618 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:24:02.297 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:24:02.297 [info] > git config --get commit.template [24ms]
+2025-01-29 14:24:02.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:24:02.297 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:24:02.344 [info] > git status -z -uall [24ms]
+2025-01-29 14:24:02.345 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:24:37.512 [info] > git config --get commit.template [2ms]
+2025-01-29 14:24:37.535 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:24:37.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:24:37.536 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:24:37.583 [info] > git status -z -uall [24ms]
+2025-01-29 14:24:37.583 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:26:28.058 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:26:28.059 [info] > git config --get commit.template [26ms]
+2025-01-29 14:26:28.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:26:28.059 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:26:28.106 [info] > git status -z -uall [24ms]
+2025-01-29 14:26:28.106 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:27:26.492 [info] > git config --get commit.template [3ms]
+2025-01-29 14:27:26.512 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:27:26.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:27:26.513 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:27:26.552 [info] > git status -z -uall [19ms]
+2025-01-29 14:27:26.553 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:28:44.318 [info] > git config --get commit.template [1ms]
+2025-01-29 14:28:44.341 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:28:44.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:28:44.342 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:28:44.391 [info] > git status -z -uall [24ms]
+2025-01-29 14:28:44.391 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:29:19.986 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-29 14:29:23.420 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:29:23.444 [info] > git config --get commit.template [25ms]
+2025-01-29 14:29:23.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:29:23.445 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:29:23.489 [info] > git status -z -uall [19ms]
+2025-01-29 14:29:23.490 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:29:52.762 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:29:52.763 [info] > git config --get commit.template [26ms]
+2025-01-29 14:29:52.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-01-29 14:29:52.763 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:29:52.812 [info] > git status -z -uall [21ms]
+2025-01-29 14:29:52.812 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:30:04.086 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-29 14:30:04.104 [info] > git config --get commit.template [19ms]
+2025-01-29 14:30:04.105 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-01-29 14:30:04.105 [warning] [Git][getBranch] No such branch: master
+2025-01-29 14:30:04.154 [info] > git status -z -uall [25ms]
+2025-01-29 14:30:04.154 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:30:07.800 [info] > git show --textconv :package.json [26ms]
+2025-01-29 14:30:07.801 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [1ms]
+2025-01-29 14:31:58.077 [info] > git config --get commit.template [22ms]
+2025-01-29 14:31:58.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2025-01-29 14:31:58.103 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [1ms]
+2025-01-29 14:31:58.168 [info] > git status -z -uall [23ms]
+2025-01-29 14:31:58.168 [info] > git cat-file -s 6d90ecfe34b67fc4b8ce07390f256281a271117d [44ms]
+2025-01-29 14:31:58.169 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:31:58.217 [info] > git merge-base refs/heads/master refs/remotes/origin/master [24ms]
+2025-01-29 14:31:58.238 [info] > git show --textconv :package.json [22ms]
+2025-01-29 14:31:58.239 [info] > git diff --name-status -z --diff-filter=ADMR 387d92602a7e27146c88752e3be7da96b5917614...refs/remotes/origin/master [2ms]
+2025-01-29 14:32:05.578 [info] > git config --get commit.template [23ms]
+2025-01-29 14:32:05.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-01-29 14:32:05.624 [info] > git status -z -uall [20ms]
+2025-01-29 14:32:05.625 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:32:27.273 [info] > git config --get commit.template [26ms]
+2025-01-29 14:32:27.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-01-29 14:32:27.322 [info] > git status -z -uall [24ms]
+2025-01-29 14:32:27.323 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:35:26.105 [info] > git config --get commit.template [22ms]
+2025-01-29 14:35:26.105 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:35:26.153 [info] > git status -z -uall [22ms]
+2025-01-29 14:35:26.153 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:35:44.675 [info] > git show --textconv :README.md [72ms]
+2025-01-29 14:35:44.682 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/README.md [8ms]
+2025-01-29 14:35:44.782 [info] > git cat-file -s bfdd3ada038f0774ce624a910ee7409c4bed81f8 [76ms]
+2025-01-29 14:35:46.817 [info] > git blame --root --incremental 387d92602a7e27146c88752e3be7da96b5917614 -- /home/logan/Code/vscode-extensions/cpp-project-generator/README.md [1ms]
+2025-01-29 14:35:55.288 [info] > git config --get commit.template [2ms]
+2025-01-29 14:35:55.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:35:55.362 [info] > git status -z -uall [24ms]
+2025-01-29 14:35:55.363 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:35:57.676 [info] > git show --textconv :package.json [19ms]
+2025-01-29 14:35:57.676 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [1ms]
+2025-01-29 14:35:57.701 [info] > git cat-file -s 6d90ecfe34b67fc4b8ce07390f256281a271117d [4ms]
+2025-01-29 14:35:57.739 [info] > git blame --root --incremental 387d92602a7e27146c88752e3be7da96b5917614 -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [2ms]
+2025-01-29 14:36:05.729 [info] > git config --get commit.template [20ms]
+2025-01-29 14:36:05.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:36:05.768 [info] > git status -z -uall [21ms]
+2025-01-29 14:36:05.769 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:36:13.628 [info] > git config --get commit.template [2ms]
+2025-01-29 14:36:13.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:36:13.690 [info] > git status -z -uall [21ms]
+2025-01-29 14:36:13.691 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:39:25.624 [info] > git config --get commit.template [19ms]
+2025-01-29 14:39:25.642 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [19ms]
+2025-01-29 14:39:25.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-01-29 14:39:25.699 [info] > git status -z -uall [18ms]
+2025-01-29 14:39:25.699 [info] > git cat-file -s 6d90ecfe34b67fc4b8ce07390f256281a271117d [37ms]
+2025-01-29 14:39:25.699 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:39:25.738 [info] > git blame --root --incremental 1fbd3b897df1d57733bf1a5214ff1acd6e3f24a7 -- /home/logan/Code/vscode-extensions/cpp-project-generator/package.json [19ms]
+2025-01-29 14:39:25.758 [info] > git merge-base refs/heads/master refs/remotes/origin/master [21ms]
+2025-01-29 14:39:25.776 [info] > git show --textconv :package.json [19ms]
+2025-01-29 14:39:25.777 [info] > git diff --name-status -z --diff-filter=ADMR 1fbd3b897df1d57733bf1a5214ff1acd6e3f24a7...refs/remotes/origin/master [2ms]
+2025-01-29 14:39:30.788 [info] > git config --get commit.template [25ms]
+2025-01-29 14:39:30.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:39:30.837 [info] > git status -z -uall [25ms]
+2025-01-29 14:39:30.837 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:40:07.486 [info] > git show --textconv :src/extension.ts [22ms]
+2025-01-29 14:40:07.487 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [2ms]
+2025-01-29 14:40:07.509 [info] > git cat-file -s 6d706ee555ee87e27fb64ef15608b0fe154c5a8e [4ms]
+2025-01-29 14:40:07.539 [info] > git blame --root --incremental 1fbd3b897df1d57733bf1a5214ff1acd6e3f24a7 -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [1ms]
+2025-01-29 14:40:08.297 [info] > git show --textconv :template/CMakeLists.txt [21ms]
+2025-01-29 14:40:08.297 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/template/CMakeLists.txt [2ms]
+2025-01-29 14:40:08.324 [info] > git cat-file -s e9168a1a5af0859c307a9ade67a665d815e597ea [1ms]
+2025-01-29 14:40:33.068 [info] [main] Log level: Info
+2025-01-29 14:40:33.068 [info] [main] Validating found git in: "git"
+2025-01-29 14:40:33.068 [info] [main] Using git "2.48.1" from "git"
+2025-01-29 14:40:33.068 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-29 14:40:33.068 [info] > git rev-parse --show-toplevel [51ms]
+2025-01-29 14:40:33.068 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:40:33.069 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-29 14:40:33.069 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:40:33.123 [info] > git rev-parse --show-toplevel [7ms]
+2025-01-29 14:40:33.123 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:40:33.126 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-29 14:40:34.639 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-29 14:40:34.639 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:40:42.210 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-29 14:40:42.210 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:40:59.928 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-29 14:40:59.928 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:41:02.448 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-29 14:41:02.448 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-01-29 14:41:51.841 [info] [main] Log level: Info
+2025-01-29 14:41:51.841 [info] [main] Validating found git in: "git"
+2025-01-29 14:41:51.841 [info] [main] Using git "2.48.1" from "git"
+2025-01-29 14:41:51.841 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-29 14:41:51.841 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-29 14:41:51.852 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-01-29 14:41:51.859 [info] [Model][openRepository] Opened repository: /home/logan/Code/vscode-extensions/cpp-project-generator
+2025-01-29 14:41:51.901 [info] > git rev-parse --show-toplevel [31ms]
+2025-01-29 14:41:51.902 [info] > git config --get commit.template [37ms]
+2025-01-29 14:41:51.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-01-29 14:41:51.947 [info] > git rev-parse --show-toplevel [27ms]
+2025-01-29 14:41:52.004 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-29 14:41:52.023 [info] > git status -z -uall [12ms]
+2025-01-29 14:41:52.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-29 14:41:52.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-01-29 14:41:52.048 [info] > git rev-parse --show-toplevel [26ms]
+2025-01-29 14:41:52.050 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-29 14:41:52.052 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2025-01-29 14:41:52.052 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 14:41:52.057 [info] > git config --get commit.template [16ms]
+2025-01-29 14:41:52.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-01-29 14:41:52.071 [info] > git reflog master --grep-reflog=branch: Created from *. [14ms]
+2025-01-29 14:41:52.095 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [19ms]
+2025-01-29 14:41:52.122 [info] > git status -z -uall [11ms]
+2025-01-29 14:41:52.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [20ms]
+2025-01-29 14:41:52.132 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-01-29 14:41:52.186 [info] > git config --local branch.master.vscode-merge-base origin/master [58ms]
+2025-01-29 14:41:52.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [53ms]
+2025-01-29 14:41:52.201 [info] > git config --get commit.template [7ms]
+2025-01-29 14:41:52.210 [info] > git config --local branch.master.vscode-merge-base [10ms]
+2025-01-29 14:41:52.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-01-29 14:41:52.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2025-01-29 14:41:52.237 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2025-01-29 14:41:52.256 [info] > git status -z -uall [6ms]
+2025-01-29 14:41:52.256 [info] > git diff --name-status -z --diff-filter=ADMR 1fbd3b897df1d57733bf1a5214ff1acd6e3f24a7...refs/remotes/origin/master [13ms]
+2025-01-29 14:41:52.257 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:41:53.670 [info] > git config --get commit.template [5ms]
+2025-01-29 14:41:53.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-01-29 14:41:53.759 [info] > git status -z -uall [23ms]
+2025-01-29 14:41:54.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [947ms]
+2025-01-29 14:41:54.742 [info] > git check-ignore -v -z --stdin [969ms]
+2025-01-29 14:41:54.757 [info] > git config --get commit.template [18ms]
+2025-01-29 14:41:54.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-01-29 14:41:54.805 [info] > git status -z -uall [15ms]
+2025-01-29 14:41:54.805 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:42:20.780 [info] > git show --textconv :src/extension.ts [57ms]
+2025-01-29 14:42:20.782 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [37ms]
+2025-01-29 14:42:20.808 [info] > git cat-file -s 6d706ee555ee87e27fb64ef15608b0fe154c5a8e [3ms]
+2025-01-29 14:42:20.847 [info] > git blame --root --incremental 1fbd3b897df1d57733bf1a5214ff1acd6e3f24a7 -- /home/logan/Code/vscode-extensions/cpp-project-generator/src/extension.ts [5ms]
+2025-01-29 14:44:06.980 [info] > git show --textconv :README.md [25ms]
+2025-01-29 14:44:06.981 [info] > git ls-files --stage -- /home/logan/Code/vscode-extensions/cpp-project-generator/README.md [2ms]
+2025-01-29 14:44:07.003 [info] > git cat-file -s 5fa193ab6fdcf3ec044d0aeda77810d8e7e58c7e [1ms]
+2025-01-29 14:44:07.054 [info] > git blame --root --incremental 1fbd3b897df1d57733bf1a5214ff1acd6e3f24a7 -- /home/logan/Code/vscode-extensions/cpp-project-generator/README.md [26ms]
+2025-01-29 14:45:43.395 [info] > git config --get commit.template [25ms]
+2025-01-29 14:45:43.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-01-29 14:45:43.445 [info] > git status -z -uall [25ms]
+2025-01-29 14:45:43.446 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 14:45:54.249 [info] > git config --get commit.template [3ms]
+2025-01-29 14:45:54.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:45:54.323 [info] > git status -z -uall [25ms]
+2025-01-29 14:45:54.324 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:46:07.358 [info] > git config --get commit.template [1ms]
+2025-01-29 14:46:07.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:46:07.430 [info] > git status -z -uall [24ms]
+2025-01-29 14:46:07.431 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 14:46:12.485 [info] > git config --get commit.template [27ms]
+2025-01-29 14:46:12.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-29 14:46:12.535 [info] > git status -z -uall [25ms]
+2025-01-29 14:46:12.536 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]

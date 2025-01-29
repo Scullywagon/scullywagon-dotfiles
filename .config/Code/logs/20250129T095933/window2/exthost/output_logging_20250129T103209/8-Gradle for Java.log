@@ -1,0 +1,5 @@
+[info] [gradle-server] Gradle Server started, listening on 40529
+[info] Gradle client connected to server
+[info] [gradle-server] Build Server connection closed
+[info] [gradle-server] Shutting down gRPC server since JVM is shutting down
+[info] [gradle-server] Server shut down

@@ -1,0 +1,5414 @@
+!SESSION 2025-01-21 16:40:40.447 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-69e3378522c5f04674f12005f0b0e9a6.sock
+Command-line arguments:  -data /home/logan/.config/Code/User/workspaceStorage/14ce634fa87266fc9b834985ed08a8e7/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-69e3378522c5f04674f12005f0b0e9a6.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:42.609
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:43.000
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:43.069
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:43.072
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:43.073
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:43.976
+!MESSAGE ProjectRegistryRefreshJob finished 901ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:43.996
+!MESSAGE Started org.eclipse.buildship.core 20ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.083
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1737477644058)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.092
+!MESSAGE Setting /usr/lib/jvm/java-23-openjdk as 'JavaSE-23' environment (id:1737477644086)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.094
+!MESSAGE Setting java.home /usr/lib/jvm/java-21-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.098
+!MESSAGE Default VM Install changed from  1737477644040-/home/logan/.vscode/extensions/redhat.java-1.38.0-linux-x64/jre/17.0.13-linux-x86_64 to 1737477644058-/usr/lib/jvm/java-21-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.109
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.130
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.131
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.131
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.132
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.132
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.132
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.132
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.132
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.133
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.133
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.133
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.133
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.133
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.135
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.162
+!MESSAGE RepositoryRegistryUpdateJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.168
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.220
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.288
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.710
+!MESSAGE Try to create an invisible project for the workspace /home/logan/University/Programming-2/Week-10
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.710
+!MESSAGE Creating the Java project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.719
+!MESSAGE Finished creating the Java project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.729
+!MESSAGE Successfully created a workspace invisible project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.750
+!MESSAGE Workspace initialized in 592ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:44.782
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:45.442
+!MESSAGE >> Updating classpath for project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:45.471
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:45.472
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:45.476
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:45.545
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY java-debug 1 0 2025-01-21 16:40:45.673
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:46.177
+!MESSAGE begin problem for /Christmasgift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:46.179
+!MESSAGE 0 problems reported for /Christmasgift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:46.180
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:49.541
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:49.543
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:49.829
+!MESSAGE Clearing problems for /Christmasgift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:49.958
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:49.958
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:49.959
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:55.626
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:55.630
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:55.946
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:56.355
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:56.355
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:56.356
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:57.906
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:58.363
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:58.363
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:40:58.364
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:00.169
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:00.575
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:00.575
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:00.576
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:03.918
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:04.379
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:04.379
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:04.379
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:10.509
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:10.564
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:10.630
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:11.039
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:11.039
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:11.039
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:11.841
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:12.299
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:12.299
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 16:41:12.300
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:07:23.747
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:07:23.749
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:07:23.757
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:07:23.763
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-01-21 17:13:50.331 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-d9e7a053c1f634b795a5bdcfdd4e819d.sock
+Command-line arguments:  -data /home/logan/.config/Code/User/workspaceStorage/14ce634fa87266fc9b834985ed08a8e7/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-d9e7a053c1f634b795a5bdcfdd4e819d.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:52.079
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:52.248
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:52.270
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:52.272
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:52.272
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.301
+!MESSAGE ProjectRegistryRefreshJob finished 1029ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.321
+!MESSAGE Started org.eclipse.buildship.core 19ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.358
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.358
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.359
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.359
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.359
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.359
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.359
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.360
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.360
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.360
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.360
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.360
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.360
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.361
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.384
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.385
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.750
+!MESSAGE Workspace initialized in 365ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.761
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.949
+!MESSAGE >> Updating classpath for project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.978
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.978
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:53.980
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:54.306
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY java-debug 1 0 2025-01-21 17:13:54.908
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:54.934
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:54.936
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:13:54.938
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:26.617
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:26.875
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:27.338
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:27.339
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:27.339
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.371
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.456
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.563
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.731
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.800
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.904
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:30.982
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.028
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.078
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.427
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.470
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.595
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.674
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.713
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:31.811
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:32.275
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:32.275
+!MESSAGE 1 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:32.276
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:33.516
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:33.826
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:33.828
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:34.049
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:34.138
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:34.193
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:34.653
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:34.653
+!MESSAGE 1 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:34.653
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.180
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.218
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.383
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.419
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.780
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.820
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:35.993
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.140
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.554
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.592
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.712
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.750
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.807
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:36.993
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.031
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.098
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.297
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.309
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.501
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.653
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:37.695
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.101
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.101
+!MESSAGE 1 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.101
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.148
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.251
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.289
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.745
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.745
+!MESSAGE 1 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:38.746
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:39.097
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:39.552
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:39.552
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:39.553
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:40.576
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:40.936
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:41.342
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:41.343
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:41.343
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:43.938
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.107
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.340
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.715
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.718
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.719
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.831
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:44.896
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.025
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.079
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.151
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.195
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.301
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.358
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.393
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.509
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.518
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.680
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.720
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:45.764
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.082
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.258
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.393
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.425
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.468
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.524
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:46.814
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:47.272
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:47.272
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:47.272
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:48.243
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:48.632
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:48.633
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:48.942
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:48.943
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:49.399
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:49.399
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:49.399
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:50.613
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:51.070
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:51.070
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:14:51.070
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.702
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.795
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.816
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.852
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.887
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.917
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.950
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:11.970
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.052
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.085
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.122
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.154
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.189
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.231
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.264
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.298
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.333
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.371
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.409
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.443
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.473
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.508
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.551
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.584
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.625
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.741
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.825
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.873
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.892
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.931
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:12.968
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.033
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.123
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.157
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.203
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.265
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.292
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.326
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.374
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.406
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.439
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.474
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.493
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.565
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.653
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.690
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.733
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.826
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.865
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.885
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.911
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:13.992
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:14.452
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:14.453
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:15:14.453
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:31.065
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:31.066
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:31.521
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:31.521
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:31.521
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:35.631
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:35.643
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:36.094
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:36.581
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:36.598
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:36.699
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:36.912
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:37.103
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:37.323
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:37.504
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:37.653
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:37.961
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:37.962
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:38.255
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:38.547
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:38.954
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:38.954
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:38.954
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.009
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.043
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.176
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.471
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.665
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.803
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:39.894
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:40.264
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:40.296
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:40.485
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:40.648
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:40.770
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:40.914
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.054
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.174
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.202
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.256
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.475
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.560
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.691
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.841
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.923
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:41.975
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:42.308
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:42.309
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:42.463
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:42.751
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:42.916
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:43.375
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:43.375
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:43.375
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:43.614
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:43.777
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:43.880
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:44.012
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:44.274
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:44.731
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:44.731
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:44.732
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:46.530
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:46.985
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:46.985
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:46.986
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:49.956
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:50.413
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:50.413
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:50.413
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:53.847
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:54.257
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:54.257
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:18:54.257
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.141
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.205
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.274
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.341
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.403
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.472
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.536
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.603
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.666
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.737
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:13.786
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:14.199
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:14.199
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:14.199
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:19.484
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:19.942
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:19.942
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:19.942
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:25.453
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:25.913
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:25.913
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:25.913
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:26.147
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:26.608
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:26.608
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:19:26.609
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:03.702
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:03.703
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:04.159
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:04.160
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:04.160
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:06.133
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:06.589
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:06.590
+!MESSAGE 3 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:06.590
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:06.877
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:07.280
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:07.280
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:07.281
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:08.149
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:08.606
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:08.606
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:08.606
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:09.347
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:09.748
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:09.835
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:09.875
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:10.210
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:10.521
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:10.616
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:10.668
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.123
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.123
+!MESSAGE 3 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.124
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.208
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.668
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.709
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:11.839
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.042
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.204
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.358
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.434
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.558
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.612
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.736
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.777
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.877
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:12.975
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.191
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.328
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.383
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.436
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.889
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.889
+!MESSAGE 2 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:13.889
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:14.344
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:14.803
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:14.803
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:14.803
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:15.993
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:16.449
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:16.449
+!MESSAGE 2 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:16.450
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:37.952
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:37.956
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.297
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.335
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.653
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.660
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.810
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.940
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:38.983
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.066
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.075
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.220
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.316
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.357
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.490
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.531
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.634
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.862
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:39.872
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.135
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.189
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.535
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.535
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.796
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.838
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:40.839
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.044
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.085
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.133
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.303
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.347
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.804
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.805
+!MESSAGE 1 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:41.805
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:42.244
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:42.611
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:42.612
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:42.880
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:43.167
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:43.623
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:43.623
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:43.625
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:44.356
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:44.814
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:44.814
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:20:44.814
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:53.393
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:53.798
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:53.798
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:53.798
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:54.249
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:54.705
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:54.705
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:23:54.705
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:13.093
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:13.099
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:13.349
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:13.516
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:13.667
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:13.787
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:14.172
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:14.351
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:14.462
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:14.585
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.042
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.042
+!MESSAGE 3 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.042
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.243
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.698
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.698
+!MESSAGE 4 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:15.698
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:25.271
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:25.280
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:25.738
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:25.738
+!MESSAGE 4 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:25.738
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:26.037
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:26.149
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:26.302
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:26.754
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:27.170
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:27.437
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:27.493
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:27.551
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:27.591
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:27.885
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:28.039
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:28.080
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:28.289
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:28.636
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:28.636
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.042
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.042
+!MESSAGE 2 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.043
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.138
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.597
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.597
+!MESSAGE 2 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.597
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:29.785
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.243
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.243
+!MESSAGE 2 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.244
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.386
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.465
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.544
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.625
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.706
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.784
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:30.865
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.174
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.175
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.629
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.629
+!MESSAGE 3 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.630
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.789
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:31.832
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:32.050
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:32.309
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:32.510
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:32.567
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:32.714
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.023
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.077
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.289
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.418
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.473
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.726
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.742
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.827
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:33.953
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.408
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.408
+!MESSAGE 4 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.409
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.426
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.472
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.930
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.931
+!MESSAGE 4 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:34.931
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.118
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.216
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.526
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.526
+!MESSAGE 3 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.526
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.618
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.701
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:35.826
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:36.012
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:36.399
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:36.649
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:36.811
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:36.957
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:37.351
+!MESSAGE onDidCompletionItemSelect:ArrayList
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:37.362
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:37.825
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:37.826
+!MESSAGE 1 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:37.826
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:38.457
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:38.869
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:38.869
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:38.870
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:39.715
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.006
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.466
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.467
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.467
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.579
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.990
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.990
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:40.991
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:41.791
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:42.252
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:42.253
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:24:42.253
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:26:09.980
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:26:10.438
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:26:10.438
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:26:10.438
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:00.979
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:01.126
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:01.188
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:01.441
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:01.653
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:01.775
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:02.235
+!MESSAGE begin problem for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:02.236
+!MESSAGE 0 problems reported for /MyChristmasList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:35:02.236
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:36:50.983
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:36:51.438
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:36:51.439
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:36:51.439
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:25.947
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:25.952
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:26.118
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:26.572
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:26.572
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:26.572
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:27.540
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:27.995
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:27.995
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:27.995
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:29.208
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:29.665
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:29.665
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:29.665
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:32.788
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:32.814
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.086
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.205
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.550
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.550
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.957
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.958
+!MESSAGE 4 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:33.958
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:34.614
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:34.656
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:34.742
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:34.897
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:34.970
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:35.424
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:35.424
+!MESSAGE 4 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:35.425
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:35.660
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.098
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.275
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.330
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.509
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.553
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.667
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:36.774
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:37.230
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:37.230
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:37.230
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:37.627
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:37.681
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:37.916
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.108
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.162
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.564
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.579
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.679
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.815
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.920
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:38.968
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:39.426
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:39.426
+!MESSAGE 4 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:39.426
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:40.295
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:40.338
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:40.570
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:40.745
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:41.202
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:41.202
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:41.202
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:42.374
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:42.466
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:42.924
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:42.924
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:42.924
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:43.000
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:43.457
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:43.457
+!MESSAGE 5 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:43.458
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:43.682
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:44.084
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:44.485
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:44.940
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:44.940
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:44.940
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:45.627
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:46.082
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:46.082
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:37:46.082
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:21.126
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:21.580
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:21.580
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:21.580
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:23.384
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:23.796
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:23.796
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:38:23.796
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:08.303
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:08.318
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:08.558
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:08.820
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:08.958
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:09.413
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:09.413
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:09.414
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:11.787
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:11.810
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:11.982
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:12.258
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:12.367
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:12.824
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:12.825
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:12.825
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:13.573
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:14.031
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:14.031
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:40:14.032
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.064
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.101
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.399
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.453
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.453
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.743
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:20.897
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:21.304
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:21.304
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:21.304
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:21.557
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:21.618
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:21.674
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:22.139
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:22.177
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:22.306
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:22.444
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:22.563
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:22.862
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:23.321
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:23.321
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:23.321
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:24.327
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:24.770
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:24.770
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:24.770
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:28.021
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:28.475
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:28.475
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:28.476
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:31.788
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:31.828
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.024
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.061
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.468
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.468
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.469
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.615
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.656
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.866
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.906
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:32.994
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:33.034
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:33.067
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:33.120
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:33.577
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:33.577
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:33.577
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:34.318
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:34.775
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:34.776
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:34.776
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:38.155
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:38.516
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:38.556
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:38.557
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:38.696
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:38.988
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:39.443
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:39.443
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:39.443
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:40.189
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:40.442
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:40.756
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:40.759
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:41.011
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:41.467
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:41.467
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:41.468
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:41.991
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:42.447
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:42.447
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:42.447
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:46.119
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:46.576
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:46.576
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:46.576
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:49.436
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:49.852
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:49.853
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:49.853
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:50.520
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:50.976
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:50.976
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:50.976
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:51.531
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:51.988
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:51.988
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:51.988
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:52.631
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:53.087
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:53.088
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:41:53.088
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:22.095
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:22.602
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:23.059
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:23.059
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:23.060
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:23.663
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:24.118
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:24.118
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:24.118
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:39.073
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:39.466
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:39.467
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:39.922
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:39.922
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:42:39.922
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:44:03.175
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:44:03.631
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:44:03.631
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:44:03.631
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-01-21 17:44:16.302
+!MESSAGE Unable to load IDecompiler class for jarFileContentProvider
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:50.458
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:50.914
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:50.914
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:50.914
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:51.222
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:51.249
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:51.522
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:51.601
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:51.698
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:51.895
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:52.127
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:52.262
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:52.383
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:52.795
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:52.795
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:52.795
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:53.621
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:54.031
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:54.031
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:54.031
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:54.559
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:54.960
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:55.419
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:55.420
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:55.420
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:56.329
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:56.788
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:56.788
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:47:56.788
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:01.116
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:01.517
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:01.977
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:01.977
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:01.977
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:02.387
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:02.846
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:02.846
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:02.846
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:13.890
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:13.955
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:13.973
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.054
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.121
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.190
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.255
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.319
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.387
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.453
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.916
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.916
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:14.916
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:25.774
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:25.808
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:25.892
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:25.957
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:25.974
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.057
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.124
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.190
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.256
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.274
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.356
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.422
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.487
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.553
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.570
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:26.652
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:27.119
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:27.119
+!MESSAGE 4 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:27.119
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:34.266
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:34.725
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:34.725
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:34.726
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:37.219
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:37.462
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:37.859
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:37.998
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:38.038
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:38.252
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:38.599
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:38.600
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:38.775
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:38.944
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:39.109
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:39.247
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:39.624
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:39.625
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:39.790
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:40.249
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:40.249
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:40.249
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:40.638
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:40.847
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:41.255
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:41.255
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:41.255
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:41.564
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:42.021
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:42.021
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:42.021
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:43.163
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:43.623
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:43.623
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:43.623
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:43.705
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.164
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.164
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.165
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.261
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.720
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.720
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:44.720
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:50.138
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:50.597
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:50.597
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:50.597
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:54.904
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:55.363
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:55.363
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:55.364
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:56.062
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:56.523
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:56.523
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:48:56.523
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.568
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.632
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.702
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.770
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.840
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.905
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:35.975
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.009
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.136
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.204
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.268
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.404
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.495
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.511
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:36.599
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:37.061
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:37.061
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:37.061
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:57.291
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:57.801
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:58.261
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:58.261
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:51:58.261
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:00.120
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:00.579
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:00.579
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:00.579
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:50.893
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:51.350
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:51.350
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:51.350
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:54.034
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:54.035
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:54.494
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:54.494
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:52:54.495
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:31.948
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:32.405
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:32.405
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:32.405
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:32.724
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.184
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.184
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.184
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.385
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.400
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.514
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.787
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:33.993
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.100
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.230
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.321
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.376
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.560
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.648
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.794
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:34.941
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.011
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.065
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.303
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.464
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.502
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.602
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:35.639
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.100
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.100
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.101
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.560
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.599
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.822
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:36.859
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.320
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.320
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.320
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.616
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.656
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.959
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.998
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:37.998
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:38.107
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:38.149
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:38.529
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:38.989
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:38.989
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:38.990
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:41.202
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:41.213
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:41.425
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:41.540
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:41.999
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:41.999
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:42.000
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:42.099
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:42.501
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:42.551
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:42.968
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:43.002
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:43.220
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:43.678
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:43.678
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:43.678
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:43.805
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.263
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.263
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.263
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.477
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.936
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.936
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:44.936
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:45.196
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:45.515
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:45.516
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:45.974
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:45.974
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:54:45.974
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.273
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.283
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.407
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.420
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.435
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.521
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.559
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.615
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.636
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.706
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.766
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.806
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.863
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:26.944
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.026
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.099
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.116
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.215
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.280
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.452
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.473
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.539
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.609
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.793
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:27.923
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.160
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.276
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.469
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.481
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.614
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.682
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.761
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.913
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.914
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.977
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:28.979
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.055
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.125
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.203
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.227
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.341
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.362
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.549
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.708
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.734
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.807
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.873
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:29.896
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:30.001
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:30.110
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:30.128
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:30.247
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:30.430
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:30.588
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.050
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.050
+!MESSAGE 5 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.050
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.173
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.189
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.267
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.296
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.337
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.426
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.509
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.588
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.668
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.747
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.828
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.907
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:31.987
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.068
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.141
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.230
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.309
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.390
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.420
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.508
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.589
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.669
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.750
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.830
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.911
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:32.940
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:33.022
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:33.111
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:33.250
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:33.479
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:33.665
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:33.881
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.341
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.341
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.341
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.444
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.470
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.545
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.686
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.698
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.732
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.828
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.887
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:34.902
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.044
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.133
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.165
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.226
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.302
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.399
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.423
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.542
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.581
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.612
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.670
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.723
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.754
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.835
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.884
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.919
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:35.994
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.032
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.053
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.165
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.315
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.775
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.776
+!MESSAGE 9 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.776
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.916
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:36.996
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.065
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.247
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.328
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.401
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.476
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.558
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.637
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.718
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.796
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.879
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:37.957
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.038
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.119
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.202
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.274
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.349
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.439
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:38.725
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:39.185
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:39.185
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:39.185
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:50.462
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:50.481
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:50.863
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:51.325
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:51.325
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:51.325
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:51.795
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:52.077
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:52.101
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:52.538
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:52.538
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:52.538
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:53.463
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:53.921
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:53.921
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:53.921
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:55.057
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:55.518
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:55.518
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:55.519
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:55.793
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:55.833
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:56.000
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:56.120
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:56.580
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:56.581
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:56.581
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:56.651
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:57.111
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:57.111
+!MESSAGE 2 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:57:57.112
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:00.203
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:00.482
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:00.758
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:00.851
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:00.906
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:01.229
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:01.237
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:01.237
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:01.638
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:02.064
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:02.089
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:02.366
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:02.587
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:02.988
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:03.448
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:03.448
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:03.448
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:04.193
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:04.653
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:04.653
+!MESSAGE 3 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:04.653
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:04.730
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.193
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.193
+!MESSAGE 1 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.194
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.483
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.942
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.942
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 17:58:05.943
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:35.699
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:36.161
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:36.161
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:36.161
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:37.038
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:37.494
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:37.494
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:37.495
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:37.757
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:38.211
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:38.211
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 18:47:38.211
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:01:11.297
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:01:11.752
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:01:11.752
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:01:11.753
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:02:15.026
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:02:15.480
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:02:15.480
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:02:15.480
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:17.199
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:17.656
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:17.656
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:17.656
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:22.993
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:23.449
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:23.449
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:15:23.449
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:12.746
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:13.202
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:13.202
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:13.203
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:15.062
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:15.472
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:15.473
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:15.473
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:15.709
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:16.165
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:16.165
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:16.165
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:17.470
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:17.923
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:17.923
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:17.923
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:18.529
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:18.738
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:19.201
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:19.201
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:19.207
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:19.207
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:19.207
+!MESSAGE Validated 2. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:50.353
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:50.812
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:50.812
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:50.813
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:53.643
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:54.047
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:54.047
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:54.047
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:55.757
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:56.211
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:56.211
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:56.211
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:57.185
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:57.640
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:57.640
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:57.641
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:58.018
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:58.198
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:58.626
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:59.082
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:59.083
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:59.092
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:59.092
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:19:59.092
+!MESSAGE Validated 2. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:20:00.008
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:20:00.463
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:20:00.463
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:20:00.463
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:34.726
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:35.181
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:35.181
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:35.181
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:35.647
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:36.102
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:36.102
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:36.103
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:36.622
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:37.077
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:37.077
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:37.078
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:37.621
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.078
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.078
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.078
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.130
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.585
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.585
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.585
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:38.789
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:39.245
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:39.245
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:39.245
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:57.512
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:57.965
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:57.966
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-21 19:21:57.966
+!MESSAGE Validated 1. Took 4 ms
+!SESSION 2025-01-22 10:17:35.889 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-22c0d0f0455713977f12a5a7bf7828d2.sock
+Command-line arguments:  -data /home/logan/.config/Code/User/workspaceStorage/14ce634fa87266fc9b834985ed08a8e7/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-22c0d0f0455713977f12a5a7bf7828d2.sock
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-22 10:17:37.013
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:37.719
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:37.931
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:37.933
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:37.934
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:37.946
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.165
+!MESSAGE ProjectRegistryRefreshJob finished 1231ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.196
+!MESSAGE Started org.eclipse.buildship.core 30ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.298
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.298
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.298
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.298
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.299
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.299
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.299
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.299
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.299
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.299
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.300
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.300
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.300
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.300
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.310
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.320
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.588
+!MESSAGE Workspace initialized in 278ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.596
+!MESSAGE >> initialization job finished
+
+!ENTRY java-debug 1 0 2025-01-22 10:17:39.605
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.877
+!MESSAGE >> Updating classpath for project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.894
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.895
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:39.897
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:40.057
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:40.450
+!MESSAGE Reconciled 3. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:40.555
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.149
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.829
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.830
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.838
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.838
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.848
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.848
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:41.849
+!MESSAGE Validated 3. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:42.191
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:42.669
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:42.669
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:42.670
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:43.103
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:43.499
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:43.785
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:44.176
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:44.600
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.072
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.072
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.081
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.081
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.094
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.094
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:17:45.094
+!MESSAGE Validated 3. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:11.823
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:12.290
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:12.291
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:12.291
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:12.888
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:13.347
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:13.347
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:13.348
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:27.637
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.070
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.527
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.527
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.532
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.532
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.532
+!MESSAGE Validated 2. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:28.708
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.164
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.164
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.164
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.337
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.401
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.801
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.801
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:29.802
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:30.507
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:30.968
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:30.968
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:30.968
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:34.200
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:34.662
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:34.662
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:34.662
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:35.233
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:35.690
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:35.690
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:35.690
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:36.265
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:36.681
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:36.682
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:36.682
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:37.258
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:37.715
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:37.715
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:19:37.716
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:01.877
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:02.344
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:02.345
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:02.345
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:02.567
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:03.027
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:03.028
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:03.028
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:03.919
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:03.943
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:04.318
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:04.345
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:04.520
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:04.592
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:04.636
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.095
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.095
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.095
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.254
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.453
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.600
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:05.761
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:06.043
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:06.498
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:06.498
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:06.498
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:07.786
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.056
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.521
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.522
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.530
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.530
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.531
+!MESSAGE Validated 2. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:08.849
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:09.306
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:09.307
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:09.307
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:12.048
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:12.506
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:12.506
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:12.506
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:14.973
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:15.428
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:15.428
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:15.429
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:15.659
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:16.114
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:16.114
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:20:16.114
+!MESSAGE Validated 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:18.897
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:19.354
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:19.354
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:19.355
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:20.179
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:20.634
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:20.634
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:21:20.634
+!MESSAGE Validated 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:22:37.799
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:22:37.806
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:22:37.824
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:22:37.829
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-01-22 10:27:30.130 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-12d41d1875fc7bc55a4086c9b140d94d.sock
+Command-line arguments:  -data /home/logan/.config/Code/User/workspaceStorage/14ce634fa87266fc9b834985ed08a8e7/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-12d41d1875fc7bc55a4086c9b140d94d.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:31.765
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:31.952
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:31.954
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:31.954
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:31.972
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.251
+!MESSAGE ProjectRegistryRefreshJob finished 1296ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.269
+!MESSAGE Started org.eclipse.buildship.core 18ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.307
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.308
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.308
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.308
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.308
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.309
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.309
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.309
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.309
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.309
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.310
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.310
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.310
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.310
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.333
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.335
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.633
+!MESSAGE Workspace initialized in 299ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.639
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.815
+!MESSAGE >> Updating classpath for project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.838
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.839
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:33.841
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:34.102
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:34.867
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:34.869
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:34.872
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:40.552
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2025-01-22 10:27:40.849
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:40.968
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:40.968
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:27:40.969
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:36.346
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:36.348
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:36.815
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:36.815
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:36.815
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:37.229
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:37.692
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:37.692
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:37.693
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:37.927
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:38.398
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:38.398
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:38.399
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:38.616
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.027
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.027
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.028
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.051
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.470
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.472
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:39.767
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.179
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.179
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.194
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.194
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.195
+!MESSAGE Validated 2. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.234
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.694
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.694
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:40.695
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:42.466
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:42.925
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:42.925
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:42.926
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:43.387
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:43.797
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:43.798
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:29:43.798
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:30:59.498
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:30:59.962
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:30:59.962
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:30:59.963
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:42:03.961
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:42:04.376
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:42:04.376
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 10:42:04.376
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:57.634
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.097
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.097
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.097
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.288
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.751
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.751
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.751
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:58.819
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:59.278
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:59.278
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:02:59.279
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.096
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.460
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.922
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.922
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.934
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.935
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:00.935
+!MESSAGE Validated 2. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:01.103
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:01.568
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:01.569
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:01.569
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.101
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.385
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.844
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.845
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.857
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.857
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:02.858
+!MESSAGE Validated 2. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:04.273
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:04.681
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:04.681
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:04.681
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.220
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.489
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.897
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.897
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.909
+!MESSAGE begin problem for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.909
+!MESSAGE 0 problems reported for /MapToPrice.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:05.909
+!MESSAGE Validated 2. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:10.336
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:10.794
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:10.794
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:03:10.795
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:07:38.211
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:07:38.213
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:07:38.224
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:07:38.230
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-01-22 11:08:04.065 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-9c9148263c1e0af6e60c3490f02c2fcd.sock
+Command-line arguments:  -data /home/logan/.config/Code/User/workspaceStorage/14ce634fa87266fc9b834985ed08a8e7/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-9c9148263c1e0af6e60c3490f02c2fcd.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:05.666
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:05.852
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:05.855
+!MESSAGE Initializing Java Language Server 1.43.0.202412190401
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:05.856
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:05.885
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.103
+!MESSAGE ProjectRegistryRefreshJob finished 1246ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.125
+!MESSAGE Started org.eclipse.buildship.core 18ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.162
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.162
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.162
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.162
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.162
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.163
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.163
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.163
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.163
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.163
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.164
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.164
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.164
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.164
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.189
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.191
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.414
+!MESSAGE Workspace initialized in 223ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.422
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.630
+!MESSAGE >> Updating classpath for project Week-10_e126ec65
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.649
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.649
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:08:07.652
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:15:43.569
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2025-01-22 11:15:43.763
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:15:43.924
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:15:44.596
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:15:44.597
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:15:44.598
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:16:00.475
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:16:00.476
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:16:00.946
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:16:00.947
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:16:00.947
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:21:59.055
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:21:59.063
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:21:59.528
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:21:59.529
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:21:59.529
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:25:32.528
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:25:32.940
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:25:32.940
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:25:32.940
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:49:31.212
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:49:31.214
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:49:31.675
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:49:31.675
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:49:31.675
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:55:59.822
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:56:00.285
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:56:00.287
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 11:56:00.288
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:17.796
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:18.259
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:18.260
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:18.260
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:20.090
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:20.551
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:20.551
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:20.551
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:22.115
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:22.580
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:22.580
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:17:22.581
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:18:04.133
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:18:04.594
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:18:04.594
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:18:04.595
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:14.841
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:14.843
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:15.307
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:15.307
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:15.308
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:20.624
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:21.084
+!MESSAGE begin problem for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:21.084
+!MESSAGE 0 problems reported for /ChristmasGift.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:21.084
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:31.714
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:31.719
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:31.727
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-01-22 14:24:31.733
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

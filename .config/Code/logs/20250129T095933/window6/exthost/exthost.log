@@ -1,0 +1,54 @@
+2025-01-29 14:24:06.529 [info] Extension host with pid 15745 started
+2025-01-29 14:24:06.543 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-29 14:24:06.575 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-29 14:24:06.594 [info] ExtensionService#_doActivateExtension undefined_publisher.cpp-project-generator, startup: false, activationEvent: 'onCommand:cpp-project-generator.createProject'
+2025-01-29 14:24:06.596 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-01-29 14:24:06.598 [info] ExtensionService#_doActivateExtension cyberbiont.vscode-sidenotes, startup: false, activationEvent: '*'
+2025-01-29 14:24:06.641 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-01-29 14:24:06.700 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-01-29 14:24:06.765 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:06.765 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:06.778 [info] Eager extensions activated
+2025-01-29 14:24:06.798 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:06.800 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:06.816 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:06.829 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:07.277 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:07.782 [info] ExtensionService#_doActivateExtension kvoon.command-task, startup: false, activationEvent: 'onStartupFinished', root cause: kevin-kwong.vscode-autohide-keyboard
+2025-01-29 14:24:07.787 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:07.872 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:07.884 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:07.986 [warning] [formulahendry.code-runner] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'code-runner.enableAppInsights', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:07.994 [error] TypeError: Cannot read properties of undefined (reading 'forEach')
+    at o.init (/home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0/dist/extension.js:8:15765)
+    at new o (/home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0/dist/extension.js:8:15722)
+    at a.default.compose (/home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0/dist/extension.js:8:8844)
+    at a.default.init (/home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0/dist/extension.js:8:7598)
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.displayFormat', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.showDisassembly', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.dereferencePointers', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.suppressMissingSourceFiles', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.evaluationTimeout', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.consoleMode', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.script', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.terminalPromptClear', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.evaluateForHovers', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.commandCompletions', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.385 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.reproducer', provide the URI of a resource or 'null' for any resource.
+2025-01-29 14:24:08.423 [info] ExtensionService#_doActivateExtension kevin-kwong.vscode-autohide-keyboard, startup: false, activationEvent: 'onStartupFinished'
+2025-01-29 14:24:18.759 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-29 14:24:18.775 [error] An error occurred when deactivating the extension 'cyberbiont.vscode-sidenotes':
+2025-01-29 14:24:18.775 [error] TypeError: Cannot read properties of undefined (reading 'decorator')
+    at Object.e.deactivate (/home/logan/.vscode/extensions/cyberbiont.vscode-sidenotes-1.0.0/dist/extension.js:8:54293)
+    at zz.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-01-29 14:24:18.804 [info] Extension host with pid 15745 exiting with code 0

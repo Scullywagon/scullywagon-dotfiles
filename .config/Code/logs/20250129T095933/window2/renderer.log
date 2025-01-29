@@ -1,0 +1,870 @@
+2025-01-29 09:59:48.258 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:48.259 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:48.259 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 09:59:48.419 [info] Started local extension host with pid 1535.
+2025-01-29 09:59:48.681 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 09:59:48.681 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 09:59:48.681 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 09:59:48.695 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-29 09:59:48.999 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-29 09:59:51.078 [info] [perf] Render performance baseline is 23ms
+2025-01-29 10:32:09.254 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 10:32:09.254 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 10:32:09.254 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 10:32:09.413 [info] Started local extension host with pid 1674.
+2025-01-29 10:32:09.697 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 10:32:09.697 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 10:32:09.697 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 10:32:09.709 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-29 10:32:09.948 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-29 10:32:12.063 [info] [perf] Render performance baseline is 25ms
+2025-01-29 10:32:12.952 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.928Z [error] [cmake] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+2025-01-29 10:32:12.952 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake]   Compatibility with CMake < 3.10 will be removed from a future version of
+2025-01-29 10:32:12.952 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake]   CMake.
+2025-01-29 10:32:12.952 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake] 
+2025-01-29 10:32:12.952 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2025-01-29 10:32:12.952 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake]   to tell CMake that the project requires at least <min> but has been updated
+2025-01-29 10:32:12.953 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake]   to work with policies introduced by <max> or earlier.
+2025-01-29 10:32:12.953 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake] 
+2025-01-29 10:32:12.953 [error] [Extension Host] [CMakeTools] 2025-01-29T10:32:12.929Z [error] [cmake] 
+2025-01-29 10:36:23.466 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 10:36:27.639 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 10:36:52.152 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 10:42:53.789 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:00:16.290 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:00:37.419 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:00:44.373 [error] [Extension Host] [CMakeTools] 2025-01-29T11:00:44.357Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:00:44.374 [error] [Extension Host] [CMakeTools] 2025-01-29T11:00:44.359Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:00:44.375 [error] [Extension Host] [CMakeTools] 2025-01-29T11:00:44.360Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:00:44.376 [error] [Extension Host] [CMakeTools] 2025-01-29T11:00:44.361Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:00:44.376 [error] [Extension Host] [CMakeTools] 2025-01-29T11:00:44.361Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:00:53.566 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:02:06.409 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:02:15.324 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:02:16.235 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:02:50.547 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:02:51.395 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:04:50.367 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:06:42.925 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:08:10.453 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.453Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:08:10.454 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.453Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:08:10.454 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.453Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:08:10.466 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.466Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:08:10.467 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.467Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:08:10.468 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.468Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:08:10.480 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.469Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:08:10.480 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:10.469Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:08:38.069 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:08:53.904 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.904Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:08:53.904 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.904Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:08:53.904 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.904Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:08:53.983 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.976Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:08:53.989 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.976Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:08:53.989 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.976Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:08:53.993 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.993Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:08:54.011 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.994Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:08:54.012 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.994Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:08:54.013 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.995Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:08:54.013 [error] [Extension Host] [CMakeTools] 2025-01-29T11:08:53.995Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:09:02.320 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:09:12.605 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.590Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:09:12.605 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.591Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:09:12.605 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.591Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:09:12.666 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.665Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:09:12.666 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.665Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:09:12.666 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.665Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:09:12.675 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.672Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:09:12.676 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.673Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:09:12.678 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.674Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:09:12.702 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.675Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:09:12.702 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:12.675Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:09:39.212 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.211Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:09:39.212 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.211Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:09:39.212 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.211Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:09:39.249 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.248Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:09:39.251 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.248Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:09:39.252 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.248Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:09:39.293 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.257Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:09:39.294 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.257Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:09:39.295 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.258Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:09:39.296 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.258Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:09:39.296 [error] [Extension Host] [CMakeTools] 2025-01-29T11:09:39.258Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:10:14.819 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.818Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:10:14.820 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.819Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:10:14.821 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.819Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:10:14.860 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.859Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:10:14.860 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.859Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:10:14.861 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.860Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:10:14.883 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.867Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:10:14.884 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.868Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:10:14.885 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.869Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:10:14.885 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.870Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:10:14.885 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:14.870Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:10:52.330 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:52.329Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:10:52.330 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:52.329Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:10:52.331 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:52.329Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:10:59.480 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.480Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:10:59.487 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.480Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:10:59.487 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.480Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:10:59.525 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.520Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:10:59.525 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.520Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:10:59.525 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.521Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:10:59.546 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.531Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:10:59.547 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.532Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:10:59.548 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.533Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:10:59.549 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.534Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:10:59.549 [error] [Extension Host] [CMakeTools] 2025-01-29T11:10:59.534Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:11:08.080 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:08.080Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:11:08.081 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:08.080Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:11:08.081 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:08.080Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:11:12.169 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.169Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:11:12.170 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.169Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:11:12.170 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.169Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:11:12.217 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.215Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:11:12.217 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.215Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:11:12.218 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.215Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:11:12.255 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.232Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:11:12.256 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.232Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:11:12.257 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.233Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:11:12.257 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.233Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:11:12.257 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:12.234Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:11:45.982 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:45.981Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:11:45.982 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:45.981Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:11:45.982 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:45.982Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:11:49.463 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.463Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:11:49.464 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.463Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:11:49.464 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.463Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:11:49.490 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.490Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:11:49.491 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.490Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:11:49.491 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.490Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:11:49.504 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.496Z [error] [main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+2025-01-29 11:11:49.505 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.496Z [error] [main] "configurePreset" is not set in test preset: __defaultTestPreset__
+2025-01-29 11:11:49.506 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.497Z [error] [main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+2025-01-29 11:11:49.507 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.497Z [error] [preset] Could not find configure preset with name _placeholder_configure_preset_
+2025-01-29 11:11:49.507 [error] [Extension Host] [CMakeTools] 2025-01-29T11:11:49.497Z [error] [main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+2025-01-29 11:12:11.266 [error] [Extension Host] [CMakeTools] 2025-01-29T11:12:11.265Z [error] [presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+2025-01-29 11:12:11.266 [error] [Extension Host] [CMakeTools] 2025-01-29T11:12:11.265Z [error] [presetController]  >> : should NOT have additional properties: userPresets
+2025-01-29 11:12:11.266 [error] [Extension Host] [CMakeTools] 2025-01-29T11:12:11.265Z [error] [presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+2025-01-29 11:13:04.017 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:13:33.472 [error] [Extension Host] [CMakeTools] 2025-01-29T11:13:33.468Z [error] [ctest] Folder is not found in Test Explorer: /home/logan/Code/ProjectTemplates/cpp/src
+2025-01-29 11:13:54.103 [error] [Extension Host] [CMakeTools] 2025-01-29T11:13:54.100Z [error] [ctest] Folder is not found in Test Explorer: /home/logan/Code/ProjectTemplates/cpp/src
+2025-01-29 11:14:56.481 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:16:08.926 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29 11:17:10.005 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:17:16.973 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:28.080 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:28.938 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:17:29.937 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:30.292 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:33.161 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:33.771 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:34.089 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:35.701 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:36.711 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:38.195 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:38.663 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:40.012 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:40.410 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:40.744 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:41.350 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:42.154 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:43.464 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:43.766 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:17:44.305 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:02.504 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:03.653 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:03.934 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:04.673 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:06.694 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:07.864 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:08.801 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:09.457 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:09.940 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:10.194 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:18:58.882 [error] Error: The editor could not be opened because the file was not found.
+    at Eve.gc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2103:120492)
+    at async Eve.setInput (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2103:119650)
+    at async HBe.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:523:19779)
+    at async HBe.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:523:18330)
+    at async HBe.openEditor (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:523:17412)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:23606
+    at async LYe.focusStackFrame (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2161:60075)
+    at async c (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2161:36588)
+2025-01-29 11:19:05.676 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:19:07.435 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:20:07.326 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:23:02.286 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:23:51.401 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:24:07.077 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:24:17.708 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:25:15.779 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:26:50.556 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:27:05.777 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:27:13.869 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29 11:27:15.547 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29 11:28:11.829 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:28:13.066 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:28:43.299 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:28:46.548 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:29:04.452 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:29:36.406 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:29:46.198 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:30:03.197 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:30:04.047 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:30:11.488 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:30:12.414 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:30:21.974 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:30:32.685 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:30:42.859 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:31:01.423 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at vVt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:95)
+    at vVt.$acceptDAExit (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:748:35)
+    at Odt.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546)
+    at Odt.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39783)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:38444)
+    at x.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+    at x.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:967)
+    at K6.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:762:10348)
+2025-01-29 11:31:02.183 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:31:23.044 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:31:23.752 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:32:36.472 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:33:11.055 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:33:14.183 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:33:23.914 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29 11:33:53.397 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:34:12.509 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:34:18.733 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:34:19.291 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:34:20.906 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:34:51.426 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:34:55.022 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:35:01.903 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:35:02.529 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:35:04.778 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 11:35:39.399 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:14:59.059 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:14:59.681 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:00.555 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:01.356 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:01.855 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:02.463 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:02.894 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:04.041 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:15:36.683 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:21:02.002 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 12:21:20.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:21:20.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:21:20.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:21:20.415 [info] Started local extension host with pid 8664.
+2025-01-29 12:21:20.981 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-29 12:21:21.926 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:21:21.926 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:21:21.926 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:21:21.939 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-29 12:21:23.065 [info] [perf] Render performance baseline is 22ms
+2025-01-29 12:21:25.378 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-01-29 12:21:25.378 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-01-29 12:21:25.386 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-01-29 12:21:25.386 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-01-29 12:23:06.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:23:06.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:23:06.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:23:06.886 [info] Started local extension host with pid 9065.
+2025-01-29 12:23:07.119 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:23:07.119 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:23:07.120 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:23:07.130 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-29 12:23:07.360 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-29 12:23:09.539 [info] [perf] Render performance baseline is 30ms
+2025-01-29 12:23:49.584 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:26:45.290 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:26:51.470 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:26:55.679 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:29:16.413 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:29:16.413 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:29:16.413 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-29 12:29:16.598 [info] Started local extension host with pid 10091.
+2025-01-29 12:29:16.848 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:29:16.848 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:29:16.848 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 12:29:16.860 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-01-29 12:29:17.589 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-29 12:29:19.302 [info] [perf] Render performance baseline is 24ms
+2025-01-29 12:29:19.486 [error] Unable to read file '/home/logan/.config/Code/logs/20250129T095933/window2/exthost/output_logging_20250129T122916/2-CMakeBuild.log' (Error: Unable to resolve nonexistent file '/home/logan/.config/Code/logs/20250129T095933/window2/exthost/output_logging_20250129T122916/2-CMakeBuild.log'): Error: Unable to read file '/home/logan/.config/Code/logs/20250129T095933/window2/exthost/output_logging_20250129T122916/2-CMakeBuild.log' (Error: Unable to resolve nonexistent file '/home/logan/.config/Code/logs/20250129T095933/window2/exthost/output_logging_20250129T122916/2-CMakeBuild.log')
+    at _ot.F (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:64665)
+    at _ot.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:64490)
+    at async _ot.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:63857)
+    at async vye.O (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2441:10484)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2441:9703
+2025-01-29 12:30:18.685 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.685Z [error] [cmake] CMake Error at CMakeLists.txt:12 (find_package):
+2025-01-29 12:30:18.686 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.685Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:30:18.686 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.685Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:30:18.687 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.686Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:30:18.687 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.686Z [error] [cmake] 
+2025-01-29 12:30:18.687 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.686Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:30:18.688 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.686Z [error] [cmake]   the following names:
+2025-01-29 12:30:18.688 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.686Z [error] [cmake] 
+2025-01-29 12:30:18.688 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.687Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:30:18.689 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.687Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:30:18.689 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.687Z [error] [cmake] 
+2025-01-29 12:30:18.689 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.687Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:30:18.690 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.687Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:30:18.690 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.688Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:30:18.690 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.689Z [error] [cmake]   installed.
+2025-01-29 12:30:18.690 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.689Z [error] [cmake] 
+2025-01-29 12:30:18.690 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:18.689Z [error] [cmake] 
+2025-01-29 12:30:37.458 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake] CMake Error at CMakeLists.txt:12 (find_package):
+2025-01-29 12:30:37.458 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake]   By not providing "FindGLFW.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:30:37.459 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW", but
+2025-01-29 12:30:37.459 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:30:37.459 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake] 
+2025-01-29 12:30:37.459 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake]   Could not find a package configuration file provided by "GLFW" with any of
+2025-01-29 12:30:37.459 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake]   the following names:
+2025-01-29 12:30:37.459 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake] 
+2025-01-29 12:30:37.460 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.458Z [error] [cmake]     GLFWConfig.cmake
+2025-01-29 12:30:37.460 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake]     glfw-config.cmake
+2025-01-29 12:30:37.460 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake] 
+2025-01-29 12:30:37.460 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake]   Add the installation prefix of "GLFW" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:30:37.460 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake]   "GLFW_DIR" to a directory containing one of the above files.  If "GLFW"
+2025-01-29 12:30:37.461 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:30:37.461 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake]   installed.
+2025-01-29 12:30:37.461 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake] 
+2025-01-29 12:30:37.461 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:37.459Z [error] [cmake] 
+2025-01-29 12:30:51.183 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.183Z [error] [cmake] CMake Error at CMakeLists.txt:12 (find_package):
+2025-01-29 12:30:51.183 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.183Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:30:51.184 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.183Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:30:51.184 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.183Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:30:51.184 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.184Z [error] [cmake] 
+2025-01-29 12:30:51.184 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.184Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:30:51.185 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.184Z [error] [cmake]   the following names:
+2025-01-29 12:30:51.185 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.184Z [error] [cmake] 
+2025-01-29 12:30:51.185 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.184Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:30:51.185 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.185Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:30:51.186 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.185Z [error] [cmake] 
+2025-01-29 12:30:51.186 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.185Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:30:51.186 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.185Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:30:51.186 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.185Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:30:51.187 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.185Z [error] [cmake]   installed.
+2025-01-29 12:30:51.187 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.186Z [error] [cmake] 
+2025-01-29 12:30:51.187 [error] [Extension Host] [CMakeTools] 2025-01-29T12:30:51.186Z [error] [cmake] 
+2025-01-29 12:31:23.075 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29 12:31:54.084 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.084Z [error] [cmake] CMake Error at CMakeLists.txt:13 (find_package):
+2025-01-29 12:31:54.085 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.084Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:31:54.085 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.084Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:31:54.085 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.084Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:31:54.085 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.084Z [error] [cmake] 
+2025-01-29 12:31:54.086 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:31:54.087 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake]   the following names:
+2025-01-29 12:31:54.087 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake] 
+2025-01-29 12:31:54.087 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:31:54.087 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:31:54.088 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake] 
+2025-01-29 12:31:54.088 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.085Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:31:54.088 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.086Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:31:54.088 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.086Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:31:54.089 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.086Z [error] [cmake]   installed.
+2025-01-29 12:31:54.089 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.086Z [error] [cmake] 
+2025-01-29 12:31:54.089 [error] [Extension Host] [CMakeTools] 2025-01-29T12:31:54.086Z [error] [cmake] 
+2025-01-29 12:32:09.986 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.985Z [error] [cmake] CMake Error at CMakeLists.txt:13 (find_package):
+2025-01-29 12:32:09.986 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.986Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:32:09.986 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.986Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:32:09.987 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.986Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:32:09.987 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.986Z [error] [cmake] 
+2025-01-29 12:32:09.987 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.986Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:32:09.987 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake]   the following names:
+2025-01-29 12:32:09.988 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake] 
+2025-01-29 12:32:09.988 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:32:09.988 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:32:09.989 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake] 
+2025-01-29 12:32:09.989 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:32:09.989 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.987Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:32:09.990 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.988Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:32:09.990 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.988Z [error] [cmake]   installed.
+2025-01-29 12:32:09.990 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.989Z [error] [cmake] 
+2025-01-29 12:32:09.990 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:09.989Z [error] [cmake] 
+2025-01-29 12:32:19.179 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.178Z [error] [cmake] CMake Error at CMakeLists.txt:13 (find_package):
+2025-01-29 12:32:19.180 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.178Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:32:19.180 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.179Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:32:19.181 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.179Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:32:19.181 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.179Z [error] [cmake] 
+2025-01-29 12:32:19.181 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.179Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:32:19.181 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.179Z [error] [cmake]   the following names:
+2025-01-29 12:32:19.181 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.180Z [error] [cmake] 
+2025-01-29 12:32:19.181 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.180Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:32:19.182 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.180Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:32:19.182 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.180Z [error] [cmake] 
+2025-01-29 12:32:19.182 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.180Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:32:19.182 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.180Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:32:19.182 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.181Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:32:19.182 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.181Z [error] [cmake]   installed.
+2025-01-29 12:32:19.183 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.181Z [error] [cmake] 
+2025-01-29 12:32:19.183 [error] [Extension Host] [CMakeTools] 2025-01-29T12:32:19.181Z [error] [cmake] 
+2025-01-29 12:33:45.303 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.302Z [error] [cmake] CMake Error at CMakeLists.txt:14 (find_package):
+2025-01-29 12:33:45.303 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.303Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:33:45.304 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.303Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:33:45.304 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.303Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:33:45.304 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.303Z [error] [cmake] 
+2025-01-29 12:33:45.305 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.303Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:33:45.305 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.304Z [error] [cmake]   the following names:
+2025-01-29 12:33:45.305 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.304Z [error] [cmake] 
+2025-01-29 12:33:45.305 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.304Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:33:45.306 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.304Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:33:45.306 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.304Z [error] [cmake] 
+2025-01-29 12:33:45.307 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.305Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:33:45.307 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.305Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:33:45.307 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.305Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:33:45.307 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.305Z [error] [cmake]   installed.
+2025-01-29 12:33:45.308 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.306Z [error] [cmake] 
+2025-01-29 12:33:45.308 [error] [Extension Host] [CMakeTools] 2025-01-29T12:33:45.306Z [error] [cmake] 
+2025-01-29 12:37:06.254 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29 12:37:29.141 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.140Z [error] [cmake] CMake Error at CMakeLists.txt:14 (find_package):
+2025-01-29 12:37:29.141 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.140Z [error] [cmake]   By not providing "FindGLFW3.cmake" in CMAKE_MODULE_PATH this project has
+2025-01-29 12:37:29.141 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.140Z [error] [cmake]   asked CMake to find a package configuration file provided by "GLFW3", but
+2025-01-29 12:37:29.142 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.140Z [error] [cmake]   CMake did not find one.
+2025-01-29 12:37:29.142 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake] 
+2025-01-29 12:37:29.142 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]   Could not find a package configuration file provided by "GLFW3" with any of
+2025-01-29 12:37:29.142 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]   the following names:
+2025-01-29 12:37:29.143 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake] 
+2025-01-29 12:37:29.143 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]     GLFW3Config.cmake
+2025-01-29 12:37:29.143 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]     glfw3-config.cmake
+2025-01-29 12:37:29.143 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake] 
+2025-01-29 12:37:29.144 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]   Add the installation prefix of "GLFW3" to CMAKE_PREFIX_PATH or set
+2025-01-29 12:37:29.144 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]   "GLFW3_DIR" to a directory containing one of the above files.  If "GLFW3"
+2025-01-29 12:37:29.144 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.141Z [error] [cmake]   provides a separate development package or SDK, be sure it has been
+2025-01-29 12:37:29.144 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.142Z [error] [cmake]   installed.
+2025-01-29 12:37:29.145 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.142Z [error] [cmake] 
+2025-01-29 12:37:29.145 [error] [Extension Host] [CMakeTools] 2025-01-29T12:37:29.142Z [error] [cmake] 
+2025-01-29 12:44:27.893 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:44:32.311 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:44:32.773 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:44:37.638 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:44:47.771 [error] [Extension Host] [CMakeTools] 2025-01-29T12:44:47.771Z [error] [cmake] CMake Error at CMakeLists.txt:31:
+2025-01-29 12:44:47.772 [error] [Extension Host] [CMakeTools] 2025-01-29T12:44:47.771Z [error] [cmake]   Parse error.  Expected a command name, got unquoted argument with text
+2025-01-29 12:44:47.772 [error] [Extension Host] [CMakeTools] 2025-01-29T12:44:47.771Z [error] [cmake]   "//target_link_libraries".
+2025-01-29 12:44:47.772 [error] [Extension Host] [CMakeTools] 2025-01-29T12:44:47.771Z [error] [cmake] 
+2025-01-29 12:44:47.772 [error] [Extension Host] [CMakeTools] 2025-01-29T12:44:47.771Z [error] [cmake] 
+2025-01-29 12:44:49.405 [error] [Extension Host] getTestableNode: Unexpected error Error: Unexpected type, expected 'must have seen identifier for symbol kind 'function' (lang: cpp)'
+    at se (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2521)
+    at Object.Ke (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:2972)
+    at async MessagePort.<anonymous> (/home/logan/.vscode/extensions/github.copilot-chat-0.23.2/dist/worker2.js:641:12872)
+2025-01-29 12:55:26.788 [info] Settings Sync: Updated current session 6363666394658ca4
+2025-01-29 12:55:26.793 [info] Settings Sync: Token updated for the account Scullywagon
+2025-01-29 12:55:26.794 [info] Settings Sync: Account status changed from unavailable to available
+2025-01-29 13:18:41.312 [info] [madhavd1.javadoc-tools]: Command `javadoc-tools.generateCommentsForMethod` already registered by Javadoc Tools (madhavd1.javadoc-tools)
+2025-01-29 13:18:41.312 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 13:18:41.313 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 13:18:41.313 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-01-29 13:28:43.167 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-29 13:28:43.842 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-29 13:28:48.839 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-29 13:28:48.949 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-29 13:29:01.092 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-29 13:29:01.221 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-29 13:29:02.642 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-29 13:29:02.735 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-29 14:17:24.400 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-29 14:17:24.509 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-29 14:27:41.731 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-29 14:27:41.798 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-29 14:39:04.443 [info] [madhavd1.javadoc-tools]: Command `javadoc-tools.generateCommentsForMethod` already registered by Javadoc Tools (madhavd1.javadoc-tools)
+2025-01-29 14:39:04.446 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-01-29 14:39:04.447 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-01-29 14:39:04.447 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)

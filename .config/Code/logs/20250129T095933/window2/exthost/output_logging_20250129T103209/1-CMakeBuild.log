@@ -1,0 +1,526 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/logan/.local/share/CMakeTools/cmake-tools-kits.json
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Successfully validated /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json against presets schema
+[presetController] Expanding presets file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json
+[proc] Executing command: uname -s
+[presetController] Successfully expanded presets file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/logan/Code/ProjectTemplates/cpp/out/install/template -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/out/build/template -G Ninja
+[cmake] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[cmake]   Compatibility with CMake < 3.10 will be removed from a future version of
+[cmake]   CMake.
+[cmake] 
+[cmake]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[cmake]   to tell CMake that the project requires at least <min> but has been updated
+[cmake]   to work with policies introduced by <max> or earlier.
+[cmake] 
+[cmake] 
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/out/build/template
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/logan/Code/ProjectTemplates/cpp/out/install/template -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/out/build/template -G Ninja
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.4s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/out/build/template
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/out/build/template 
+[main] The folder containing the CMake cache is missing. The cache will be regenerated.
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/logan/Code/ProjectTemplates/cpp/out/install/template -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/out/build/template -G Ninja
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/out/build/template
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/out/build/template --parallel 14 --
+[build] [1/2] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.333
+[build] Build finished with exit code 0
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/logan/Code/ProjectTemplates/cpp/out/install/template -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/out/build/template -G Ninja
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/out/build/template
+[main] Restarting the CMake driver after a generator change.
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/out/build/template 
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/logan/Code/ProjectTemplates/cpp/out/install/template -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/out/build/template -G Ninja
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/out/build/template
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/out/build/template --parallel 14 --
+[build] [1/2] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.321
+[build] Build finished with exit code 0
+[driver] Using preset, skip setting kit: __unspec__
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[variant] Loaded new set of variants
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] Configuring project: cpp 
+[main] [Quick Start] CmakeLists.txt created successfully.
+[driver] Using preset, skip setting kit: __unspec__
+[main] [Quick Start] CMakePresets.json not created.
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] Configuring project: cpp 
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] [Quick Start] A CmakeLists.txt already exists, continuing...
+[driver] Using preset, skip setting kit: __unspec__
+[main] [Quick Start] CMakePresets.json not created.
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] [Quick Start] A CmakeLists.txt already exists, continuing...
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Successfully validated /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json against presets schema
+[presetController] Expanding presets file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json
+[presetController] Successfully expanded presets file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Successfully validated /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json against presets schema
+[presetController] Expanding presets file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json
+[presetController] Successfully expanded presets file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json
+[driver] Switching to configure preset: Custom configure preset
+[driver] Switching to build preset: __defaultBuildPreset__
+[driver] Switching to test preset: __defaultTestPreset__
+[driver] Switching to package preset: __defaultPackagePreset__
+[driver] Switching to workflow preset: __defaultWorkflowPreset__
+[main] [Quick Start] CMakePresets.json created successfully.
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_INSTALL_PREFIX=/home/logan/Code/ProjectTemplates/cpp/out/install/Custom configure preset" -S/home/logan/Code/ProjectTemplates/cpp "-B/home/logan/Code/ProjectTemplates/cpp/out/build/Custom configure preset" -G Ninja
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/out/build/Custom configure preset
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/out/build/Custom configure preset 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build "/home/logan/Code/ProjectTemplates/cpp/out/build/Custom configure preset" --parallel 14 --
+[build] [1/2] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.358
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/out/build/Custom configure preset MyExecutable
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build "/home/logan/Code/ProjectTemplates/cpp/out/build/Custom configure preset" --parallel 14 --target MyExecutable --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.033
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[proc] The command: /usr/bin/gdb --version exited with code: 127
+[proc] Executing command: gdb --version
+[proc] The command: gdb --version exited with code: 127
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[driver] Unsetting configure preset
+[driver] Unsetting build preset
+[driver] Unsetting test preset
+[driver] Unsetting package preset
+[driver] Unsetting workflow preset
+[main] "configurePreset" is not set in build preset: __defaultBuildPreset__
+[main] "configurePreset" is not set in test preset: __defaultTestPreset__
+[main] "configurePreset" is not set in package preset: __defaultPackagePreset__
+[preset] Could not find configure preset with name _placeholder_configure_preset_
+[main] Failed to resolve workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: cpp 
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[cpptools] The build configurations generated do not contain the active build configuration. Using "Debug" for CMAKE_BUILD_TYPE instead of "null" to ensure that IntelliSense configurations can be found
+[presetController] Reading and validating the presets "file /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json"
+[presetController] Unsupported presets detected in /home/logan/Code/ProjectTemplates/cpp/CMakePresets.json. Support is limited to features defined by version 8.
+[presetController]  >> : should NOT have additional properties: userPresets
+[presetController] Unknown properties and macros can be ignored by using the 'cmake.allowUnsupportedPresetsVersions' setting.
+[main] Configuring project: cpp 
+[driver] Using preset, skip setting kit: __unspec__
+[main] [Quick Start] A CmakeLists.txt already exists, continuing...
+[driver] Using preset, skip setting kit: __unspec__
+[main] [Quick Start] CMakePresets.json not created.
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[main] Building folder: cpp 
+[main] Configuring project: cpp 
+[ctest] Folder is not found in Test Explorer: /home/logan/Code/ProjectTemplates/cpp/src
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[main] Configuring project: cpp 
+[ctest] Folder is not found in Test Explorer: /home/logan/Code/ProjectTemplates/cpp/src
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/cmake/build
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.256] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.300] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.339
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.042
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[proc] The command: /usr/bin/gdb --version exited with code: 127
+[proc] Executing command: gdb --version
+[proc] The command: gdb --version exited with code: 127
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.041
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.065
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.259] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.299] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.339
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[main] The folder containing the CMake cache is missing. The cache will be regenerated.
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/cmake/build
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.255] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.296] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.329
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.064
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.063
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.064
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] ninja: no work to do.
+[driver] Build completed: 00:00:00.057
+[build] Build finished with exit code 0
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.251] Building CXX object CMakeFiles/MyExecutable.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.294] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/MyExecutable
+[driver] Build completed: 00:00:00.339
+[build] Build finished with exit code 0
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/cmake/build
+[main] Building folder: /home/logan/Code/ProjectTemplates/cpp/cmake/build 
+[main] The folder containing the CMake cache is missing. The cache will be regenerated.
+[main] Configuring project: cpp 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/ProjectTemplates/cpp/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE --no-warn-unused-cli -S/home/logan/Code/ProjectTemplates/cpp -B/home/logan/Code/ProjectTemplates/cpp/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/cc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/ProjectTemplates/cpp/cmake/build
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/logan/Code/ProjectTemplates/cpp/cmake/build --config Debug --target all --
+[build] [1/2  50% :: 0.257] Building CXX object CMakeFiles/execute.dir/src/main.cpp.o
+[build] [2/2 100% :: 0.303] Linking CXX executable /home/logan/Code/ProjectTemplates/cpp/output/execute
+[driver] Build completed: 00:00:00.335
+[build] Build finished with exit code 0

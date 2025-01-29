@@ -1,0 +1,29 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/logan/.local/share/CMakeTools/cmake-tools-kits.json
+[variant] Loaded new set of variants
+[proc] Executing command: /usr/bin/gcc -v
+[main] Configuring project: test 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/test/test/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/test/test/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/test/test/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/test/test -B/home/logan/Code/test/test/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.2.1
+[cmake] -- The CXX compiler identification is GNU 14.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/test/test/cmake/build
+[main] Configuring project: test 
+[proc] Executing command: /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_RUNTIME_OUTPUT_DIRECTORY:STRING=/home/logan/Code/test/test/output -DCMAKE_LIBRARY_OUTPUT_DIRECTORY:STRING=/home/logan/Code/test/test/output -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY:STRING=/home/logan/Code/test/test/output -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ --no-warn-unused-cli -S/home/logan/Code/test/test -B/home/logan/Code/test/test/cmake/build -G Ninja
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/logan/Code/test/test/cmake/build

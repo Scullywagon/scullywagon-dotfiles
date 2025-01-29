@@ -1,0 +1,819 @@
+{
+  message: 'Removing old folder in globalStorage : 1.38.0',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:15.349'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-01-22 14:35:15.608'
+}
+{
+  message: 'Starting Java server with: /home/logan/.vscode/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/logan/.vscode/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -jar /home/logan/.vscode/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/logan/.config/Code/User/globalStorage/redhat.java/1.39.0/config_ss_linux -data /home/logan/.config/Code/User/workspaceStorage/79ac3b9e2b6f56f4a509796f1e42f399/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:15.621'
+}
+{
+  message: 'Starting Java server with: /home/logan/.vscode/extensions/redhat.java-1.39.0-linux-x64/jre/21.0.5-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/logan/.vscode/extensions/redhat.java-1.39.0-linux-x64/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/logan/.config/Code/User/workspaceStorage/79ac3b9e2b6f56f4a509796f1e42f399/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/logan/.vscode/extensions/redhat.java-1.39.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/logan/.config/Code/User/globalStorage/redhat.java/1.39.0/config_linux -data /home/logan/.config/Code/User/workspaceStorage/79ac3b9e2b6f56f4a509796f1e42f399/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:16.020'
+}
+{
+  message: 'Jan 22, 2025 2:35:17 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jan 22, 2025 2:35:17 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:17.132'
+}
+{
+  message: '[Error - 2:35:17 PM] Jan 22, 2025, 2:35:17 PM An internal error occurred during: "Initialize After Load".\n' +
+    'Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.start(int)" because the return value of "org.eclipse.core.runtime.Platform.getBundle(String)" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.startBundle(BundleUtils.java:360)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin$1.run(JavaLanguageServerPlugin.java:196)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:17.768'
+}
+{
+  message: '[Error - 2:35:19 PM] Jan 22, 2025, 2:35:19 PM [Working copy] Main.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '[Working copy] Main.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): [Working copy] Main.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:338)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:157)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:126)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1444)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:336)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:299)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:781)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:19.638'
+}
+{
+  message: 'Jan 22, 2025 2:35:21 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:21.957'
+}
+{
+  message: 'Jan 22, 2025 2:35:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 43\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:38.556'
+}
+{
+  message: 'Jan 22, 2025 2:35:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 47\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:38.694'
+}
+{
+  message: 'Jan 22, 2025 2:35:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 75\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:35:51.307'
+}
+{
+  message: 'Jan 22, 2025 2:36:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 133\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:36:54.975'
+}
+{
+  message: 'Jan 22, 2025 2:37:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 187\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:37:30.832'
+}
+{
+  message: 'Jan 22, 2025 2:38:24 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:38:24.511'
+}
+{
+  message: 'Jan 22, 2025 2:38:25 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:38:25.321'
+}
+{
+  message: 'Jan 22, 2025 2:38:46 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:38:46.185'
+}
+{
+  message: 'Jan 22, 2025 2:38:46 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:38:46.899'
+}
+{
+  message: 'Jan 22, 2025 2:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 734\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:42:46.417'
+}
+{
+  message: 'Jan 22, 2025 2:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 778\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:42:47.886'
+}
+{
+  message: 'Jan 22, 2025 2:42:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 780\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:42:48.036'
+}
+{
+  message: 'Jan 22, 2025 2:43:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 840\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:43:20.455'
+}
+{
+  message: 'Jan 22, 2025 2:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1368\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:56.119'
+}
+{
+  message: 'Jan 22, 2025 2:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1369\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:56.624'
+}
+{
+  message: 'Jan 22, 2025 2:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1375\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:56.625'
+}
+{
+  message: 'Jan 22, 2025 2:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1376\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:56.627'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1380\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.128'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1377\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.128'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1378\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.128'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1382\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.130'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1383\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.632'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1384\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.632'
+}
+{
+  message: 'Jan 22, 2025 2:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1386\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:57.633'
+}
+{
+  message: 'Jan 22, 2025 2:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1387\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:58.136'
+}
+{
+  message: 'Jan 22, 2025 2:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1388\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:58.137'
+}
+{
+  message: 'Jan 22, 2025 2:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1389\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:58.138'
+}
+{
+  message: 'Jan 22, 2025 2:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1390\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:58.641'
+}
+{
+  message: 'Jan 22, 2025 2:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1391\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:58.641'
+}
+{
+  message: 'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1392\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:59.145'
+}
+{
+  message: 'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1395\n' +
+    'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1393\n' +
+    'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1394\n' +
+    'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1400\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:59.147'
+}
+{
+  message: 'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1396\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:59.148'
+}
+{
+  message: 'Jan 22, 2025 2:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1399\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:48:59.148'
+}
+{
+  message: 'Jan 22, 2025 2:53:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1842\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:53:57.596'
+}
+{
+  message: 'Jan 22, 2025 2:55:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1922\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:55:00.367'
+}
+{
+  message: 'Jan 22, 2025 2:55:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2261\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:55:36.972'
+}
+{
+  message: 'Jan 22, 2025 2:55:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2263\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:55:37.037'
+}
+{
+  message: 'Jan 22, 2025 2:56:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2341\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:56:27.390'
+}
+{
+  message: 'Jan 22, 2025 2:57:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2619\n',
+  level: 'info',
+  timestamp: '2025-01-22 14:57:09.928'
+}
+{
+  message: 'Jan 22, 2025 3:01:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2716\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:01:27.315'
+}
+{
+  message: 'Jan 22, 2025 3:04:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2997\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:04:19.035'
+}
+{
+  message: 'Jan 22, 2025 3:08:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3854\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:08:49.641'
+}
+{
+  message: 'Jan 22, 2025 3:11:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5061\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:11:34.662'
+}
+{
+  message: 'Jan 22, 2025 3:11:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5062\n' +
+    'Jan 22, 2025 3:11:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5063\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:11:34.672'
+}
+{
+  message: 'Jan 22, 2025 3:14:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5957\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:14:42.899'
+}
+{
+  message: 'Jan 22, 2025 3:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 6289\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:15:26.332'
+}
+{
+  message: 'Jan 22, 2025 3:18:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 7398\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:18:27.268'
+}
+{
+  message: 'Jan 22, 2025 3:18:53 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:18:53.620'
+}
+{
+  message: 'Jan 22, 2025 3:18:54 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:18:54.494'
+}
+{
+  message: 'Jan 22, 2025 3:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 8271\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:21:57.599'
+}
+{
+  message: 'Jan 22, 2025 3:24:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 8414\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:24:20.495'
+}
+{
+  message: 'Jan 22, 2025 3:25:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 8781\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:25:02.460'
+}
+{
+  message: 'Jan 22, 2025 3:25:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 8795\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:25:02.857'
+}
+{
+  message: 'Jan 22, 2025 3:26:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9170\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:26:26.316'
+}
+{
+  message: 'Jan 22, 2025 3:26:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9192\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:26:28.539'
+}
+{
+  message: 'Jan 22, 2025 3:26:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9212\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:26:32.692'
+}
+{
+  message: 'Jan 22, 2025 3:26:44 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:26:44.433'
+}
+{
+  message: 'Jan 22, 2025 3:26:45 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:26:45.202'
+}
+{
+  message: 'Jan 22, 2025 3:27:05 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:27:05.419'
+}
+{
+  message: 'Jan 22, 2025 3:27:05 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:27:05.911'
+}
+{
+  message: 'Jan 22, 2025 3:27:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9421\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:27:14.753'
+}
+{
+  message: 'Jan 22, 2025 3:27:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9431\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:27:15.348'
+}
+{
+  message: 'Jan 22, 2025 3:27:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9442\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:27:17.058'
+}
+{
+  message: 'Jan 22, 2025 3:30:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9887\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:30:53.361'
+}
+{
+  message: 'Jan 22, 2025 3:32:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 10644\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:32:59.798'
+}
+{
+  message: 'Jan 22, 2025 3:32:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 10645\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:32:59.870'
+}
+{
+  message: 'Jan 22, 2025 3:35:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 11276\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:35:23.316'
+}
+{
+  message: 'Jan 22, 2025 3:36:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 11952\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:25.515'
+}
+{
+  message: 'Jan 22, 2025 3:36:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 11963\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:26.229'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12051\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.340'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12052\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.342'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12053\n' +
+    'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12054\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.416'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12056\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.417'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12057\n' +
+    'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12058\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.418'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12059\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.418'
+}
+{
+  message: 'Jan 22, 2025 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12060\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:36:37.448'
+}
+{
+  message: '[Error - 3:37:52 PM] Jan 22, 2025, 3:37:52 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2025-01-22 15:37:52.938'
+}
+{
+  message: 'Jan 22, 2025 3:39:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 12685\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:39:07.413'
+}
+{
+  message: 'Jan 22, 2025 3:40:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13637\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:56.466'
+}
+{
+  message: 'Jan 22, 2025 3:40:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13638\n' +
+    'Jan 22, 2025 3:40:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13639\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:56.967'
+}
+{
+  message: 'Jan 22, 2025 3:40:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13641\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:56.968'
+}
+{
+  message: 'Jan 22, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13642\n' +
+    'Jan 22, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13643\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:57.469'
+}
+{
+  message: 'Jan 22, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13644\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:57.469'
+}
+{
+  message: 'Jan 22, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13645\n' +
+    'Jan 22, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13646\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:57.971'
+}
+{
+  message: 'Jan 22, 2025 3:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13647\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:57.972'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13648\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.473'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13649\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.474'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13653\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.476'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13651\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.476'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13650\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.477'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13655\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.477'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13663\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.485'
+}
+{
+  message: 'Jan 22, 2025 3:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13657\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:40:58.485'
+}
+{
+  message: 'Jan 22, 2025 3:41:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 13735\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:41:01.596'
+}
+{
+  message: 'Jan 22, 2025 3:42:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 14702\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:42:22.776'
+}
+{
+  message: 'Jan 22, 2025 3:42:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 14791\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:42:34.458'
+}
+{
+  message: 'Jan 22, 2025 3:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 16293\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:47:19.419'
+}
+{
+  message: 'Jan 22, 2025 3:47:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 16299\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:47:19.619'
+}
+{
+  message: 'Jan 22, 2025 3:47:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 16315\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:47:20.080'
+}
+{
+  message: 'Jan 22, 2025 3:47:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 16321\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:47:20.213'
+}
+{
+  message: 'Jan 22, 2025 3:48:36 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:48:36.077'
+}
+{
+  message: 'Jan 22, 2025 3:48:36 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:48:36.598'
+}
+{
+  message: 'Jan 22, 2025 3:48:52 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:48:52.057'
+}
+{
+  message: 'Jan 22, 2025 3:48:52 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:48:52.592'
+}
+{
+  message: 'Jan 22, 2025 3:49:08 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:49:08.211'
+}
+{
+  message: 'Jan 22, 2025 3:49:08 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:49:08.732'
+}
+{
+  message: 'Jan 22, 2025 3:49:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 16995\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:49:12.710'
+}
+{
+  message: 'Jan 22, 2025 3:49:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 16999\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:49:12.865'
+}
+{
+  message: 'Jan 22, 2025 3:49:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 17005\n',
+  level: 'info',
+  timestamp: '2025-01-22 15:49:13.152'
+}
+{
+  message: 'Jan 22, 2025 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-01-22 16:22:58.388'
+}
+{
+  message: 'Jan 22, 2025 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n' +
+    'Jan 22, 2025 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 8 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-01-22 16:22:58.389'
+}

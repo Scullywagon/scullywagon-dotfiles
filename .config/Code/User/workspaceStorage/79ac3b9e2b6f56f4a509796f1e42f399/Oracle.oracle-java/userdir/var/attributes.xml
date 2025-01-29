@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="|home|logan|.config|Code|User|workspaceStorage|79ac3b9e2b6f56f4a509796f1e42f399|Oracle.oracle-java|userdir|var|cache|index|s6|java|15|gensrc">
+        <attr name="register_root" boolvalue="false"/>
+        <attr name="single_file_vm_options" stringvalue=""/>
+    </fileobject>
+    <fileobject name="|home|logan|.config|Code|User|workspaceStorage|79ac3b9e2b6f56f4a509796f1e42f399|Oracle.oracle-java|userdir|var|cache|index|s6|java|15|gensrc|java|util|ArrayList.java">
+        <attr name="classfile-binaryName" stringvalue="java/util/ArrayList"/>
+        <attr name="classfile-root" urlvalue="nbjrt:file:/usr/lib/jvm/default/!/modules/java.base/"/>
+        <attr name="classfile-sourcefile" stringvalue="ArrayList.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="6935526F210834A0E50F821E14BFE8D6"/>
+    </fileobject>
+    <fileobject name="|home|logan|University|Programming-2|Week-11">
+        <attr name="register_root" boolvalue="false"/>
+        <attr name="single_file_vm_options" stringvalue=""/>
+    </fileobject>
+</attributes>

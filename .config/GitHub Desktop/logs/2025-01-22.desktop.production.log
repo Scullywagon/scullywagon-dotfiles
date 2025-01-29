@@ -1,0 +1,14 @@
+2025-01-22T14:34:13.866Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-01-22T14:34:13.871Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-22T14:34:13.911Z - info: [ui] [BranchPruner] Last prune took place 21 hours ago - skipping
+2025-01-22T14:34:14.072Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-22T14:34:14.072Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-22T14:34:19.162Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-22T14:34:19.590Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-22T14:34:30.496Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming-2/Week-11 to store
+2025-01-22T16:21:54.662Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-01-22T16:21:54.664Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-22T16:21:54.890Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-22T16:21:54.890Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-22T16:21:59.959Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-22T16:22:10.714Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming-2/Week-12 to store

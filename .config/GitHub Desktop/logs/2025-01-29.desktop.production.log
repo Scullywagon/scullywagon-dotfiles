@@ -1,0 +1,214 @@
+2025-01-29T12:16:10.157Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-01-29T12:16:10.161Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-29T12:16:10.357Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-29T12:16:10.358Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-29T12:16:11.406Z - info: [ui] Stats reported.
+2025-01-29T12:16:15.512Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-29T12:16:32.159Z - info: [ui] [Timing] Action 'create commit' for 'Week-12' took 0.078s
+2025-01-29T12:16:40.788Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:16:41.472Z - info: [ui] Executing push: git push origin master --set-upstream --progress (took 5.871s)
+2025-01-29T12:16:41.654Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:16:42.124Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:16:42.942Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T12:17:20.602Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:17:21.055Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:17:21.778Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.8s of which 0.0s paused, total 1.8s
+2025-01-29T12:17:40.988Z - info: [ui] [AppStore] adding repository at /home/logan/Code/ProjectTemplates/cpp-template to store
+2025-01-29T12:24:20.460Z - info: [ui] [Timing] Action 'create commit' for 'cpp-template' took 0.103s
+2025-01-29T12:24:26.283Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:24:27.012Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:24:27.449Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:24:28.267Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T12:38:11.353Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.0s of which 0.0s paused, total 0.0s
+2025-01-29T12:46:09.535Z - info: [ui] [Timing] Action 'create commit' for 'Scullywagon/cpp-template' took 0.105s
+2025-01-29T12:46:10.861Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:46:11.739Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T12:46:12.207Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:30:19.478Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-01-29T14:30:19.481Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-29T14:30:19.519Z - info: [ui] [BranchPruner] Last prune took place 2 hours ago - skipping
+2025-01-29T14:30:19.726Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-29T14:30:19.727Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-29T14:30:24.792Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-29T14:30:34.596Z - info: [ui] [Timing] Action 'create commit' for 'Scullywagon/cpp-template' took 0.071s
+2025-01-29T14:30:41.038Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:30:41.542Z - info: [ui] Executing push: git push origin main:main --progress (took 5.676s)
+2025-01-29T14:30:41.738Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:30:42.214Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:30:58.016Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.0s of which 0.0s paused, total 0.0s
+2025-01-29T14:31:12.429Z - info: [ui] [AppStore] adding repository at /home/logan/Code/vscode-extensions/cpp-project-generator to store
+2025-01-29T14:31:34.116Z - info: [ui] [Timing] Action 'create commit' for 'cpp-project-generator' took 0.089s
+2025-01-29T14:31:51.340Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:31:52.186Z - info: [ui] Executing push: git push origin master --set-upstream --progress (took 1.005s)
+2025-01-29T14:31:52.335Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:31:52.877Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:31:53.800Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T14:39:16.608Z - info: [ui] [Timing] Action 'create commit' for 'Scullywagon/cpp-project-generator' took 0.078s
+2025-01-29T14:39:22.889Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:39:23.391Z - info: [ui] Executing push: git push origin master:master --progress (took 5.690s)
+2025-01-29T14:39:23.541Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T14:39:24.038Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:09:47.266Z - info: [ui] [AppStore] loading 6 repositories from store
+2025-01-29T15:09:47.268Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-29T15:09:47.303Z - info: [ui] [BranchPruner] Last prune took place 38 minutes ago - skipping
+2025-01-29T15:09:47.669Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-29T15:09:47.669Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-29T15:09:47.709Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-29T15:09:53.541Z - info: [ui] [Timing] Action 'create commit' for 'Scullywagon/cpp-project-generator' took 0.088s
+2025-01-29T15:09:58.352Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:09:59.071Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:09:59.507Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:10:14.946Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 0.3s of which 0.0s paused, total 0.3s
+2025-01-29T15:11:42.859Z - info: [ui] [AppStore] adding repository at /home/logan/University/-CMP-5015--Programming-2 to store
+2025-01-29T15:11:52.538Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:11:53.444Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:11:53.910Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:11:54.768Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T15:13:17.115Z - info: [ui] [Timing] Action 'create commit' for 'Scullywagon/CMP-5015-Programming-2' took 0.109s
+2025-01-29T15:13:18.295Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:13:19.283Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:13:19.749Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:14:08.972Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:14:09.487Z - info: [ui] [AppStore] adding repository at /home/logan/University/CPPSumative to store
+2025-01-29T15:14:09.656Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping
+2025-01-29T15:14:10.007Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T15:14:54.520Z - error: [ui] Branch fast-forwarding failed
+Error: Unable to find path to repository on disk.
+    at /home/logan/webpack:/app/node_modules/dugite/build/lib/git-process.js:135:39
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29T15:14:56.327Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2025-01-29T15:15:04.959Z - info: [ui] [Timing] Action 'create commit' for 'Scullywagon/CMP-5015-Programming-2' took 0.089s
+2025-01-29T15:15:06.877Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:15:07.602Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:15:08.041Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:18:14.432Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:18:14.927Z - info: [ui] [AppStore] adding repository at /home/logan/University/Shell to store
+2025-01-29T15:18:15.083Z - info: [ui] [BranchPruner] Last prune took place 6 minutes ago - skipping
+2025-01-29T15:18:15.417Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T15:23:36.754Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:23:37.198Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T15:41:13.299Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 8 repositories took 1.1s of which 616.1s paused, total 617.2s
+2025-01-29T16:14:16.872Z - info: [ui] [AppStore] loading 8 repositories from store
+2025-01-29T16:14:16.874Z - info: [ui] [AppStore] found account: Scullywagon (Logan Scully)
+2025-01-29T16:14:16.897Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2025-01-29T16:14:16.967Z - info: [ui] launching: 3.4.8-linux1 (Linux 6.12.10-arch1-1)
+2025-01-29T16:14:16.969Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-29T16:14:17.212Z - info: [ui] Subscribed 'Scullywagon' to Alive channel
+2025-01-29T16:14:26.842Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2025-01-29T16:14:27.521Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T16:14:28.389Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:14:29.054Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:14:29.469Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:14:34.432Z - error: [ui] Branch fast-forwarding failed
+Error: Unable to find path to repository on disk.
+    at /home/logan/webpack:/app/node_modules/dugite/build/lib/git-process.js:135:39
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29T16:14:34.469Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at fn (/home/logan/webpack:/app/src/lib/http.ts:178:11)
+    at rr.fetchProtectedBranches (/home/logan/webpack:/app/src/lib/api.ts:1648:7)
+    at Fp.updateBranchProtectionsFromAPI (/home/logan/webpack:/app/src/lib/stores/app-store.ts:4273:11)
+2025-01-29T16:14:34.599Z - warn: [ui] fetchMentionables: 'repos/Scullywagon/Programming-2-Week-10/mentionables/users' returned a 404
+2025-01-29T16:14:34.611Z - warn: [ui] fetchAll: 'repos/Scullywagon/Programming-2-Week-10/issues?state=open' returned a 404
+2025-01-29T16:14:34.615Z - warn: [ui] fetchAll: 'repos/Scullywagon/Programming-2-Week-10/pulls?state=open' returned a 404
+2025-01-29T16:14:35.855Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-01-29T16:14:41.608Z - error: [ui] Branch fast-forwarding failed
+Error: Unable to find path to repository on disk.
+    at /home/logan/webpack:/app/node_modules/dugite/build/lib/git-process.js:135:39
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29T16:14:41.630Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-01-29T16:14:41.730Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at fn (/home/logan/webpack:/app/src/lib/http.ts:178:11)
+    at rr.fetchProtectedBranches (/home/logan/webpack:/app/src/lib/api.ts:1648:7)
+    at Fp.updateBranchProtectionsFromAPI (/home/logan/webpack:/app/src/lib/stores/app-store.ts:4273:11)
+2025-01-29T16:14:41.752Z - warn: [ui] fetchMentionables: 'repos/Scullywagon/Week-12/mentionables/users' returned a 404
+2025-01-29T16:14:41.760Z - warn: [ui] fetchAll: 'repos/Scullywagon/Week-12/pulls?state=open' returned a 404
+2025-01-29T16:14:41.791Z - warn: [ui] fetchAll: 'repos/Scullywagon/Week-12/issues?state=open' returned a 404
+2025-01-29T16:14:43.946Z - info: [ui] [BranchPruner] Last prune took place 2 hours ago - skipping
+2025-01-29T16:14:45.834Z - info: [ui] [BranchPruner] Last prune took place 18 seconds ago - skipping
+2025-01-29T16:14:47.454Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 0.3s of which 0.0s paused, total 0.3s
+2025-01-29T16:14:48.149Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-01-29T16:14:53.281Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:14:53.577Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 5.475s)
+2025-01-29T16:14:53.747Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:16:07.140Z - info: [ui] [AppStore] adding repository at /home/logan/University/CMP-4008Y-Programming-1 to store
+2025-01-29T16:16:11.710Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:16:12.438Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:16:12.895Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:16:13.710Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T16:16:53.078Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:16:53.727Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming_SnackCoursework to store
+2025-01-29T16:16:53.863Z - info: [ui] [BranchPruner] Last prune took place 40 seconds ago - skipping
+2025-01-29T16:16:54.169Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T16:17:00.709Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:17:01.244Z - info: [ui] [AppStore] adding repository at /home/logan/University/Programming_MovieCoursework to store
+2025-01-29T16:17:01.404Z - info: [ui] [BranchPruner] Last prune took place 7 seconds ago - skipping
+2025-01-29T16:17:01.470Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:17:01.714Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-29T16:17:01.928Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:21:37.648Z - warn: [ui] fetchAll: 'repos/Scullywagon/Programming_MovieCoursework/pulls?state=open' returned a 404
+2025-01-29T16:21:38.499Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-01-29T16:21:39.677Z - error: [ui] Error performing periodic fetch for 'Scullywagon/Programming_SnackCoursework'
+Error: Unable to find path to repository on disk.
+    at /home/logan/webpack:/app/node_modules/dugite/build/lib/git-process.js:135:39
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-01-29T16:21:39.681Z - info: [ui] [BranchPruner] Last prune took place 5 minutes ago - skipping
+2025-01-29T16:21:39.741Z - warn: [ui] fetchRepository: 'Scullywagon/Programming_SnackCoursework' returned a 404
+2025-01-29T16:21:39.743Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at fn (/home/logan/webpack:/app/src/lib/http.ts:178:11)
+    at rr.fetchProtectedBranches (/home/logan/webpack:/app/src/lib/api.ts:1648:7)
+    at Fp.updateBranchProtectionsFromAPI (/home/logan/webpack:/app/src/lib/stores/app-store.ts:4273:11)
+2025-01-29T16:21:39.808Z - warn: [ui] fetchAll: 'repos/Scullywagon/Programming_SnackCoursework/pulls?state=open' returned a 404
+2025-01-29T16:21:39.810Z - warn: [ui] fetchAll: 'repos/Scullywagon/Programming_SnackCoursework/issues?state=open' returned a 404
+2025-01-29T16:21:40.462Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2025-01-29T16:21:41.842Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2025-01-29T16:22:32.316Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:22:32.962Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/Scullywagon/UNSG_NewSite.git /home/logan/University/UNSG_NewSite (took 5.808s)
+2025-01-29T16:22:32.973Z - info: [ui] [AppStore] adding repository at /home/logan/University/UNSG_NewSite to store
+2025-01-29T16:22:33.087Z - info: [ui] [BranchPruner] Last prune took place 8 minutes ago - skipping
+2025-01-29T16:27:51.851Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:27:52.247Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T16:30:54.038Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 1.5s of which 0.0s paused, total 1.5s
+2025-01-29T16:32:26.303Z - warn: [ui] fetchAll: 'repos/Scullywagon/UNSG_NewSite/pulls?state=open' returned a 404
+2025-01-29T16:38:45.481Z - warn: [ui] fetchAll: 'repos/Scullywagon/UNSG_NewSite/pulls?state=open' returned a 404
+2025-01-29T16:52:40.985Z - warn: [ui] fetchAll: 'repos/Scullywagon/UNSG_NewSite/pulls?state=open' returned a 404
+2025-01-29T17:02:54.160Z - warn: [ui] fetchAll: 'repos/Scullywagon/UNSG_NewSite/pulls?state=open' returned a 404
+2025-01-29T17:08:06.554Z - warn: [ui] fetchAll: 'repos/Scullywagon/UNSG_NewSite/pulls?state=open' returned a 404
+2025-01-29T17:08:06.835Z - warn: [ui] fetchRepository: 'Scullywagon/UNSG_NewSite' returned a 404
+2025-01-29T17:08:06.965Z - warn: [ui] fetchRepository: 'Scullywagon/UNSG_NewSite' returned a 404
+2025-01-29T17:08:07.107Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T17:08:07.215Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/Scullywagon/UNSG_NewSite.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-29T17:08:07.225Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 7.7s of which 918.8s paused, total 926.5s
+2025-01-29T17:08:26.885Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 1.0s of which 0.0s paused, total 1.0s
+2025-01-29T17:08:28.221Z - info: [ui] [BranchPruner] Last prune took place 5 hours ago - skipping
+2025-01-29T17:08:33.346Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T17:08:33.651Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 5.483s)
+2025-01-29T17:08:33.816Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-29T17:10:46.036Z - info: [ui] [AppStore] adding repository at /home/logan/.confs/scullywagon-dotfiles to store

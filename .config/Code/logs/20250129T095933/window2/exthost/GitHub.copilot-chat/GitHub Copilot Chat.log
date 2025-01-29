@@ -1,0 +1,113 @@
+2025-01-29 09:59:50.510 [info] Using the Electron fetcher.
+2025-01-29 09:59:50.510 [info] Initializing Git extension service.
+2025-01-29 09:59:50.510 [info] Successfully activated the vscode.git extension.
+2025-01-29 09:59:50.510 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 09:59:50.510 [info] Successfully registered Git commit message provider.
+2025-01-29 09:59:51.560 [info] Logged in as Scullywagon
+2025-01-29 09:59:51.958 [info] Got Copilot token for Scullywagon
+2025-01-29 09:59:51.995 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 09:59:51.995 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 09:59:52.008 [info] Registering default platform agent...
+2025-01-29 09:59:52.073 [info] Fetched model metadata in 109ms 97e85ad1-17c4-41be-b9f8-7686b2e701a8
+2025-01-29 09:59:52.075 [info] activationBlocker from 'languageModelAccess' took for 427ms
+2025-01-29 10:14:52.486 [info] Fetched model metadata in 103ms 5fe8cc9f-c7e9-4ee5-8fb3-c74618cbd0d1
+2025-01-29 10:24:51.963 [info] Logged in as Scullywagon
+2025-01-29 10:24:52.328 [info] Got Copilot token for Scullywagon
+2025-01-29 10:24:52.337 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 10:32:11.841 [info] Using the Electron fetcher.
+2025-01-29 10:32:11.841 [info] Initializing Git extension service.
+2025-01-29 10:32:11.841 [info] Successfully activated the vscode.git extension.
+2025-01-29 10:32:11.841 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 10:32:11.841 [info] Successfully registered Git commit message provider.
+2025-01-29 10:32:12.895 [info] Logged in as Scullywagon
+2025-01-29 10:32:13.698 [info] Got Copilot token for Scullywagon
+2025-01-29 10:32:13.763 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 10:32:13.763 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 10:32:13.779 [info] Registering default platform agent...
+2025-01-29 10:32:14.054 [info] Fetched model metadata in 350ms df964121-8575-4c27-88a3-bb0111749243
+2025-01-29 10:32:14.125 [info] activationBlocker from 'languageModelAccess' took for 1155ms
+2025-01-29 10:47:14.784 [info] Fetched model metadata in 383ms 95182040-f1e3-4548-9d46-7a69c2efdb38
+2025-01-29 10:57:13.703 [info] Logged in as Scullywagon
+2025-01-29 10:57:14.111 [info] Got Copilot token for Scullywagon
+2025-01-29 10:57:14.120 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 11:00:18.189 [info] Fetched model metadata in 348ms 91964988-9b87-4d8e-be62-18c070e9b999
+2025-01-29 11:12:14.483 [info] Fetched model metadata in 355ms a19b21af-9309-4a3a-9991-f513d6b0a836
+2025-01-29 11:22:14.117 [info] Logged in as Scullywagon
+2025-01-29 11:22:14.570 [info] Got Copilot token for Scullywagon
+2025-01-29 11:22:14.581 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 11:22:14.959 [info] Fetched model metadata in 375ms 186fa038-2439-4605-adf2-43cefaa2133c
+2025-01-29 11:23:15.488 [info] message 0 returned. finish reason: [stop]
+2025-01-29 11:23:15.489 [info] request done: requestId: [335fafaa-6efc-4cd8-b0b2-61964f0ce899] model deployment ID: []
+2025-01-29 11:33:55.679 [info] Fetched model metadata in 377ms 078858f0-c7ee-4355-8149-bf270c4f4fc5
+2025-01-29 11:34:44.626 [info] message 0 returned. finish reason: [stop]
+2025-01-29 11:34:44.627 [info] request done: requestId: [9a44b721-2acf-47bb-b5d9-dc7742c775ca] model deployment ID: []
+2025-01-29 11:47:14.575 [info] Logged in as Scullywagon
+2025-01-29 11:47:15.020 [info] Got Copilot token for Scullywagon
+2025-01-29 11:47:15.028 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 11:47:15.379 [info] Fetched model metadata in 347ms 69c686fb-feea-49cb-ab66-f2f6c108d0a0
+2025-01-29 12:02:15.741 [info] Fetched model metadata in 347ms 3047c15f-93f3-48bf-9a4a-ade22d8e214f
+2025-01-29 12:12:15.024 [info] Logged in as Scullywagon
+2025-01-29 12:12:15.573 [info] Got Copilot token for Scullywagon
+2025-01-29 12:12:15.581 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 12:21:14.942 [info] Fetched model metadata in 337ms 1407d6d1-da99-46a6-b459-4fb5b817994c
+2025-01-29 12:21:23.437 [info] Using the Electron fetcher.
+2025-01-29 12:21:23.437 [info] Initializing Git extension service.
+2025-01-29 12:21:23.437 [info] Successfully activated the vscode.git extension.
+2025-01-29 12:21:23.437 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 12:21:23.437 [info] Successfully registered Git commit message provider.
+2025-01-29 12:21:24.890 [info] Logged in as Scullywagon
+2025-01-29 12:21:25.335 [info] Got Copilot token for Scullywagon
+2025-01-29 12:21:25.393 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 12:21:25.393 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 12:21:25.412 [info] Registering default platform agent...
+2025-01-29 12:21:25.463 [info] Fetched model metadata in 119ms 0af452b8-593c-4fd1-a52a-eeb9ffeccda1
+2025-01-29 12:21:25.468 [info] activationBlocker from 'languageModelAccess' took for 1850ms
+2025-01-29 12:23:09.161 [info] Using the Electron fetcher.
+2025-01-29 12:23:09.161 [info] Initializing Git extension service.
+2025-01-29 12:23:09.161 [info] Successfully activated the vscode.git extension.
+2025-01-29 12:23:09.161 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 12:23:09.161 [info] Successfully registered Git commit message provider.
+2025-01-29 12:23:10.264 [info] Logged in as Scullywagon
+2025-01-29 12:23:10.763 [info] Got Copilot token for Scullywagon
+2025-01-29 12:23:10.823 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 12:23:10.823 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 12:23:10.841 [info] Registering default platform agent...
+2025-01-29 12:23:10.888 [info] Fetched model metadata in 115ms 3d60c714-a384-4d9b-ab02-d730308a2e69
+2025-01-29 12:23:10.896 [info] activationBlocker from 'languageModelAccess' took for 676ms
+2025-01-29 12:29:20.796 [info] Using the Electron fetcher.
+2025-01-29 12:29:20.796 [info] Initializing Git extension service.
+2025-01-29 12:29:20.796 [info] Successfully activated the vscode.git extension.
+2025-01-29 12:29:20.796 [info] Enablement state of the vscode.git extension: true.
+2025-01-29 12:29:20.796 [info] Successfully registered Git commit message provider.
+2025-01-29 12:29:20.830 [info] Logged in as Scullywagon
+2025-01-29 12:29:21.362 [info] Got Copilot token for Scullywagon
+2025-01-29 12:29:21.393 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 12:29:21.393 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-29 12:29:21.408 [info] Registering default platform agent...
+2025-01-29 12:29:21.483 [info] Fetched model metadata in 115ms 66dd5f9d-ff47-4964-a23f-f6059dd03786
+2025-01-29 12:29:21.485 [info] activationBlocker from 'languageModelAccess' took for 634ms
+2025-01-29 12:44:22.122 [info] Fetched model metadata in 384ms c92da1bc-670a-4636-9171-9a6142caa84e
+2025-01-29 12:54:21.368 [info] Logged in as Scullywagon
+2025-01-29 12:54:21.794 [info] Got Copilot token for Scullywagon
+2025-01-29 12:54:21.805 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 12:54:29.036 [info] message 0 returned. finish reason: [stop]
+2025-01-29 12:54:29.038 [info] request done: requestId: [6d361fe4-d585-4717-82ec-1008cda9ef28] model deployment ID: []
+2025-01-29 12:55:13.112 [info] Fetched model metadata in 97ms 23c3ce5d-4297-4cc2-8669-92ea85cf5279
+2025-01-29 13:09:22.195 [info] Fetched model metadata in 383ms fd7c486f-176e-4f63-a21c-f5016916761f
+2025-01-29 13:19:21.799 [info] Logged in as Scullywagon
+2025-01-29 13:19:22.216 [info] Got Copilot token for Scullywagon
+2025-01-29 13:19:22.224 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 13:19:22.575 [info] Fetched model metadata in 348ms e104f9d3-2adf-41db-8746-6fdaad2c0b70
+2025-01-29 13:34:22.913 [info] Fetched model metadata in 328ms 52cf2b95-67ab-4b60-b905-9f587e57d75d
+2025-01-29 13:44:22.222 [info] Logged in as Scullywagon
+2025-01-29 13:44:22.644 [info] Got Copilot token for Scullywagon
+2025-01-29 13:44:22.651 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 13:59:23.038 [info] Fetched model metadata in 381ms 277a28b8-3183-4e00-ab20-84dffa0746d2
+2025-01-29 14:09:22.647 [info] Logged in as Scullywagon
+2025-01-29 14:09:23.117 [info] Got Copilot token for Scullywagon
+2025-01-29 14:09:23.124 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-29 14:09:23.522 [info] Fetched model metadata in 393ms 9b9518e5-adb5-4198-96c1-563a4486f7c2
+2025-01-29 14:24:23.627 [info] Fetched model metadata in 95ms de8e0405-0720-4808-9899-539973df4bda
+2025-01-29 14:34:23.123 [info] Logged in as Scullywagon
+2025-01-29 14:34:23.607 [info] Got Copilot token for Scullywagon
+2025-01-29 14:34:23.614 [info] copilot token chat_enabled: true, sku: free_educational

@@ -1,0 +1,122 @@
+import java.util.ArrayList;
+
+public class Main 
+{
+    /*
+    Topics:
+    - Functors
+    - Lambdas
+    - Nested Classes
+    - Enum Types 
+    */    
+
+    public static void main(String[] args)
+    {
+        SelectStudentAgeInterface();
+    }
+
+    // Exercise 1 -- links to SelectStudent and and Select
+    // Example of functors in java
+    public static void SelectStudentAgeInterface()
+    {
+        ArrayList<Student> students = new ArrayList<>();
+
+        students.add(new Student("Mark", 20));
+        students.add(new Student("Anna", 22));
+        students.add(new Student("John", 19));
+        students.add(new Student("Emma", 21));
+        students.add(new Student("Lucas", 23));
+
+        SelectStudentAge selector = new SelectStudentAge(21);
+        for (Student s : students)
+        {
+            System.out.println(selector.Select(s));
+        }
+    }
+
+
+    // Exercise 2 -- Lambda function for the same method as ex1
+    public static void SelectStudentAgeLambda()
+    {
+        ArrayList<Student> students = new ArrayList<>();
+
+        students.add(new Student("Mark", 20));
+        students.add(new Student("Anna", 22));
+        students.add(new Student("John", 19));
+        students.add(new Student("Emma", 21));
+        students.add(new Student("Lucas", 23));
+
+        students.forEach ( (n) -> {if (n.getAge() == 21) return true;})
+    }
+}
+
+----- Classpath: ---------------------------------------------
+bootPath: nbjrt:file:/usr/lib/jvm/default/!/modules/java.base/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.compiler/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.datatransfer/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.desktop/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.instrument/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.logging/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.management/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.management.rmi/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.naming/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.net.http/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.prefs/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.rmi/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.scripting/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.se/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.security.jgss/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.security.sasl/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.smartcardio/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.sql/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.sql.rowset/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.transaction.xa/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.xml/:nbjrt:file:/usr/lib/jvm/default/!/modules/java.xml.crypto/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.accessibility/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.attach/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.charsets/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.compiler/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.crypto.cryptoki/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.crypto.ec/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.dynalink/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.editpad/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.hotspot.agent/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.httpserver/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.incubator.vector/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.ed/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.jvmstat/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.le/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.opt/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.vm.ci/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.vm.compiler/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.internal.vm.compiler.management/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jartool/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.javadoc/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jcmd/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jconsole/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jdeps/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jdi/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jdwp.agent/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jfr/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jlink/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jpackage/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jshell/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jsobject/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.jstatd/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.localedata/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.management/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.management.agent/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.management.jfr/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.naming.dns/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.naming.rmi/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.net/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.nio.mapmode/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.random/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.sctp/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.security.auth/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.security.jgss/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.unsupported/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.unsupported.desktop/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.xml.dom/:nbjrt:file:/usr/lib/jvm/default/!/modules/jdk.zipfs/
+classPath: 
+sourcePath: /home/logan/University/Programming-2/Week-9
+----- Original exception ---------------------------------------------
+java.lang.IllegalStateException: java.lang.ClassCastException: class com.sun.tools.javac.tree.JCTree$JCErroneous cannot be cast to class com.sun.tools.javac.tree.JCTree$JCStatement (com.sun.tools.javac.tree.JCTree$JCErroneous and com.sun.tools.javac.tree.JCTree$JCStatement are in unnamed module of loader org.netbeans.StandardModule$OneModuleClassLoader @6bc80ca8)
+	at com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:383)
+	at org.netbeans.modules.java.source.parsing.JavacParser.moveToPhase(JavacParser.java:765)
+	at org.netbeans.modules.java.source.parsing.CompilationInfoImpl.toPhase(CompilationInfoImpl.java:426)
+	at org.netbeans.api.java.source.CompilationController.toPhase(CompilationController.java:90)
+	at org.netbeans.modules.java.hints.infrastructure.JavaErrorProvider$1.run(JavaErrorProvider.java:108)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callUserTask(TaskProcessor.java:586)
+	at org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:197)
+	at org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:180)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:181)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:178)
+	at org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager.priorityIO(FileChangedManager.java:153)
+	at org.netbeans.modules.masterfs.providers.ProvidedExtensions.priorityIO(ProvidedExtensions.java:335)
+	at org.netbeans.modules.parsing.nb.DataObjectEnvFactory.runPriorityIO(DataObjectEnvFactory.java:118)
+	at org.netbeans.modules.parsing.impl.Utilities.runPriorityIO(Utilities.java:67)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.runUserTask(TaskProcessor.java:178)
+	at org.netbeans.modules.parsing.api.ParserManager.parse(ParserManager.java:83)
+	at org.netbeans.modules.java.hints.infrastructure.JavaErrorProvider.computeErrors(JavaErrorProvider.java:100)
+	at org.netbeans.modules.java.lsp.server.protocol.TextDocumentServiceImpl.lambda$computeDiags$46(TextDocumentServiceImpl.java:2090)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.netbeans.modules.java.lsp.server.protocol.TextDocumentServiceImpl.computeDiags(TextDocumentServiceImpl.java:2095)
+	at org.netbeans.modules.java.lsp.server.protocol.TextDocumentServiceImpl.lambda$runDiagnosticTasks$43(TextDocumentServiceImpl.java:1992)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1403)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2018)
+Caused by: java.lang.ClassCastException: class com.sun.tools.javac.tree.JCTree$JCErroneous cannot be cast to class com.sun.tools.javac.tree.JCTree$JCStatement (com.sun.tools.javac.tree.JCTree$JCErroneous and com.sun.tools.javac.tree.JCTree$JCStatement are in unnamed module of loader org.netbeans.StandardModule$OneModuleClassLoader @6bc80ca8)
+	at com.sun.tools.javac.tree.TreeTranslator.visitIf(TreeTranslator.java:256)
+	at com.sun.tools.javac.tree.JCTree$JCIf.accept(JCTree.java:1613)
+	at com.sun.tools.javac.tree.TreeTranslator.translate(TreeTranslator.java:58)
+	at com.sun.tools.javac.tree.TreeTranslator.translate(TreeTranslator.java:70)
+	at com.sun.tools.javac.tree.TreeTranslator.visitBlock(TreeTranslator.java:172)
+	at com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1133)
+	at com.sun.tools.javac.tree.TreeTranslator.translate(TreeTranslator.java:58)
+	at com.sun.tools.javac.comp.AttrRecover.doRecovery(AttrRecover.java:161)
+	at com.sun.tools.javac.comp.Attr.attribStat(Attr.java:750)
+	at com.sun.tools.javac.comp.Attr.attribStats(Attr.java:767)
+	at com.sun.tools.javac.comp.Attr.visitBlock(Attr.java:1452)
+	at org.netbeans.lib.nbjavac.services.NBAttr.visitBlock(NBAttr.java:92)
+	at com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1133)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:674)
+	at com.sun.tools.javac.comp.Attr.attribStat(Attr.java:748)
+	at com.sun.tools.javac.comp.Attr.visitMethodDef(Attr.java:1241)
+	at org.netbeans.lib.nbjavac.services.NBAttr.visitMethodDef(NBAttr.java:86)
+	at com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:957)
+	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:674)
+	at com.sun.tools.javac.comp.Attr.attribStat(Attr.java:748)
+	at com.sun.tools.javac.comp.Attr.attribClassBody(Attr.java:5638)
+	at com.sun.tools.javac.comp.Attr.attribClass(Attr.java:5526)
+	at com.sun.tools.javac.comp.Attr.attribClass(Attr.java:5350)
+	at org.netbeans.lib.nbjavac.services.NBAttr.attribClass(NBAttr.java:74)
+	at com.sun.tools.javac.comp.Attr.attrib(Attr.java:5287)
+	at com.sun.tools.javac.main.JavaCompiler.attribute(JavaCompiler.java:1355)
+	at com.sun.tools.javac.main.JavaCompiler.attribute(JavaCompiler.java:1328)
+	at com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:404)
+	at com.sun.tools.javac.api.JavacTaskImpl.lambda$analyze$1(JavacTaskImpl.java:379)
+	at com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	at com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:379)
+	... 30 more
